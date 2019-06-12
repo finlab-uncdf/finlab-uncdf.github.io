@@ -1,7 +1,7 @@
 //var hide_empty_list=true; //uncomment this line to hide empty selection lists
 var disable_empty_list=true; //uncomment this line to disable empty selection lists
 
-var onclickaction="alert" //set to "alert" or "goto". Former is for debugging purposes, to tell you the value of the final selected list that will be used as the destination URL. Set to "goto" when below configuration is all set up as desired. 
+var onclickaction="goto" //set to "alert" or "goto". Former is for debugging purposes, to tell you the value of the final selected list that will be used as the destination URL. Set to "goto" when below configuration is all set up as desired. 
 
 var newwindow=0 //Open links in new window or not? 1=yes, 0=no.
 
@@ -21,7 +21,7 @@ addList("First-Select", "Ideate", "", "Ideate");
 
 //UNDERSTAND
 addOption("Understand", "Select an item", "", 1); //HEADER OPTION
-addOption("Understand", "Problem", "http://www.codingforums.com");
+addOption("Understand", "Problem", "tools/ptree.html");
 addOption("Understand", "Customers", "http://www.codingforums.com"); //END OF THIS NODE
 
 //PLAN
