@@ -84,7 +84,7 @@ addOption("t-est", "Training Workshop", "f-asp");
 addOption("t-gsc", "Select an item", "", 1); //HEADER OPTION
 addOption("t-gsc", "Innovation Competition", "f-asp");
 addOption("t-gsc", "Startup Accelerator", "f-asp");
-addOption("t-gsc", "Training Workshop", "f-asp");
+addOption("t-gsc", "Training Workshop", "bad-iead");
 
 
 

@@ -14,23 +14,28 @@ http://dynamicdrive.com/dynamicindex1/chainedmenu/chainedmenu.html
 
         </script>
         <script language="javascript" src="config.js"></script>
+        <script language="javascript" src="main.js"></script>
     </head>
 
     <body onload="initListGroup('chainedmenu', document.listmenu0.firstlevel, document.listmenu0.secondlevel, document.listmenu0.thirdlevel, 'saveit')">
 
         <h2>Toolsite v0.3</h2>
         <p><font size="2" face="Verdana">This is a first crack at creating a microsite to enable easy navigation through the HCD journey using active drop down boxes. Select a statement below which best describes your situation. This tool will help you plan a workshop/bootcamp around the HCD process. </font></p>
-        <table align="center" cellpadding="0" cellspacing="0" border="0" width="90%"><tr><td>
+        <table align="center" cellpadding="0" cellspacing="0" border="0" width="90%"><tr>   <td>
 
             <form name="listmenu0">
                 <table align="center"><tr>
                     <td>I have </td><td><select name="firstlevel" style="width:180px;"></select></td>
                     <td> to take a cohort of </td><td><select name="secondlevel" style="width:160px;"></select></td>
                     <td> through an </td><td><select name="thirdlevel" style="width:160px;"></select></td>
-                    <td><input type="button" value="Go" onclick="goListGroup(document.listmenu0.firstlevel, document.listmenu0.secondlevel, document.listmenu0.thirdlevel)">
+                    <!--                    <td><input type="button" value="Go" onclick="goListGroup(document.listmenu0.firstlevel, document.listmenu0.secondlevel, document.listmenu0.thirdlevel)">-->
+                    <td><input type="button" value="Go" onclick="yolo();">
                         <input type="button" value="Reset" onclick="resetListGroup('chainedmenu')">
                     </tr></table>
             </form>
+
+            <div class="x0">Telling the story of </div><div class="x1"> business women</div>
+
 
             </body>
 
