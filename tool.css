@@ -21,14 +21,20 @@ body {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	text-decoration: none;
 	align-content: center;
 	align-items: center;
 }
-
+.header-container h1 a{
+	text-decoration: none;
+	color: black;
+}
 .header-container h1 {
 	margin: 0;
 	font-family: IBM Plex Sans;
 	font-weight: 700;
+	text-decoration: none;
+	cursor: pointer;
 }
 
 .header-links a {
