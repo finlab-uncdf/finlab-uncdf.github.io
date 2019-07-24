@@ -1,0 +1,33 @@
+Phase,Tool Name,About,Limitations,Time,Materials,Use Cases,Understanding the tool,Facilitator How to,Facilitator Question bank,Cover Image,Tool Image
+Foundation,Problem Tree + 5 Whys,"Problem Tree is a tool used to identify effects and causes of a given challenge. The aim is to repeatedly unpack each symptom until one reaches a “root cause” or unexpected angle from which to think of the problem. While traditionally the tool is looked only through a problem lens, it can also use it to appreciate opportunities. 5 Whys are an activity that can be run during  the Problem Tree to help participants get to the root cause of the topic.",The Problem Tree does not give any indication of the magnitude or the importance of the causes of the problem or opportunity area. It may also be difficult to understand the effects and causes right from the beginning and may require a few iterations of this activity.,90-135 Mins,"Template, Chart Paper, Post-its, Pens/Sketch Pens","Reframing a problem or topic to make sure the way the problem is understood by the group is the best way to look at it.
+Uncovering unexpected opportunities in the space a team or organisation is working in.","The ‘Problem/Opportunity’ section should be something specific that has been chosen to be investigated. This could be the problem faced by the user, or an opportunity area defined by the startup (this can be taken from the problems listed in the Startup Canvas) or organisation.
+The ‘Effects’ are what happens as a result of the problem. These symptoms should be written in the branches of the tree. For example, if the problem is defined as ‘Poor Public Transport’, then an effect would probably be, ‘Commuter getting late to work’, or ‘Expensive private transport options’.
+The ‘Causes’ are the reasons why the problem causes the effects. The aim is to write down as many clear and concise reasons in the roots of the tree. Following up on the same example, the root cause of ‘Poor Public Transport’ could probably be, ‘Inadequate public funding’ or ‘Poor route planning’.
+The levels to which the ‘Effects’ and the ‘Causes’ can be unpacked will vary depending on the understanding the team has of the topic at hand. There is no pressure to be exhaustive - it is meant to start the planning process - not to complete the analysis. 
+ The Problem Tree provides a visual breakdown of problems into their symptoms as well as their causes, and furthermore create a visual output that can be understood by anyone.
+","At the start: Explain the activity to the participants, preferably using examples. Make sure they first write down the effects and then the causes.
+During the exercise: Ensure that the participants don’t get stuck or fixate on a single train of thought.
+When summarising: Have participants share their root causes and talk through their process of getting to the root cause.
+","What are the most immediate causes and effects you can think of as a group?
+Have we gone deep enough? Can we unpack this effect / cause further?
+Why does [cause] happen? Can we list those reasons as well as sub causes?
+What root causes have we identified? Are any of those surprising or unexpected?
+Since we have to use this as an input for planning research in the next phase, what are some themes (to be taken from effects or causes) that you feel we need to focus on understanding better during research?
+How should we prioritise between causes? Which ones do you think are the most important? Is there a cause that we are all excited about trying to solve? 
+",,
+Foundation,Stakeholder Map,"Stakeholder Maps are used to provide a sense of the ecosystem of people, institutions, organisations, and any other entities who have an influence or stake with respect to a target audience. Concentric circles are used to depict the type and distance of influence (direct or indirect). ","The Stakeholder Map does not exactly describe the nature of relationship between target user and the stakeholders. It also has limited ability to describe relationships between stakeholders. 
+",90-135 Mins,"Template, Chart Paper, Post-its, Pens/Sketch Pens","Understanding the ecosystem of users and stakeholders relevant to problems that the participants are attempting to understand and solve. 
+Mapping the known ecosystem, identifying gaps and priorities with regards to their understanding of the ecosystem. 
+Validating assumptions for those who do not have a complete understanding of the ecosystem as they move forward.
+","The ‘Target User’ section is to be kept focused on individuals or groups that the startup or organisation is trying to solution for. 
+‘Direct Influencers’ are those that most influence the attitudes and behaviours of the target audience. One can look at these influencers as those with only one degree of separation. For example - college students may be influenced by their peers, the retail ecosystem around them, college authorities and even their parents  in their choice of a fintech solution. 
+‘Indirect Influencers’ are those that somewhat influence the target audience but their impact is left direct. There are two or more degrees of separation between the target and these stakeholders. For example - looking again at college students, such influencers might be administrators, state legislation, scholarship funds etc. 
+‘Societal Norms’ are the forces that may not have a direct representative but are still important to take into account. For example - political climate, market trends, cultural norms.
+","At the start: Explain the activity to the participants, preferably using examples. Make sure they first start from the center and move outwards.
+During the exercise: Help them think of stakeholders if they get stuck or can’t think of anything to write. Create connections, and think of the influences on the stakeholders written on the map.
+When summarising: Have participants walk you through the process of finding connections, and point out important stakeholders/connections they found.","Who have you chosen as the target user? Can you add a some description so that everyone is on the same page?
+Can you add some description of the stakeholders and the kind of influence they have on the user?
+Which stakeholders do you think have the most influence on the target user?
+Are there any indirect stakeholders that influence the stakeholders on your map?
+Are there any personal connections, commercial services, government entities, that are missing from this picture?
+What connections can we identify between the stakeholders?",,
