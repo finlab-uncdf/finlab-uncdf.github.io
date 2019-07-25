@@ -25,10 +25,12 @@ body {
 	align-content: center;
 	align-items: center;
 }
-.header-container h1 a{
+
+.header-container h1 a {
 	text-decoration: none;
 	color: black;
 }
+
 .header-container h1 {
 	margin: 0;
 	font-family: IBM Plex Sans;
@@ -59,133 +61,229 @@ body {
 	width: 100%;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	margin: 0;
+	margin-bottom: 100px;
+	margin-top: 50px;
+
+	/*background: rgb(200, 200, 200, 0.3);*/
 }
 
 .tool-name {
-	width: 100%;
-	/*padding: 10px;*/
-	margin: 5px;
+	border-radius: 4px;
+	margin: 10px 4px 10px 4px;
+	padding: 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	/*background-color: salmon;*/
+}
+
+.tool-name h3 {
+	font: 18px/30px IBM Plex Sans;
+	font-weight: 500;
+	margin: 0;
+	padding: 10px;
+	letter-spacing: 1px
 }
 
 .tool-name h2 {
-	font-family: IBM Plex Sans;
+	font: 50px/58px IBM Plex Sans;
 	font-weight: 700;
-	font-size: 45px;
-	/*margin: 0;*/
+	margin: 0;
+	/*padding: 10px;*/
+	letter-spacing: -0.7px
 }
 
 .tool-name p {
-	font-family: IBM Plex Sans;
+	font: 14px/19px IBM Plex Sans;
 	font-weight: 300;
-	font-size: 15px;
-	padding: 10px;
 	/*margin: 0;*/
 }
 
+.tool-example-image {
+	border-radius: 4px;
+	margin: 10px 4px 10px 4px;
+	padding: 15px;
+	/*background-color: salmon;*/
+	text-align: center;
+}
+
 .tool-example-image img {
-	width: 100%;
+	width: 90%;
 	margin: 5px;
+	margin: auto;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
 	/*padding: 10px;*/
 }
 
-
 .tool-use-case {
-	width: 100%;
-	margin: 5px;
+	border-radius: 4px;
+	margin: 10px 4px 10px 4px;
+	padding: 15px;
+	background: rgb(243, 243, 243);
 }
 
 .tool-use-case h2 {
 	font-family: IBM Plex Sans;
-	font-weight: 500;
-	font-size: 25px;
+	font-weight: 700;
+	font-size: 23px;
 }
 
 .tool-use-case ul {
-	font-family: IBM Plex Sans;
+	font: 14px/19px IBM Plex Sans;
 	font-weight: 300;
-	font-size: 15px;
+	margin: 0;
+	padding: 0px 20px 0px 20px;
 }
+
+.tool-use-case li {
+		margin-bottom: 1em;
+}
+
 .tool-limitations {
-	width: 100%;
-	margin: 5px;
+	border-radius: 4px;
+	margin: 10px 4px 10px 4px;
+	padding: 20px;
+	background: rgb(39, 68, 152);
+	/*background-color
+	: salmon;*/
 }
 
 .tool-limitations h2 {
 	font-family: IBM Plex Sans;
-	font-weight: 500;
-	font-size: 25px;
+	font-weight: 700;
+	font-size: 22px;
+	color: white;
 }
 
 .tool-limitations p {
-	font-family: IBM Plex Sans;
+	font: 14px/19px IBM Plex Sans;
 	font-weight: 300;
-	font-size: 15px;
-}
-.tool-small {
-	width: 100%;
-
+	color: white;
 }
 
-.tool-small img {
+.tool-small-image {
+	border-radius: 4px;
+	margin: 10px 4px 10px 4px;
+	padding: 15px;
+	/*background-color: salmon;*/
+	text-align: center;
+}
+
+.tool-small-image img {
 	width: 100%;
 }
+
 .tool-understand {
-	width: 100%;
-	margin: 5px;
+	border-radius: 4px;
+	margin: 10px 4px 10px 4px;
+	padding: 20px;
+	background: rgb(47,	96, 207);
 }
 
 .tool-understand h2 {
 	font-family: IBM Plex Sans;
-	font-weight: 500;
-	font-size: 25px;
+	font-weight: 700;
+	font-size: 22px;
+	color: white;
 }
 
 .tool-understand ul {
-	font-family: IBM Plex Sans;
+	font: 14px/19px IBM Plex Sans;
+	color: white;
 	font-weight: 300;
-	font-size: 15px;
+	padding: 0px 20px 0px 20px;
+}
+
+.tool-understand li {
+		margin-bottom: 1em;
+}
+
+.tool-understand ul span {
+		font-weight: 700;
 }
 
 .tool-card-image {
-	width: 100%;
+	border-radius: 4px;
+	margin: 10px 4px 10px 4px;
+	padding: 15px;
+	/*background-color: salmon;*/
+	text-align: center;
 	grid-column-start: 1;
-	grid-column-end:3;
+	grid-column-end: 3;
 }
 
 .tool-card-image img {
 	width: 100%;
 }
+
+.tool-download {
+	border-radius: 4px;
+	margin: 10px 4px 10px 4px;
+	padding: 15px;
+	text-align: center;
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+
+.tool-download button {
+	
+}
+
 .f-how-to {
-	width: 100%;
-	margin: 5px;
+	border-radius: 4px;
+	margin: 10px 4px 10px 4px;
+	padding: 20px;
+	background: rgb(47,	96, 207);
 }
 
 .f-how-to h2 {
 	font-family: IBM Plex Sans;
-	font-weight: 500;
-	font-size: 25px;
+	font-weight: 700;
+	font-size: 22px;
+	color: white;
 }
 
 .f-how-to ol {
-	font-family: IBM Plex Sans;
+	font: 14px/19px IBM Plex Sans;
 	font-weight: 300;
-	font-size: 15px;
+	padding: 0px 20px 0px 20px;
+	color: white;
+	
+	
+}
+
+.f-how-to ol li {
+	margin-bottom: 1em;
+}
+
+
+.f-how-to ol span {
+		font-weight: 700;
+		
 }
 
 .f-question-bank {
-	width: 100%;
-	margin: 5px;
+	border-radius: 4px;
+	margin: 10px 4px 10px 4px;
+	padding: 20px;
+	background: rgb(243, 243, 243);
 }
 
 .f-question-bank h2 {
 	font-family: IBM Plex Sans;
-	font-weight: 500;
-	font-size: 25px;
+	font-weight: 700;
+	font-size: 22px;
 }
 
 .f-question-bank ul {
-	font-family: IBM Plex Sans;
+	font: 14px/19px IBM Plex Sans;
 	font-weight: 300;
-	font-size: 15px;
+	padding: 0px 20px 0px 20px;
+}
+
+.f-question-bank li {
+		margin-bottom: 1em;
+	
 }
