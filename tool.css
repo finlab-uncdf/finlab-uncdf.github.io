@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:200,300,400,500,700&display=swap');
 
+:root {
+	--ntext: 15px/18px IBM Plex Sans;
+}
+
+@media (max-width: 1024px) {
+	:root {
+		--ntext: 12px/15px IBM Plex Sans;
+	}
+}
+
 body {
 	width: 100%;
 	margin: 0;
@@ -15,8 +25,8 @@ body {
 .header-container {
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 25px;
-	padding-bottom: 25px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 	width: 90%;
 	display: flex;
 	flex-direction: row;
@@ -33,7 +43,7 @@ body {
 
 .header-container h1 {
 	margin: 0;
-	font-family: IBM Plex Sans;
+	font: 20px/22px IBM Plex Sans;
 	font-weight: 700;
 	text-decoration: none;
 	cursor: pointer;
@@ -104,7 +114,8 @@ body {
 }
 
 .tool-name-text p {
-	font: 15px/18px IBM Plex Sans;
+	/*font: 15px/18px IBM Plex Sans;*/
+	font: var(--ntext);
 	font-weight: 500;
 	padding: 5px 15px 5px 15px;
 	display: inline;
@@ -117,7 +128,7 @@ body {
 }
 
 .tool-about p {
-	font: 15px/20px IBM Plex Sans;
+	font: var(--ntext);
 	font-weight: 300;
 	margin: 0;
 }
@@ -130,7 +141,7 @@ body {
 }
 
 .tool-about ul {
-	font: 15px/20px IBM Plex Sans;
+	font: var(--ntext);
 	font-weight: 300;
 	margin: 0;
 	padding: 0px 20px 0px 20px;
@@ -141,10 +152,11 @@ body {
 }
 
 .tool-limitations {
-	border-radius: 4px;
+	/*border-radius: 4px;*/
 	/*margin: 10px 4px 10px 4px;*/
 	padding: 20px;
-	background: rgb(47,	96, 207);
+	background: rgb(22, 50, 116);
+	
 	/*background-color
 	: salmon;*/
 	position: absolute;
@@ -159,7 +171,7 @@ body {
 }
 
 .tool-limitations p {
-	font: 15px/20px IBM Plex Sans;
+	font: var(--ntext);
 	font-weight: 300;
 	color: white;
 	margin: 0;
@@ -181,6 +193,15 @@ body {
 	align-items: center;
 	justify-content: center;
 	/*padding: 10px;*/
+}
+
+.tool-example-image-small {
+border-radius: 4px;
+margin: 10px 4px 10px 4px;
+padding: 15px;
+display: flex;
+flex-direction: column;
+position: relative;
 }
 
 .tool-example-image-small img {
@@ -210,7 +231,7 @@ body {
 }
 
 .tool-use-case li {
-	font: 15px/20px IBM Plex Sans;
+	font: var(--ntext);
 	font-weight: 300;
 	margin-bottom: 1em;
 }
@@ -235,7 +256,7 @@ body {
 }
 
 .tool-steps ol {
-	font: 15px/20px IBM Plex Sans;
+	font: var(--ntext);
 	font-weight: 300;
 	margin: 0;
 	padding: 0px 20px 0px 20px;
@@ -268,7 +289,7 @@ body {
 	border-radius: 4px;
 	margin: 10px 4px 10px 4px;
 	padding: 15px;
-	font: 15px/20px IBM Plex Sans;
+	font: var(--ntext);
 	font-weight: 300;
 	
 	/*background: salmon;*/
@@ -305,7 +326,7 @@ body {
 }
 
 .tool-understand ul {
-	font: 15px/20px IBM Plex Sans;
+	font: var(--ntext);
 	color: white;
 	font-weight: 300;
 	padding: 0px 20px 0px 20px;
@@ -325,29 +346,51 @@ body {
 	padding: 15px;
 	/*background-color: salmon;*/
 	text-align: center;
-	grid-column-start: 1;
-	grid-column-end: 3;
 }
 
 .tool-card-image img {
-	width: 80%;
+	width: 90%;
 }
 
 .tool-download {
 	border-radius: 4px;
 	margin: 10px 4px 10px 4px;
-	padding: 15px;
-	text-align: center;
-	grid-column-start: 1;
-	grid-column-end: 3;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+button {
+	width: 250px;
+	height: 70px;
+	border-radius: 50px;
+	background: rgb(47,	96, 207);
+	font: 18px/19px IBM Plex Sans;
+	font-weight: 700;
+	color: white;
+	text-decoration: none;
+	
+}
+
+
+.f-section {
+	width: 100%;
+	background: rgb(22, 50, 116);
+		padding-bottom: 80px;
+	
+}
+
+.f-container {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .f-grid {
 	width: 100%;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	margin-bottom: 100px;
-	margin-top: 50px;
 	background: rgb(47,	96, 207, 0.0);
 	border-radius: 4px;
 	padding: 30px 0 40px 0;
@@ -365,7 +408,7 @@ body {
 	font-weight: 700;
 	margin: 0;
 	text-align: center;
-
+color: white;
 }
 
 .f-intro-text .line {
@@ -390,7 +433,7 @@ body {
 }
 
 .f-how-to ol {
-	font: 15px/20px IBM Plex Sans;
+	font: var(--ntext);
 	font-weight: 300;
 	padding: 0px 20px 0px 20px;
 	color: white;
@@ -418,7 +461,7 @@ body {
 }
 
 .f-question-bank ul {
-	font: 15px/20px IBM Plex Sans;
+	font: var(--ntext);
 	font-weight: 300;
 	padding: 0px 20px 0px 20px;
 }
@@ -427,18 +470,6 @@ body {
 	margin-bottom: 1em;
 }
 
-button {
-	width: 100%;
-	height: 50px;
-	border-radius: 10px;
-	background: rgb(47,	96, 207);
-}
 
-button a {
-	font: 18px/19px IBM Plex Sans;
-	font-weight: 700;
-	color: white;
-	text-decoration: none;
-}
 
 /*22	50	116	*/
