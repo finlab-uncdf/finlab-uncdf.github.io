@@ -9,7 +9,7 @@ body {
 	width: 100%;
 	margin: 0;
 	top: 0;
-	background-color: rgba(201, 201, 201, 0.65);
+	background-color: rgb(47, 96, 207);
 }
 
 .header-container {
@@ -21,14 +21,23 @@ body {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	text-decoration: none;
 	align-content: center;
 	align-items: center;
+}
+
+.header-container h1 a {
+	text-decoration: none;
+	color: white;
 }
 
 .header-container h1 {
 	margin: 0;
 	font-family: IBM Plex Sans;
 	font-weight: 700;
+	text-decoration: none;
+	cursor: pointer;
+	color: white;
 }
 
 .header-links a {
@@ -36,6 +45,8 @@ body {
 	font-weight: 400;
 	margin-left: 10px;
 	margin-right: 10px;
+	text-decoration: none;
+	color: white;
 }
 
 .about-section {
@@ -50,6 +61,7 @@ body {
 
 .about-text {
 	width: 60%;
+	
 }
 
 .about-text h1 {
@@ -92,6 +104,7 @@ body {
 .tool-grid {
 	width: 100%;
 	display: block;
+	margin-top: 100px;
 }
 .tool-phase {
 	width: 100%;
@@ -106,9 +119,11 @@ body {
 	width: 100%;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	background: rgb(200, 200, 200, 0.4);
+	background: rgb(47,	96, 207);
 	margin: 4px;
 	border-radius: 4px;
+	color: white;
+	padding: 10px;
 	/*padding: 20px 10px 20px 10px;*/
 }
 
@@ -135,7 +150,7 @@ body {
 }
 
 .tool {
-	padding: 10px;
+	padding: 15px;
 	background: rgb(200, 200, 200, 0.8);
 	margin: 4px;
 	border-radius: 5px;
@@ -152,4 +167,6 @@ body {
 	font-family: IBM Plex Sans;
 	font-size: 300;
 	margin: 0;
+	text-decoration: underline;
+	color: black;
 }
