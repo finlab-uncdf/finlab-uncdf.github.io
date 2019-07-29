@@ -361,12 +361,17 @@ position: relative;
 	align-content: center;
 	align-items: center;
 }
+.download-buttons {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
 button {
 	width: 250px;
-	height: 70px;
+	height: 50px;
 	border-radius: 50px;
 	background: rgb(47,	96, 207);
-	font: 18px/19px IBM Plex Sans;
+	font: 15px/18px IBM Plex Sans;
 	font-weight: 700;
 	color: white;
 	text-decoration: none;
@@ -467,6 +472,30 @@ color: white;
 }
 
 .f-question-bank li {
+	margin-bottom: 1em;
+}
+
+.reference-section {
+	border-radius: 4px;
+	margin: 20px 10px 20px 10px;
+	padding: 20px;
+	background: rgb(243, 243, 243);
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+.reference-section h2 {
+	font: 18px/24px IBM Plex Sans;
+	font-weight: 700;
+	color: rgb(47, 96, 207);
+}
+
+.reference-section ul {
+	font: var(--ntext);
+	font-weight: 300;
+	padding: 0px 20px 0px 20px;
+}
+
+.reference-section li {
 	margin-bottom: 1em;
 }
 
