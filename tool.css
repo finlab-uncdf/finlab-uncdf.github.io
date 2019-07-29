@@ -373,13 +373,13 @@ button {
 	
 }
 
-
 .f-section {
 	width: 100%;
 	background: rgb(22, 50, 116);
-		padding-bottom: 80px;
-	
+		padding-bottom: 80px;	
 }
+
+/* use 100vh */
 
 .f-container {
 	width: 90%;
