@@ -2,6 +2,11 @@
 
 :root {
 	--ntext: 15px/18px IBM Plex Sans;
+	--lgrey: rgb(243, 243, 243);
+	--blue: rgb(47, 96, 207);
+	
+	/* Enter variable to tcol which is theme colour */
+	--tcol: var(--blue);
 }
 
 @media (max-width: 1024px) {
@@ -14,11 +19,24 @@
 		display: grid;
 		grid-template-columns: repeat(1, 1fr);
 	}
+	
 	.under-container .under-grid {
 		width: 100%;
 		display: grid;
 		grid-template-columns: repeat(1, 1fr);
 	}
+	
+	.step-section .step-grid {
+		width: 100%;
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+	}
+	
+	.tool-card-image {
+		grid-column-start: 1;
+		grid-column-end: 3;
+	}
+	
 	.tool-steps .tool-step-grid {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
@@ -50,7 +68,7 @@
 	width: 100%;
 	margin: 0;
 	top: 0;
-	background: rgb(47, 96, 207);
+	background: var(--tcol);
 }
 
 .header-container {
@@ -112,9 +130,8 @@
 	border-radius: 4px;
 	margin: 10px 4px 10px 4px;
 	padding: 15px;
-	display: flex;
-	flex-direction: column;
-	position: relative;
+	display: block;
+
 }
 
 .tool-name-text {
@@ -133,7 +150,7 @@
 	font-weight: 700;
 	letter-spacing: -0.9px;
 	margin: 10px 0 35px 0;
-	color: rgb(47,	96, 207);
+	color: var(--tcol);
 }
 
 .tool-name-text .line {
@@ -145,7 +162,6 @@
 }
 
 .tool-name-text p {
-	/*font: 15px/18px IBM Plex Sans;*/
 	font: var(--ntext);
 	font-weight: 500;
 	padding: 5px 15px 5px 15px;
@@ -155,7 +171,7 @@
 }
 
 .tool-about {
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 .tool-about p {
@@ -168,7 +184,7 @@
 	font: 18px/24px IBM Plex Sans;
 	font-weight: 700;
 	margin: 0;
-	color: rgb(47, 96, 207);
+	color: var(--tcol);
 }
 
 .tool-about ul {
@@ -181,92 +197,15 @@
 .tool-about li {
 	margin-bottom: 1em;
 }
-
-.tool-limitations {
-	margin-bottom: 20px;
-}
-
-.tool-limitations p {
-	font: var(--ntext);
-	font-weight: 300;
-	margin: 0;
-}
-.tool-limitations h2 {
-	font: 18px/24px IBM Plex Sans;
-	font-weight: 700;
-	margin: 0;
-	color: rgb(47, 96, 207);
-}
-
-.under-section {
-	width: 100%;
-	background: rgb(47, 96, 207);
-    padding-bottom: 40px;
-}
-	
-
-.under-container {
-	width: 90%;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.under-grid {
-	width: 100%;
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	border-radius: 4px;
-	padding: 30px 0 40px 0;
-}
-
-
-.tool-example-image {
-	border-radius: 4px;
-	margin: 10px 4px 10px 4px;
-	padding: 15px;
-	/*background-color: salmon;*/
-	text-align: center;
-}
-
-.tool-under-image img {
-	width: 90%;
-	margin: 5px;
-	margin: auto;
-	align-content: center;
-	align-items: center;
-	justify-content: center;
-	border-radius: 4px;
-	/*padding: 10px;*/
-}
-
-.tool-image-illustration {
-	border-radius: 4px;
-	margin: 10px 4px 10px 4px;
-	padding: 15px;
-	display: flex;
-	flex-direction: column;
-	position: relative;
-}
-
-.tool-image-illustration img {
-	width: 90%;
-	margin: 5px;
-	margin: auto;
-	align-content: center;
-	align-items: center;
-	justify-content: center;
-	/*padding: 10px;*/
-}
-
 .tool-use-case {
-	/*padding: 15px;*/
+	margin-bottom: 30px;
 }
 
 .tool-use-case h2 {
 	font: 18px/24px IBM Plex Sans;
 	font-weight: 700;
 	margin: 0;
-	color: rgb(47, 96, 207);
+	color: var(--tcol);
 }
 
 .tool-use-case ul {
@@ -284,19 +223,126 @@
 	font-weight: 700;
 }
 
+
+.tool-limitations {
+	margin-bottom: 30px;
+}
+
+.tool-limitations p {
+	font: var(--ntext);
+	font-weight: 300;
+	margin: 0;
+}
+
+.tool-limitations h2 {
+	font: 18px/24px IBM Plex Sans;
+	font-weight: 700;
+	margin: 0;
+	color: var(--tcol);
+}
+
+.under-section {
+	width: 100%;
+	background: var(--tcol);
+	padding: 20px 0 20px 0;
+}
+
+.under-container {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.under-grid {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	border-radius: 4px;
+	padding: 30px 0 30px 0;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+
+.tool-example-image {
+	border-radius: 4px;
+	margin: 10px 4px 10px 4px;
+	padding: 15px;
+	text-align: center;
+}
+
+.tool-under-image {
+	text-align: center;
+}
+
+.tool-under-image img {
+	width: 90%;
+	margin: 5px;
+	margin: auto;
+	border-radius: 4px;
+}
+
+.tool-image-illustration {
+	border-radius: 4px;
+	margin: 10px 4px 10px 4px;
+	padding: 15px;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	text-align: center;
+}
+
+.tool-image-illustration img {
+	width: 100%;
+	margin: 5px;
+	margin: auto;
+	text-align: center;
+	/*padding: 10px;*/
+}
+
+
+.step-section {
+	width: 100%;
+	background: var(--lgrey);
+}
+
+.step-container {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.step-grid {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	border-radius: 4px;
+	padding: 30px 0 40px 0;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+
 .tool-steps {
 	border-radius: 4px;
 	margin: 10px 4px 10px 4px;
 	padding: 20px;
-	background: rgb(243, 243, 243);
+	background: rgb(255, 255, 255);
 	grid-column-start: 1;
 	grid-column-end: 3;
+}
+
+.tool-step-grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	width: 100%;
+	padding: 0px;
 }
 
 .tool-steps h2 {
 	font: 18px/24px IBM Plex Sans;
 	font-weight: 700;
-	color: rgb(47, 96, 207);
+	color: var(--tcol);
 }
 
 .tool-steps ol {
@@ -312,20 +358,12 @@
 
 .tool-steps li span {
 	font-weight: 700;
-	color: rgb(47, 96, 207);
-}
-
-.tool-step-grid {
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	width: 100%;
-	padding: 0px;
+	color: var(--tcol);
 }
 
 .tool-step-segment-title {
 	grid-column-start: 1;
 	grid-column-end: 5;
-	/*margin: 0 4px 0 4px;*/
 	padding: 0 15px 0 15px;
 }
 
@@ -335,24 +373,22 @@
 	padding: 15px;
 	font: var(--ntext);
 	font-weight: 300;
-	
-	/*background: salmon;*/
 }
 
 .tool-step-segment span {
 	font-weight: 700;
-	color: rgb(47, 96, 207);
+	color: var(--tcol);
 }
 
-.tool-small-image {
+.tool-card-image {
 	border-radius: 4px;
 	margin: 10px 4px 10px 4px;
 	padding: 15px;
-	/*background-color: salmon;*/
 	text-align: center;
+	
 }
 
-.tool-small-image img {
+.tool-card-image img {
 	width: 100%;
 }
 
@@ -360,7 +396,7 @@
 	border-radius: 4px;
 	margin: 10px 4px 10px 4px;
 	padding: 20px;
-	background: rgb(47,	96, 207);
+	background: var(--tcol);
 }
 
 .tool-understand h2 {
@@ -384,17 +420,6 @@
 	font-weight: 700;
 }
 
-.tool-card-image {
-	border-radius: 4px;
-	margin: 10px 4px 10px 4px;
-	padding: 15px;
-	/*background-color: salmon;*/
-	text-align: center;
-}
-
-.tool-card-image img {
-	width: 90%;
-}
 
 .tool-download {
 	border-radius: 4px;
@@ -404,6 +429,8 @@
 	justify-content: center;
 	align-content: center;
 	align-items: center;
+/*	grid-column-start: 1;
+	grid-column-end: 3;*/
 }
 
 .download-buttons {
@@ -414,19 +441,45 @@
 
 button {
 	width: 250px;
-	height: 50px;
+	height: 40px;
 	border-radius: 50px;
-	background: rgb(47,	96, 207);
-	font: 15px/18px IBM Plex Sans;
+	background: var(--tcol);
+	font: 12px/16px IBM Plex Sans;
 	font-weight: 700;
 	color: white;
 	text-decoration: none;
 }
+.reference-section {
+	border-radius: 4px;
+	margin: 20px 10px 20px 10px;
+	padding: 20px;
+	background: rgb(255, 255, 255);
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+
+.reference-section h2 {
+	font: 18px/24px IBM Plex Sans;
+	font-weight: 700;
+	color: var(--tcol);
+}
+
+.reference-section ul {
+	font: var(--ntext);
+	font-weight: 300;
+	padding: 0px 20px 0px 20px;
+}
+
+.reference-section li {
+	margin-bottom: 1em;
+}
+
 
 .f-section {
 	width: 100%;
 	background: rgb(22, 50, 116);
-	padding-bottom: 80px;
+	/*padding-bottom: 80px;*/
+	padding: 20px 0 50px 0;
 }
 	
 	/* use 100vh */
@@ -441,7 +494,6 @@ button {
 	width: 100%;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	background: rgb(47,	96, 207, 0.0);
 	border-radius: 4px;
 	padding: 30px 0 40px 0;
 }
@@ -473,7 +525,7 @@ button {
 	border-radius: 4px;
 	margin: 20px 10px 20px 10px;
 	padding: 20px;
-	background: rgb(47,	96, 207);
+	background: var(--tcol);
 }
 
 .f-how-to h2 {
@@ -501,13 +553,13 @@ button {
 	border-radius: 4px;
 	margin: 20px 10px 20px 10px;
 	padding: 20px;
-	background: rgb(243, 243, 243);
+	background: var(--lgrey);
 }
 
 .f-question-bank h2 {
 	font: 18px/24px IBM Plex Sans;
 	font-weight: 700;
-	color: rgb(47, 96, 207);
+	color: var(--tcol);
 }
 
 .f-question-bank ul {
@@ -520,27 +572,3 @@ button {
 	margin-bottom: 1em;
 }
 
-.reference-section {
-	border-radius: 4px;
-	margin: 20px 10px 20px 10px;
-	padding: 20px;
-	background: rgb(243, 243, 243);
-	grid-column-start: 1;
-	grid-column-end: 3;
-}
-
-.reference-section h2 {
-	font: 18px/24px IBM Plex Sans;
-	font-weight: 700;
-	color: rgb(47, 96, 207);
-}
-
-.reference-section ul {
-	font: var(--ntext);
-	font-weight: 300;
-	padding: 0px 20px 0px 20px;
-}
-
-.reference-section li {
-	margin-bottom: 1em;
-}
