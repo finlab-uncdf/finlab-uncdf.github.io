@@ -4,6 +4,9 @@ repo for creating a toolkit microsite
 visit here: https://burnedsap.github.io/Toolsite/
 
 
-not mobile ready yet, still needs lots of work
++Now Mobile ready!
++More tools added and functional!
 
-Nothing is functional yet, only Problem Tree links
+-Images are to be added
+-References Left
+-Playlist needs to be filled in

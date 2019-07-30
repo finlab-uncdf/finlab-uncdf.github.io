@@ -1,5 +1,33 @@
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:200,300,400,500,700&display=swap');
 
+:root {
+	--ntext: 15px/18px IBM Plex Sans;
+	--lgrey: rgb(243, 243, 243);
+	--default: rgb(47, 96, 207);
+	--blue: rgb(104, 172, 225);
+	--purple: rgb(141, 134, 252);
+	--green: rgb(109, 222, 210);
+	--red: rgb(235, 139, 140);
+	--yellow: rgb(232, 179, 128);
+}
+
+@media (max-width: 1024px) {
+	.tool-container .tool-phase-grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	
+	.playlist-container .playlist-grid {
+		width: 100%;
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+	}
+	
+	.playlist-grid .playlist-text {
+		grid-column-start: 1;
+		grid-column-end: 4;
+	}
+}
+
 body {
 	width: 100%;
 	margin: 0;
@@ -9,14 +37,14 @@ body {
 	width: 100%;
 	margin: 0;
 	top: 0;
-	background-color: rgb(47, 96, 207);
+	background: rgb(47, 96, 207);
 }
 
 .header-container {
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 25px;
-	padding-bottom: 25px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 	width: 90%;
 	display: flex;
 	flex-direction: row;
@@ -26,18 +54,17 @@ body {
 	align-items: center;
 }
 
-.header-container h1 a {
+.header-container h1 {
 	text-decoration: none;
 	color: white;
 }
 
 .header-container h1 {
 	margin: 0;
-	font-family: IBM Plex Sans;
+	font: 20px/22px IBM Plex Sans;
 	font-weight: 700;
 	text-decoration: none;
 	cursor: pointer;
-	color: white;
 }
 
 .header-links a {
@@ -47,6 +74,106 @@ body {
 	margin-right: 10px;
 	text-decoration: none;
 	color: white;
+}
+
+.playlist-section {
+	width: 100%;
+	margin-top: 100px;
+}
+
+.playlist-container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+
+.playlist-grid {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.playlist-text {
+	background: var(--lgrey);
+	padding: 20px;
+	margin: 2px;
+	border-radius: 4px;
+	grid-row-start: 1;
+	grid-row-end: 4;
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+
+.playlist-text h2 {
+	font: 30px/34px IBM Plex Sans;
+	font-weight: 700;
+}
+
+.playlist-text p {
+	font: 15px/18px IBM Plex Sans;
+	font-weight: 300;	
+}
+
+
+.playlist {
+	background: var(--default);
+	padding: 20px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	margin: 2px;
+	border-radius: 4px;
+	grid-column-start: 2;
+	grid-column-end: 4;
+}
+
+.playlist-desc {
+	margin: 5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.playlist-desc-text h2 {
+	font: 18px/22px IBM Plex Sans;
+	font-weight: 500;
+	color: white;
+}
+
+.playlist-desc-text p {
+	font: 15px/18px IBM Plex Sans;
+	font-weight: 300;
+	color: white;
+}
+
+.playlist-desc span {
+	font-weight: 500;
+}
+
+.playlist-links {
+	margin: 5px;
+}
+
+.playlist-links h3{
+	font: 18px/22px IBM Plex Sans;
+	font-weight: 500;
+	color: white;
+}
+
+.playlist-links ol {
+	font: 15px/18px IBM Plex Sans;
+	font-weight: 300;
+	color: white;
+}
+
+button {
+	width: 200px;
+	height: 40px;
+	border-radius: 50px;
+	background: white;
+	font: 12px/16px IBM Plex Sans;
+	font-weight: 700;
+	color: black;
+	text-decoration: none;
 }
 
 .about-section {
@@ -61,7 +188,6 @@ body {
 
 .about-text {
 	width: 60%;
-	
 }
 
 .about-text h1 {
@@ -79,15 +205,40 @@ body {
 	width: 100%;
 }
 
+.tool-section.one {
+	background-color: var(--blue);
+	margin-top: 80px;
+}
+
+.tool-section.two {
+	background-color: var(--purple);
+}
+
+.tool-section.three {
+	background-color: var(--green);
+}
+
+.tool-section.four {
+	background-color: var(--red);
+}
+
+.tool-section.five {
+	background-color: var(--yellow);
+}
+
 .tool-container {
 	margin-left: auto;
 	margin-right: auto;
 	width: 90%;
 }
 
+.tool-grid {
+	width: 100%;
+}
+
 .tool-text {
 	width: 60%;
-	margin-bottom: 70px;
+	/*margin-bottom: 10px;*/
 }
 
 .tool-text h1 {
@@ -101,30 +252,23 @@ body {
 	font-weight: 300;
 }
 
-.tool-grid {
-	width: 100%;
-	display: block;
-	margin-top: 100px;
-}
 .tool-phase {
 	width: 100%;
-	margin-bottom: 100px;
+	margin-bottom: 0px;
 	align-items: center;
 	align-content: center;
 	display: block;
 	justify-content: center;
+	border-radius: 4px;
+	padding: 40px 0 70px 0;
 }
 
 .tool-phase-text {
 	width: 100%;
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	background: rgb(47,	96, 207);
-	margin: 4px;
-	border-radius: 4px;
+	grid-template-columns: repeat(1, 1fr);
+	margin: 0 0 4px 0;
 	color: white;
-	padding: 10px;
-	/*padding: 20px 10px 20px 10px;*/
 }
 
 .tool-phase-text p {
@@ -137,36 +281,76 @@ body {
 }
 
 .tool-phase-text h1 {
-	font-family: IBM Plex Sans;
+font: 28px/30px IBM Plex Sans;
 	font-weight: 700;
-	font-size: 30px;
-	padding: 10px;
+	padding: 15px;
 }
 
 .tool-phase-grid {
 	width: 100%;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
+	background: white;
+	border-radius: 4px;
+	/*padding: 5px;*/
+}
+
+.tool-phase-grid.one a {
+	color: var(--blue);
+}
+
+.tool-phase-grid.one h2 {
+	color: var(--blue);
+}
+
+.tool-phase-grid.two a {
+	color: var(--purple);
+}
+
+.tool-phase-grid.two h2 {
+	color: var(--purple);
+}
+
+.tool-phase-grid.three a {
+	color: var(--green);
+}
+
+.tool-phase-grid.three h2 {
+	color: var(--green);
+}
+
+.tool-phase-grid.four a {
+	color: var(--red);
+}
+
+.tool-phase-grid.four h2 {
+	color: var(--red);
+}
+
+.tool-phase-grid.five a {
+	color: var(--yellow);
+}
+
+.tool-phase-grid.five h2 {
+	color: var(--yellow);
 }
 
 .tool {
 	padding: 15px;
-	background: rgb(243, 243, 243, 0.7);
 	margin: 4px;
-	border-radius: 5px;
-	
 }
 
 .tool h2 {
-	font-family: IBM Plex Sans;
-	font-size: 500;
+	font: 20px/22px IBM Plex Sans;
+	font-weight: 500;
 	margin: 0;
+	color: white;
 }
 
 .tool a {
 	font-family: IBM Plex Sans;
-	font-size: 300;
+	font-weight: 300;
 	margin: 0;
 	text-decoration: underline;
-	color: black;
 }
+

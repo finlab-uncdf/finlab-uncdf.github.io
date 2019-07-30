@@ -11,7 +11,6 @@ step_t = ""
 under_t = ""
 fhow_t = ""
 fques_t = ""
-ref_t = ""
 
 def ulify(elements):
     string = "<ul>\n"
@@ -68,7 +67,6 @@ with open('uncdf.csv') as csvfile:
     under = []
     fhow = []
     fques = []
-    ref = []
     for row in readCSV:
         phase_n = row[1]
         subphase_n = row[2]
@@ -81,7 +79,6 @@ with open('uncdf.csv') as csvfile:
         under_n = row[9]
         fhow_n = row[10]
         fques_n = row[11]
-        ref_n = row[12]
 
         phase.append(phase_n)
         subphase.append(subphase_n)
@@ -94,15 +91,12 @@ with open('uncdf.csv') as csvfile:
         under.append(under_n)
         fhow.append(fhow_n)
         fques.append(fques_n)
-        ref.append(ref_n)
     
 for index in range(1, len(name)):
 #        print(step[index])
 #        title_t = fques[index]
 #        splitty = title_t.split('\n')
 #        print(ulify(splitty))
-        phase_t = phase[index]
-        subphase_t = subphase[index]
         name_t = name[index]
         time_t = time[index]
         about_t = about[index]
@@ -129,11 +123,6 @@ for index in range(1, len(name)):
         fques_t = fques_t.split('\n')
         fques_t = ulify(fques_t)
         
-        ref_t = ref[index]
-        ref_t = ref_t.split('\n')
-        ref_t = ulify(ref_t)
-        
-        
         
         f = open(name_t+".html",'w')
         message = """<!DOCTYPE html>
@@ -149,7 +138,7 @@ for index in range(1, len(name)):
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-	<link rel="stylesheet" href="/tool.css">
+	<link rel="stylesheet" href="tool.css">
 </head>
 <body>
 	<div class="header-section">
@@ -165,8 +154,7 @@ for index in range(1, len(name)):
 			<div class="tool-grid">
 				<div class="tool-name">
 					<div class="tool-name-text">
-						<h3>"""+phase_t+""" | """+subphase_t+"""</h3>
-						
+						<h3>Human Centred Design | FOUNDATION</h3>
 						<h1>"""+name_t+"""</h1>
 						
 						<p class="time">"""+time_t+"""</p>
@@ -191,18 +179,12 @@ for index in range(1, len(name)):
 					</div>
 				</div>
 				
-				<div class="tool-image-illustration">
-					<img src="/images/illustrationsUNCDF1-01.jpg" alt="" />
+				<div class="tool-example-image-small">
+					<img src="Treet_test-01.jpg" alt="" />
 				</div>
-			</div>
-		</div>
-	</div>
-	
-	<div class="under-section">
-		<div class="under-container">
-			<div class="under-grid">
-				<div class="tool-under-image">
-					<img src="/images/tool_small.png" alt="" />
+				
+				<div class="tool-example-image-big">
+					<img src="tool_small.png" alt="" />
 				</div>
 				
 				<div class="tool-understand">
@@ -210,7 +192,6 @@ for index in range(1, len(name)):
 					
 					"""+under_t+"""
 				</div>
-				
 				
 				<div class="tool-steps">
 					<div class="tool-step-grid">
@@ -222,20 +203,12 @@ for index in range(1, len(name)):
 					</div>
 				</div>
 				
-				
-			</div>
-		</div>
-	</div>
-	
-	<div class="down-section">
-		<div class="down-container">
-			<div class="down-grid">
 				<div class="tool-card-image">
-					<img src="/images/toolcard.png" alt="" />
+					<img src="toolcard.png" alt="" />
 				</div>
 				
-				<div class="download-buttons">
-					<div class="tool-download"><a href="/"""+name_t+""".pdf" download="""+name_t+""".pdf">
+								<div class="download-buttons">
+					<div class="tool-download"><a href="/UNCDF Problem Tree + 5 Whys.pdf" download="UNCDF Problem Tree + 5 Whys.pdf">
 						<button>Download Tool!</button>
 					</a></div>
 					
@@ -246,8 +219,12 @@ for index in range(1, len(name)):
 				
 				<div class="reference-section">
 					<h2>References</h2>
-					
-					"""+ref_t+"""
+					<ul>
+						<li>Link 1</li>
+						<li>Link 2</li>
+						<li>Link 3</li>
+						<li>Link 4</li>
+					</ul>
 				</div>
 			</div>
 		</div>
@@ -257,6 +234,8 @@ for index in range(1, len(name)):
 		<div class="f-container">
 			<div class="f-grid">
 				<div class="f-intro-text">
+					<!--<div class="line"></div>-->
+					
 					<h2>Facilitators Section</h2>
 				</div>
 				
