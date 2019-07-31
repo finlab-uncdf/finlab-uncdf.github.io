@@ -9,7 +9,7 @@
 	--red: rgb(235, 139, 140);
 	--yellow: rgb(232, 179, 128);
 	/* Enter variable to tcol which is theme colour */
-	--tcol: var(--purple);
+	--tcol: var(--yellow);
 }
 
 @media (max-width: 1024px) {

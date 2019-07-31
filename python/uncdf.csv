@@ -1,4 +1,4 @@
-Tool #,Phase,SubPhase,Tool Name,About,Limitations,Time,Use Cases,Step By Step,Understanding the tool,Facilitator How to,Facilitator Question bank,References,Cover Image,Tool Image,Tool Download Image,PDF Name
+Tool #,Phase,SubPhase,Tool Name,About,Limitations,Time,Use Cases,Step By Step,Understanding the tool,Facilitator How to,Facilitator Question bank,References,PresCheck,Cover Image,Tool Image,Tool Download Image,PDF Name
 1,"STRATEGY, INNOVATION & IMPACT",VISION BUILDING,Startup Canvas,The canvas summarises the most important elements of an organisation’s business model and is especially useful for early stage startups. The version of the canvas being used here is inspired by the Lean methodology and business model canvas.,The canvas tool is not a problem solving tool as such. It has limited capacity to answer what the ‘right’ model for a business is. It is best used as an evolving summary or dashboard. ,90-120 Min,"Investigating and mapping how ideas or solutions could be transformed into a holistic business model. 
 Mapping current business models, identifying gaps and opportunities (priorities), and outlining  interdependencies. 
 Using the canvas as a dashboard to document each stage of evolution of the business model, and reflecting on investments and results.","1. Familiarise yourself: Read through the various boxes in the Startup Canvas, you’ll notice the left two columns have to do with internal activity and the two to the right refer to external forces.
@@ -21,8 +21,8 @@ Can you think of any other things you’d like to add to this canvas? Are there 
 Did challenges shared as part of the startup journey resonate with you? Which did you think was most relevant for your company?
 What are your company’s goals in the next 3-6-12 months? Are you considering them as you map your priorities?
 How do you know something is a priority? Is there understanding within your company that these are the top priorities and challenges, or is there some assumption involved?
-Do your priorities depend on each other? Are there 1-2 core priorities at the root of all the different challenges you might be facing?",,name_illust,name_tool,name_card,name.pdf
-2,"STRATEGY, INNOVATION & IMPACT",VISION BUILDING,Ten Types of Innovation,,,,,,,,,,,,,
+Do your priorities depend on each other? Are there 1-2 core priorities at the root of all the different challenges you might be facing?",,,name_illust,name_tool,name_card,name.pdf
+2,"STRATEGY, INNOVATION & IMPACT",VISION BUILDING,Ten Types of Innovation,,,,,,,,,,1,,,,
 3,"STRATEGY, INNOVATION & IMPACT",VISION BUILDING,Product Roadmap,Roadmapping is an important step of clarifying the direction of a startup or programme over the next few years. It helps the team align on which challenges to prioritise and the ideal path moving forward.,"Created for and by the Startup community this format may feel a little tedious, participants should feel comfortable adapting the template to their needs.",60-90 Min,"Building consensus on the company or programme’s strategic direction. 
 Identifying key milestones and responsibilities of each team. 
 Formulating an actionable plan for the team to work towards.",,"The ‘Team’ column refers to any team involved in the process of developing each phase and clearly identifying key roles and responsibilities. Teams can include marketing, developers, strategy or any other arm of the practice involved in the development of the product or the program. 
@@ -37,8 +37,8 @@ When summarising: Make sure clear milestones have been formulated, and encourage
 How far are you currently on this roadmap? Should anything on here be changed?
 Who / What are your core team in your organisation? Let’s list them in the left column.
 What kind milestones have you been using so far? Were those clearly communicated to the respective teams? How well did they work?
-Regarding the metrics, do you currently have performance metric in your organisation? Would those be relevant to these milestones or should we create new ones?",,,,,
-4,"STRATEGY, INNOVATION & IMPACT",VISION BUILDING,Revenue & Pricing Models,,,,,,,,,,,,,
+Regarding the metrics, do you currently have performance metric in your organisation? Would those be relevant to these milestones or should we create new ones?",,,,,,
+4,"STRATEGY, INNOVATION & IMPACT",VISION BUILDING,Revenue & Pricing Models,,,,,,,,,,1,,,,
 5,"STRATEGY, INNOVATION & IMPACT",VISION BUILDING,SWOT Analysis,The SWOT analysis is a simple tool used to assess a company or programme’s current activity by looking at internal and external forces influencing it. ,"The SWOT analysis is only meant to provide an overview of a given business or program,  for a deeper understanding of your business, consider the Startup Canvas tool. ",30-60 Min,"Building consensus on the organisation or programme. 
 Identifying potential risks to address. 
 Identifying factors that differentiate a given business or programme from the competition. ","1. Discuss: Discuss with your team how your startup or program is doing by going through each of the four quadrants. Make sure at least one person is taking notes.
@@ -52,7 +52,7 @@ When summarising: Have participants walk you through the 2x2 they have created a
 What do you think you can improve as an organisation or business? 
 Did you face any challenges in the past few months? Are those likely to persist?
 How do you think your business might evolve? 
-Is there anything you are worried about you’d like to write down?",,,,,
+Is there anything you are worried about you’d like to write down?",,,,,,
 6,"STRATEGY, INNOVATION & IMPACT",VISION BUILDING,Theory of Change,Theory of Change (TOC) is a framework that attempts to map how desired change is being achieved through intended  activities and investments. It also helps participants differentiate between results and impact. The framework is useful in calibrating strategy - especially in the social impact and development sector.  ,"While the TOC helps layout an overall strategy, there is little guarantee that activities and resources will eventually translate into impact on ground. TOCs are often revisited and refined as results from the real world emerge.",90-120 Min,"Creating an end to end summary of the intended impact strategy of a programme or business when conceptualising it. 
 Diagnosing and reflecting on actual impact and to finetune a strategy. In the world of impact investing, the TOC is used to understand how innovators may create greater impact via the investments they may be seeking. ","1. Define a vision: Discuss with the team what the intended impact of the program or service should be.
 2. Unpack the necessary resources: First fill in the left side of the tool to establish the basic financial, staff, staff and network resources needed to roll out the programme.
@@ -74,7 +74,7 @@ Are you being able to differentiate between short-medium term and long term impa
 What does long term impact mean to you? Is it clear or do you feel that it is too abstract at this stage? 
 What kind of impact did you have in mind when you started working on the program or startup? Is that being reflected here?
 Do the desired impact and the resources available match up? Are you sure you are being realistic in your estimation?
-What are the key assumptions for you at each stage? Why are these your assumptions? What can you do to minimise these assumptions?",,,,,
+What are the key assumptions for you at each stage? Why are these your assumptions? What can you do to minimise these assumptions?",,,,,,
 7,"STRATEGY, INNOVATION & IMPACT",PLANNING & PROJECT MANAGEMENT,Activity Plan,"The Activity Plan is an activity which helps teams plan out their activities, and assign resources and teams to tasks. Team members should outline detailed tasks or activities necessary to achieve higher-level goals. ","The Activity Plan is only as effective as the amount of detail it has. The more detailed the responsibilities and checkpoints are, the more likely the team is to use it.",30 Min,"Planning out activities for the team for the upcoming months
 Setting clear milestones for programme organisers to check-in with participants at.
 Clarifying expectations, roles and responsibilities from each party.","1. Outline a timeline: Discuss internally with your team members and note down the timelines and the activities which can be accomplished.
@@ -87,7 +87,7 @@ During the exercise: Start with participants’ existing knowledge of their acti
 When summarising: Have participants walk you through their plan and help them space out activities/timelines as needed.","Are the timelines listed realistic? Do they fit within the time between bootcamps or workshops?
 Does the team have the capability to complete the tasks/activities within the given timeframes?
 Does the intent of the team match the activities and resources they plan to commit to?
-Can the team add more detail or criteria to the map for a more well defined project management plan?",,,,,
+Can the team add more detail or criteria to the map for a more well defined project management plan?",,,,,,
 8,"STRATEGY, INNOVATION & IMPACT",PLANNING & PROJECT MANAGEMENT,SMART Goals,"Setting actionable goals can be challenging, SMART goals help the team take time to think through the goals and make sure they are achievable.","SMART goals should be used on the back of a strategic exercise, they are are meant to ensure goals are clearly detailed rather than a tool to choose the identify or prioritise new goals.",30 Min,"Build consensus on the next steps to adopt. 
 Clearly define goals for the team to hold each other accountable over. ","1. Pick a goal or set of goals: Take the nearest goals in your strategy roadmap and use this worksheet to clarify them.
 2. Clarify: Break down each goal according to the five components in the left column.
@@ -100,11 +100,11 @@ During the exercise: Help participants formulate their goals and identify unexpe
 When summarising: Have participants share the goals by email with the organisers to make sure everyone is on the same page. ","What goals or milestones have you identified so far?
 Are there any more shorter-term goals to address?
 How achievable are these goals? Do you have the right resources (staff, time, money) to pull them off?
-How to these goals map to your overall strategy as a business or organisation?",,,,,
-9,"STRATEGY, INNOVATION & IMPACT",PLANNING & PROJECT MANAGEMENT,Introduction to SPRINTS and Agile Methods,,,,,,,,,,,,,
-10,HUMAN CENTERED DESIGN,OVERVIEW,Introduction to Human Centered Design,,,,,,,,,,,,,
-11,HUMAN CENTERED DESIGN,OVERVIEW,Introduction to Human Centered Design (Exercise),,,,,,,,,,,,,
-12,HUMAN CENTERED DESIGN,DICOVER,Problem Tree + 5 Whys,"Problem Tree is a tool used to identify effects and causes of a given challenge. The aim is to repeatedly unpack each symptom until one reaches a “root cause” or unexpected angle from which to think of the problem. While traditionally the tool is looked only through a problem lens, it can also use it to appreciate opportunities. 5 Whys are an activity that can be run during  the Problem Tree to help participants get to the root cause of the topic.",The Problem Tree does not give any indication of the magnitude or the importance of the causes of the problem or opportunity area. It may also be difficult to understand the effects and causes right from the beginning and may require a few iterations of this activity.,60 Min,"Reframing a problem or topic to make sure the way the problem is understood by the group is the best way to look at it.
+How to these goals map to your overall strategy as a business or organisation?",,,,,,
+9,"STRATEGY, INNOVATION & IMPACT",PLANNING & PROJECT MANAGEMENT,Introduction to SPRINTS and Agile Methods,,,,,,,,,,1,,,,
+10,HUMAN CENTERED DESIGN,OVERVIEW,Introduction to Human Centered Design,,,,,,,,,,1,,,,
+11,HUMAN CENTERED DESIGN,OVERVIEW,Introduction to Human Centered Design (Exercise),,,,,,,,,,1,,,,
+12,HUMAN CENTERED DESIGN,FOUNDATION,Problem Tree + 5 Whys,"Problem Tree is a tool used to identify effects and causes of a given challenge. The aim is to repeatedly unpack each symptom until one reaches a “root cause” or unexpected angle from which to think of the problem. While traditionally the tool is looked only through a problem lens, it can also use it to appreciate opportunities. 5 Whys are an activity that can be run during  the Problem Tree to help participants get to the root cause of the topic.",The Problem Tree does not give any indication of the magnitude or the importance of the causes of the problem or opportunity area. It may also be difficult to understand the effects and causes right from the beginning and may require a few iterations of this activity.,60 Min,"Reframing a problem or topic to make sure the way the problem is understood by the group is the best way to look at it.
 Uncovering unexpected opportunities in the space a team or organisation is working in.","1. State the proble: Start by drawing a tree trunk, label it with the main problem or opportunity that you are looking to work on.
 2. List the effects: It’s often easier to get started by listing the visible effects of the the problem at hand and then trying to identify the more indirect impact the problem might have.
 3. List the causes: Start listing what the team sees as the causes for the given problem or opportunity statement. Again, try to identify indirect causes for the problem at hand.
@@ -120,8 +120,8 @@ Have we gone deep enough? Can we unpack this effect / cause further?
 Why does [cause] happen? Can we list those reasons as well as sub causes?
 What root causes have we identified? Are any of those surprising or unexpected?
 Since we have to use this as an input for planning research in the next phase, what are some themes (to be taken from effects or causes) that you feel we need to focus on understanding better during research?
-How should we prioritise between causes? Which ones do you think are the most important? Is there a cause that we are all excited about trying to solve? ",,,,,
-13,HUMAN CENTERED DESIGN,DISCOVER,Stakeholder Map,"Stakeholder Maps are used to provide a sense of the ecosystem of people, institutions, organisations, and any other entities who have an influence or stake with respect to a target audience. Concentric circles are used to depict the type and distance of influence (direct or indirect). ",The Stakeholder Map does not exactly describe the nature of relationship between target user and the stakeholders. It also has limited ability to describe relationships between stakeholders. ,60 Min,"Understanding the ecosystem of users and stakeholders relevant to problems that the participants are attempting to understand and solve. 
+How should we prioritise between causes? Which ones do you think are the most important? Is there a cause that we are all excited about trying to solve? ",,,,,,
+13,HUMAN CENTERED DESIGN,FOUNDATION,Stakeholder Map,"Stakeholder Maps are used to provide a sense of the ecosystem of people, institutions, organisations, and any other entities who have an influence or stake with respect to a target audience. Concentric circles are used to depict the type and distance of influence (direct or indirect). ",The Stakeholder Map does not exactly describe the nature of relationship between target user and the stakeholders. It also has limited ability to describe relationships between stakeholders. ,60 Min,"Understanding the ecosystem of users and stakeholders relevant to problems that the participants are attempting to understand and solve. 
 Mapping the known ecosystem, identifying gaps and priorities with regards to their understanding of the ecosystem. 
 Validating assumptions for those who do not have a complete understanding of the ecosystem as they move forward.","1. List stakeholders: The easiest way to get started is to list all the stakeholders that come to mind right away.
 2. Reorganise groups: Once the stakeholders are listed, review their placement on the map with the team. There might be disagreements regarding which circle a stakeholder might fit in or the reach of their influence.
@@ -135,8 +135,8 @@ Can you add some description of the stakeholders and the kind of influence they 
 Which stakeholders do you think have the most influence on the target user?
 Are there any indirect stakeholders that influence the stakeholders on your map?
 Are there any personal connections, commercial services, government entities, that are missing from this picture?
-What connections can we identify between the stakeholders?",,,,,
-14,HUMAN CENTERED DESIGN,DISCOVER,Research Plan,"The Research Plan is crucial to successful  research. It makes sure the team is aligned on the learning objectives and the research methods to be used. By visually plotting out the research phases along with the lines of inquiry, anyone in the team can understand the plan, and can contribute if needed. ","Creating a Research Plan can help build consensus but can also feel a little overwhelming, the participants should make sure they are being realistic about what can be achieved.",90 Min,"Defining lines of inquiry for research.
+What connections can we identify between the stakeholders?",,,,,,
+14,HUMAN CENTERED DESIGN,DISCOVERY,Research Plan,"The Research Plan is crucial to successful  research. It makes sure the team is aligned on the learning objectives and the research methods to be used. By visually plotting out the research phases along with the lines of inquiry, anyone in the team can understand the plan, and can contribute if needed. ","Creating a Research Plan can help build consensus but can also feel a little overwhelming, the participants should make sure they are being realistic about what can be achieved.",90 Min,"Defining lines of inquiry for research.
 Planning out research activities to be used.
 Assigning role and responsibilities when going into research.","1. Define lines of inquiry
 List down the gaps in the research and the things which need to be researched further from the Problem Tree and Stakeholder Map, and list them down to the corresponding research methodology.
@@ -151,8 +151,8 @@ During the exercise: Make sure that they refer to the previous tools to include 
 When summarising: Have the participants share their plan and see if they have assigned the research methods that seem relevant to the lines of inquiry and that the participants feel comfortable using.","Are all the information gaps from the Foundation stage being addressed in the research plan?
 Is the plan realistic? Will the team be able to successfully complete all the research tasks?
 How are we planning to distribute responsibilities? Are we comfortable with what is on the template?
-What is our documentation strategy? Are we going to be noting our learnings at the end of the day? Are you planning to record interviews? Where will you collect your notes from your readings?",,,,,
-15,HUMAN CENTERED DESIGN,DISCOVER,Secondary Research,Secondary research is done by reviewing existing knowledge and news content  (i.e. not in person research with users and other stakeholders) and in conversations with experts. The research can be done on online or offline channels. ,"Secondary research can be very time consuming, consider planning your research by listing knowledge gaps it should address before starting.",90+ Min,"Understanding competition by mapping existing solutions and competitors to understand what’s working and what’s not, assess trends and decisions taken by other actors.
+What is our documentation strategy? Are we going to be noting our learnings at the end of the day? Are you planning to record interviews? Where will you collect your notes from your readings?",,,,,,
+15,HUMAN CENTERED DESIGN,DISCOVERY,Secondary Research,Secondary research is done by reviewing existing knowledge and news content  (i.e. not in person research with users and other stakeholders) and in conversations with experts. The research can be done on online or offline channels. ,"Secondary research can be very time consuming, consider planning your research by listing knowledge gaps it should address before starting.",90+ Min,"Understanding competition by mapping existing solutions and competitors to understand what’s working and what’s not, assess trends and decisions taken by other actors.
 Gaining a foundational understanding of broader political, economic, social, cultural,  technological, environmental and legal trends that may be influential.
 Making sure the team is informed and prepared to meet users or experts. It can also continue in parallel if teams feel that there is value in doing so.","1. Identify knowledge gaps: Before starting secondary research, review the work done in the Foundation phase and highlight the knowledge gaps identified there.
 2. Choose your approach: Depending on what needs to be researched, choose if you’d like to start by looking at the competition or if you’d like to get a broader perspective of the ecosystem.
@@ -161,8 +161,8 @@ Making sure the team is informed and prepared to meet users or experts. It can a
 During the exercise: Make sure that they refer to the previous tools to include lines of inquiry or knowledge gaps that they had previously identified.
 When summarising: Have the participants share their plan and see if they have assigned the research methods that seem relevant to the lines of inquiry and that the participants feel comfortable using.","Looking  at the Problem Tree and the Stakeholder Map, are there areas we need more clarity on?
 Where should we try to find this information (Report / Social Media / Online forums)?
-How will this information help us move the project forward?",,,,,
-16,HUMAN CENTERED DESIGN,DISCOVER,Expert Interviews,"Experts are consultants, thinkers, practitioners who can give participants a macro understanding of trends and forces at work in the market or ecosystem they aim to penetrate. Expert Interviews should be to the point to make the most of their limited time.",Expert interviews are often meant to be short and concise to be mindful of the interviewee’s time. The participants should have carefully chosen and prioritised their questions in case the interview is cut short.,30 Min,"Gaining a deep understanding of a given subject matter. This could mean contextualising trends shaping the ecosystem the startup or organisation is hoping to enter or better understanding the needs of users they have the chance to work with in their professional activity.
+How will this information help us move the project forward?",,,,,,
+16,HUMAN CENTERED DESIGN,DISCOVERY,Expert Interviews,"Experts are consultants, thinkers, practitioners who can give participants a macro understanding of trends and forces at work in the market or ecosystem they aim to penetrate. Expert Interviews should be to the point to make the most of their limited time.",Expert interviews are often meant to be short and concise to be mindful of the interviewee’s time. The participants should have carefully chosen and prioritised their questions in case the interview is cut short.,30 Min,"Gaining a deep understanding of a given subject matter. This could mean contextualising trends shaping the ecosystem the startup or organisation is hoping to enter or better understanding the needs of users they have the chance to work with in their professional activity.
 Getting clarity on specific concerns related to the service or programme being designed (monetisation, legal compliance, scaling).","1. Prepare for the interview: First look into the expert you will be speaking to’s activity and writing to build a foundational knowledge of what the discussion will be about.
 2. Introduce yourself: Start the interview by introducing yourself and building credibility.
 3. Conduct the interview: Go through the questions you have for the expert and take notes (record audio if you have consent).
@@ -172,8 +172,8 @@ During the exercise: Help them formulate questions that can get them the informa
 When summarising: Have participants rehearse the questions and test their equipment: microphone or camera if they chose to use any.","What are the main information gaps you’d like clarity on? Refer to the problem tree and stakeholder mapping if you are not sure where to start.
 Who do you plan on speaking to? Why? How and where will you reach them?
 How much time will they be able to afford you? Choose a few questions to prioritize accordingly.
-Have you read or reviewed their work?  Are you questions answered there?",,,,,
-17,HUMAN CENTERED DESIGN,DISCOVER,User Interviews,"Collecting first-hand accounts of experiences, needs and concerns can be a great source of inspiration. To do so participants will have to translate their lines of inquiry and research themes into open-ended questions that will encourage candid, insightful conversations.","User interviews will provide personal, grounded perspectives into a respondent’s frame of mind and values but, unlike quantitative research, will not inform how wide-spread or common such behaviors are. Secondary research can help complement this gap.",60+ Min,"Gaining a deep understanding  of target users as well as the influencers or service gatekeepers involved in the service provision (agents, tech platforms, government bodies)
+Have you read or reviewed their work?  Are you questions answered there?",,,,,,
+17,HUMAN CENTERED DESIGN,DISCOVERY,User Interviews,"Collecting first-hand accounts of experiences, needs and concerns can be a great source of inspiration. To do so participants will have to translate their lines of inquiry and research themes into open-ended questions that will encourage candid, insightful conversations.","User interviews will provide personal, grounded perspectives into a respondent’s frame of mind and values but, unlike quantitative research, will not inform how wide-spread or common such behaviors are. Secondary research can help complement this gap.",60+ Min,"Gaining a deep understanding  of target users as well as the influencers or service gatekeepers involved in the service provision (agents, tech platforms, government bodies)
 Evaluating the value and reception of early concepts as part of their innovation and prototyping activities.  ","1. Introduce yourself: Framing the discussion by clearly establishing who you are and a simple, clear description of the purpose of the research helps set a respectful stage for the discussion.
 2. Break the ice: Use a couple easy to answer questions to make the respondent feel more comfortable before asking them more in-depth questions.
 3. Ask open-ended questions: The purpose of user research is to get in the shoes of the respondents. The best way to get there is to ask for stories and specific lived events through open-ended questions.
@@ -186,8 +186,8 @@ During the exercise: Help them formulate questions that can result in insightful
 When summarising: Have participants practice their questions before going out into the field.","What are the main information gaps you’d like clarity on? Refer to the problem tree and stakeholder mapping if you are not sure where to start.
 Who do you plan on speaking to? Why? How and where will you reach them?
 What are the key questions we want to ask? Are we looking at behaviors, motivations, needs through the questions we are asking?
-Are there any sensitive topics in our discussion guide? How can we indirectly approach the topics? Are they necessary?",,,,,
-18,HUMAN CENTERED DESIGN,DISCOVER,Observational Research (POEMS),"The POEMS tool is used to capture observations in the field. A lot can be learned from observing existing services like public transit, banks, dining spaces. POEMS works like a checklist of things to look for and observe.","Observational research is good to observe physical environments. For using similar methods when working with digital products or device-based services, consider the Shadowing activity.",60+ Min,"Understanding how users interact with an existing product or service.
+Are there any sensitive topics in our discussion guide? How can we indirectly approach the topics? Are they necessary?",,,,,,
+18,HUMAN CENTERED DESIGN,DISCOVERY,Observational Research (POEMS),"The POEMS tool is used to capture observations in the field. A lot can be learned from observing existing services like public transit, banks, dining spaces. POEMS works like a checklist of things to look for and observe.","Observational research is good to observe physical environments. For using similar methods when working with digital products or device-based services, consider the Shadowing activity.",60+ Min,"Understanding how users interact with an existing product or service.
 Getting a broad systems understanding of the dynamics and stakeholders at work in any given service.","1. Pick a place and time: Decide a time and place to conduct the observations at, this should be informed by the research plan.
 2. Collect initial observations: Write down observations from the field into the respective boxes in the tool.
 3. Ask why: Once you’ve completed the template, ask yourself why things are the way they are. These will remain assumptions but will help broaden your thinking regarding the topic at hand.","The ‘Objects’ section of the tool is where observations pertaining to physical objects or touchpoints that constitute the experience being observed. Participants should list all the objects or devices they can see that are relevant to the service being observed.
@@ -200,8 +200,8 @@ When summarising: Have participants share their observations and ask them to hig
 Are there multiple settings/situations from where you can observe the user experience from?
 Have you noted down all observations related to the user experience?
 What are the most notable observations you have recorded?
-Is there any part of the experience you would like to observe in greater detail?",,,,,
-19,HUMAN CENTERED DESIGN,DISCOVER,Service Safaris and Shadowing,"The Service Safari activity allows participants to step into the shoes of the user and to go through the experience themselves. By experiencing the various steps of the journey, the team can understand the joys and pain points in the user experience of using a product or service. Shadowing is similar but involves following someone as they go through an experience rather than the researcher doing it themselves.",It is important to be remain judgement-free and respectful of others’ behaviors when conducting such activities so that respondents or participants will feel comfortable and share more openly how the engage with a given service. ,30 Min,"Better understanding a user’s pain points of going through an experience or service.
+Is there any part of the experience you would like to observe in greater detail?",,,,,,
+19,HUMAN CENTERED DESIGN,DISCOVERY,Service Safaris and Shadowing,"The Service Safari activity allows participants to step into the shoes of the user and to go through the experience themselves. By experiencing the various steps of the journey, the team can understand the joys and pain points in the user experience of using a product or service. Shadowing is similar but involves following someone as they go through an experience rather than the researcher doing it themselves.",It is important to be remain judgement-free and respectful of others’ behaviors when conducting such activities so that respondents or participants will feel comfortable and share more openly how the engage with a given service. ,30 Min,"Better understanding a user’s pain points of going through an experience or service.
 Identifying the various steps or process involved in a given experience or service.
 Learning about possible workarounds and hacks users have developed to suit their needs.","1. Choose a tool: Choose between the Shadowing or Service Safari approach, depending on the research context.
 2. Observe the user experience steps: List down the distinct steps of the participant's experience.
@@ -215,8 +215,8 @@ Which part of the journey are you looking to observe and learn more about?
 Who will be going through the experience? A researcher (Service Safari) or a user (Shadowing)?
 How can you make sure this is a respectful and consenting interaction?
 How did it go? Were you able to plot all the key parts of the experience and rate them?
-Can you identify which parts of the experiment went well and which didn’t?",,,,,
-20,HUMAN CENTERED DESIGN,DISCOVER,Card Sorting,"Card Sorting is a research activity in which respondents are presented with visual or written cues on cards that represent a certain product, service or system features and then are asked to group, prioritise or sort the cards as a way of getting insight into their mental model. ","Any card sort with more than 20-30 cards risks overwhelming the user and should be avoided. Also, the user will only react to cards available - the onus is on the researcher to create a robust set of cards that represent reasonable breadth and depth.",20 Min,"Engaging research participants in an active, visual manner.
+Can you identify which parts of the experiment went well and which didn’t?",,,,,,
+20,HUMAN CENTERED DESIGN,DISCOVERY,Card Sorting,"Card Sorting is a research activity in which respondents are presented with visual or written cues on cards that represent a certain product, service or system features and then are asked to group, prioritise or sort the cards as a way of getting insight into their mental model. ","Any card sort with more than 20-30 cards risks overwhelming the user and should be avoided. Also, the user will only react to cards available - the onus is on the researcher to create a robust set of cards that represent reasonable breadth and depth.",20 Min,"Engaging research participants in an active, visual manner.
 Understanding mental models and associations respondents might make.
 Understanding tradeoffs respondents are willing to make when having to choose between different solutions.","1. Cleary brief the respondent: It’s important that the categories be absolutely clear. Also the attributes, topics, events, should not be ambiguous either.
 2. Sort and discuss: Research respondents should either discuss their sorting as they are doing it - or talk over it once it's done.
@@ -231,8 +231,8 @@ Do you know what categories, levels, preferences. stages you want to get respond
 How are you going to make the cards coherent? What visuals and descriptors are you planning to use?
 How many cards are you planning to create? Are all of them essential? Which are the most important?
 Do you have a follow-up questions you want to ask the respondents? 
-Have you rehearsed this in your group as an activity?",,,,,
-21,HUMAN CENTERED DESIGN,DISCOVER,Scenarios,Scenarios are short stories used to convey the purpose of a service that has yet to exist and collect first impressions or feedback from potential users.,Scenearios should be clear and visual meaning they might require professional illustrations to produce.,20 Min,"Collecting initial reactions or concerns from users.
+Have you rehearsed this in your group as an activity?",,,,,,
+21,HUMAN CENTERED DESIGN,DISCOVERY,Scenarios,Scenarios are short stories used to convey the purpose of a service that has yet to exist and collect first impressions or feedback from potential users.,Scenearios should be clear and visual meaning they might require professional illustrations to produce.,20 Min,"Collecting initial reactions or concerns from users.
 Identifying the core value add of a service in the eyes of a user.","1. Brainstorm concepts: The team should first have an ideation session to come up with the ideas to get feedback on. These should be diffrent enough from each other to exhibit different approaches to meeting a need.
 2. Draft a script: Put into words what the service does and briefly mention how. Only a couple sentences are necessary.
 3. Make it visual: Once the script is ready, create simple visuals for the scenarios.","Try and keep the Scenario succinct and clear. It helps to have a clear 'Concept Visual' with a single pitch-like 'One Liner' that conveys the core value of the service, the researcher can elaborate on it but the Scenario card should be self-explanatory.","At the start: See if the team is clear on the ideas they wish to use in the interviews. If they aren't then suggest an Ideadion activity. 
@@ -241,8 +241,8 @@ When summarising: Have participants test together how they plan on using the too
 What is the key value add of this idea? How can we create a few variations to better understand how the user would respond to them?
 Are you comfortable with these ideas? Can you explain them concisely? Give it a try!
 How will you be illustrating them?
-",,,,,
-22,HUMAN CENTERED DESIGN,DISCOVER,Surveys,Surveys are a low-effort form of research which can be used to quickly assess the service satisfaction or personal needs of end users. ,"It is likely that a homemade survey will not be completely accurate or representative of the startup or organisation’s potential audience, if participants are interested in getting more accurate information they should refer to professionals.",60+ Min,"Getting a broad sense of users’ inclinations or top of mind concerns with a given service.
+",,,,,,
+22,HUMAN CENTERED DESIGN,DISCOVERY,Surveys,Surveys are a low-effort form of research which can be used to quickly assess the service satisfaction or personal needs of end users. ,"It is likely that a homemade survey will not be completely accurate or representative of the startup or organisation’s potential audience, if participants are interested in getting more accurate information they should refer to professionals.",60+ Min,"Getting a broad sense of users’ inclinations or top of mind concerns with a given service.
 Collecting basic data from user groups and the types of stances regarding a given topic.
 Screening potential respondents for interviews or Focus Group Discussions.","1. Review Lines of Inquiry: As a team list down all the knowledge gaps or themes you wish to gain more clarity on through this survey.
 2. Define questions: Once ready, translate the Lines of Inquiry into clear and concise questions. Avoid leading or biased language.
@@ -252,8 +252,8 @@ For each question participants should consider which Lines of Inquiry the specif
 During the exercise: Help the participants frame questions and identify who they will be surveying.","Who will you be surveying for this exercise? What kind of responses are you looking for?
 Do your questions reflect the knowledge gaps identified in the previous session?
 Are your questions leading or biased in any way?
-How will you be administering the survey? Online or in person?",,,,,
-23,HUMAN CENTERED DESIGN,DISCOVER,Focus Group Discussions,"Focus Groups Discussions (FGDs) are held with participants who are group discussions held with either associated with the subject matter, or interested in it whose input will be relevant to the research. Focus Groups allow for members of the group to interact and build upon or challenge each other’s contribution during the discussion.","If not well facilitated or moderated, participants of an FGD may not feel comfortable in opening up or interacting with each other.",60 Min,"Understanding differences in opinions and perceptions of those closely associated with the subject matter.
+How will you be administering the survey? Online or in person?",,,,,,
+23,HUMAN CENTERED DESIGN,DISCOVERY,Focus Group Discussions,"Focus Groups Discussions (FGDs) are held with participants who are group discussions held with either associated with the subject matter, or interested in it whose input will be relevant to the research. Focus Groups allow for members of the group to interact and build upon or challenge each other’s contribution during the discussion.","If not well facilitated or moderated, participants of an FGD may not feel comfortable in opening up or interacting with each other.",60 Min,"Understanding differences in opinions and perceptions of those closely associated with the subject matter.
 Directly interacting with stakeholders and influencers.","1. Recruit participants: Make sure the participants recruited for the focus group discussion can provide relevant feedback and information on the topic.
 2. Clarify questions: List down the questions or lines of inquiry as a guide for the discussion.
 3. Review the discussion: This tool can be used to synthesise and note down points of discussion from the Focus Group discussions.","This tool can help structure the focus group discussions and define lines of inquiry. The ‘Lines of Questioning’ is the section where the questions to be asked can be written.
@@ -264,8 +264,8 @@ When summarising: Have participants share their points from the discussion and a
 Have you prepared a flow or general direction for the discussions?
 Do you know what to talk about during the discussion?
 How will you keep the discussions from going off track?
-How are you documenting the discussions?",,,,,
-24,HUMAN CENTERED DESIGN,DISCOVER,Timeline,"Timeline is an activity used to understand the evolution of a topic/subject over a period of time. It helps researchers map historical or future trends, and question underlying user attitudes and experiences. ","The timeline tool depends a lot on the research participant’s own recollection and understanding of phases, events and trends. It is upto the researcher to ask follow up questions (5 Whys is a good tool) and get to meaningful learnings. ",30 Min,"Mapping the past evolution of a product, service, system, technology, program etc. or the expected evolution in the future.   
+How are you documenting the discussions?",,,,,,
+24,HUMAN CENTERED DESIGN,DISCOVERY,Timeline,"Timeline is an activity used to understand the evolution of a topic/subject over a period of time. It helps researchers map historical or future trends, and question underlying user attitudes and experiences. ","The timeline tool depends a lot on the research participant’s own recollection and understanding of phases, events and trends. It is upto the researcher to ask follow up questions (5 Whys is a good tool) and get to meaningful learnings. ",30 Min,"Mapping the past evolution of a product, service, system, technology, program etc. or the expected evolution in the future.   
 Mapping the past evolution of an organisation, an industry/sector, competitive landscape etc., or the expected evolution in the future.  
 Mapping the past evolution of an idea, theory, norm, belief, culture etc., or the expected evolution in the future.","1. Choose a research focus: Start by defining the topic being mapped and relevant periodic increments (months, years, decades?).
 2. Find Details: Ask the research participant to think of more details from every periodic increment, by asking them to recall media such as videos, games, news, etc.
@@ -279,7 +279,7 @@ During the exercise: Start with participants’ existing knowledge of their acti
 When summarising: Have participants explain the map period by period, elucidating on the details of each time period.","Who are the selected research participants for this activity?
 How are you going to engage in a productive discussion with them?
 What information are you looking to get out of using this tool?
-Are there any secondary research resources you can use to fill in the gaps?",,,,,
+Are there any secondary research resources you can use to fill in the gaps?",,,,,,
 25,HUMAN CENTERED DESIGN,DEFINE,Affinity Mapping,"Affinity Mapping is a synthesis tool aimed at identifying patterns in the research observations and findings by clustering
 group observations and research data into logical, thematic categories of learning and insight.","This is a great way to take a first stab at organising insights from the research however it can be difficult to be exhaustive. If the opportunity clusters that emerge don’t feel tangible enough, consider trying a couple other methods to look at the data from a new angle. ",30 Min,"Structuring the team’s thinking on a given topic being researched.
 Organising the research findings into distinct opportunity areas.
@@ -294,7 +294,7 @@ What clusters do we have so far? Can you walk me through them?
 Should any cluster be broken down further? How about this one?
 Has anything come up that felt new, surprising, refreshing? If so call it out on your map by circling it.
 Are there things that can sit under two or more themes? That’s fine, make sure they are represented in both clusters.
-What are the most important themes to surface so far?",,,,,
+What are the most important themes to surface so far?",,,,,,
 26,HUMAN CENTERED DESIGN,DEFINE,ERAF Diagramming,"A tool used to represent complex ecosystems of Entities (people, organisations, systems), their Attributes (descriptions, roles, needs), Relationships (connections), and Flows (the nature of relationships). ","This isn’t a one-size-fits all synthesis method, so it may not work for all situations. Other tools in the Define phase may be better suited for certain research contexts. ",30 Min,"Synthesising the research by visualising and contextualising research datapoints.
 Spotting missing or limited interactions and other connections between actors in the ecosystem.","1. Identify entities: First list down the entities present in the system or process. 
 2. Define relationships: Then, start describing the relationships between the entities.
@@ -307,7 +307,7 @@ During the exercise: Help the participants define the various parts of the map, 
 When summarising: Have participants share the visualisation they create, and have them point out any interesting relationships they see.","Can you define all the entities from the system you have studied?
 What is the the nature of the relationships between them?
 What characteristics would you use to describe the entities?
-Can you spot the unlikely connections and relationships between entities?",,,,,
+Can you spot the unlikely connections and relationships between entities?",,,,,,
 27,HUMAN CENTERED DESIGN,DEFINE,Insights & Opportunities,The most challenging part of sensemaking is drawing insights from one’s research. Insights and Opportunities are two ways of concisely capturing the information to take forward from the research into the design of the service being created.,This activity requires time to think through the research and might take several rounds of refinement.,30 Min,"Making sense of the research.
 Making the research easier to understand for other team members who were not part of the research. ","1. Identify takeaways: With the team, refer back to the Affinity Mapping or similar synthesis exercise conducted prior to this and identify all the valuable, interesting, surprising observations, facts  or anecdotes from the research.
 2. Reflect on takeways: Discuss as a team what about the Takeaways is insightful? What new perspectives do those reveal? How do they inform the team’s understanding? Group the observations that point to a similar insight.
@@ -319,7 +319,7 @@ During the exercise: Help the participants translate their findings and takeaway
 When summarising: Have participants discuss if they find the opportunity spaces reflective of the research and inspiring enough to move forward with.","What have you learned from your research?
 Can you formulate a couple insight statements for each thematic cluster on your Affinity Map?
 Are there any ideas that already come to mind? If so, how can you translate them into How Might We statements?
-Is there anything you found to be valuable information earlier in the research that isn’t represented in your insight statements?",,,,,
+Is there anything you found to be valuable information earlier in the research that isn’t represented in your insight statements?",,,,,,
 28,HUMAN CENTERED DESIGN,DEFINE,Persona,"Personas are fictional “characters” that represent a type of user or stakeholder for whom a design or solution has to be developed. The persona is not a generic demographic profile but a summary of needs, behaviours, motivations, and challenges that helps provide us the foundation on which to create a solution.","A persona may not be able to accurately cover a segment of a target user as there may be interesting outliers and exceptions to consider, which could be missed as a result of sticking to a single persona.",,"Establishing needs and challenges of the target user/customer.
 Humanising the research insights that will inspire the solution is being created.","1. Find patterns: Based on the research data, identify if there is a pattern emerging with regards to particular types of users. Choose a few to make personas from that are most interesting or challenging to design for.
 2. Give details: Complete  the details required for each persona. 
@@ -336,7 +336,7 @@ When summarising: Have the participants walk you through the persona, and ask qu
 Do you have enough information needed to define the persona? Do you have information across the different categories called out on the template?
 Do you see patterns that are different enough to make more than one persona? Are the types have significantly different perspectives or aspirations?
 Do the personas have different kinds of journeys? Do they have significantly different needs?
-Are there any quotes from the research you’d like to highlight?",,,,,
+Are there any quotes from the research you’d like to highlight?",,,,,,
 29,HUMAN CENTERED DESIGN,DEFINE,Journey Map,‘Journey Maps’ are tools used in research and ideation to document the steps and emotions a respondent goes through when completing an experience. This process allows participants to contextualise the pains and joys of any given experience. The activity can be used with research respondents or as a team to contextualise research findings.  ,A ‘Journey Map’ may not be able to accurately capture all steps of the journey and hence may miss out on a few key experiences of the journey.,30+ Min,"Identifying user actions, and key moments of delight and pain in an end to end user journey.
 Revealing opportunities for improving experience at each step.","1. Define the scope of the journey: Journeys Maps can be used to document a day in the life of an end user or a specific task, it should be clear from the beginning what is being mapped.
 2. Map the experience: Going through each step, map the experience of the user persona going about said journey.
@@ -352,8 +352,8 @@ What did the user/respondent do at each of the steps of the [point to map] situa
 Which parts of the experience were positive? How so?
 Which parts of the experience were negative? How so?
 Do you think this journey would change for another user? Is this representative of the users that we know of?
-What are the opportunities at each step? Which step do we think has the great opportunity? Is that something other insights and learnings are also telling us?",,,,,
-30,HUMAN CENTERED DESIGN,DEFINE,Attribute Scale,,,,,,,,,,,,,
+What are the opportunities at each step? Which step do we think has the great opportunity? Is that something other insights and learnings are also telling us?",,,,,,
+30,HUMAN CENTERED DESIGN,DEFINE,Attribute Scale,,,,,,,,,,,,,,
 31,HUMAN CENTERED DESIGN,DEFINE,Design Principles,"Design Principles help build a shared vision for the solution within the team. They are rules and constraints that help teams decide what to do, and what not to do as they move towards finding a solution.",This activity requires time to think through the research and might take several rounds of refinement.,30 Min,"Aligning the team’s vision moving forward.
 Defining the scope and intent of the solution to be found.","1. Answer questions: As a team, review and discuss the questions in this list. Not all the boxes need to be filled, instead, focus on the questions that are most challenging to answer and see if consensus can be built.
 2. Prioritise principles: After all the relevant boxes are filled, choose the top five that everyone agree should be true of any solution to come out of the ideation session.","The aim of the activity is for participants to reflect as a team on the intended outcome or solution they’d like to work towards. Each question box in this activity is meant to encourage discussion. Participants can choose to answer each of them or focus on the ones of their choosing.
@@ -367,8 +367,8 @@ During the exercise: Help the participants navigate any disagreement. Encourage 
 When summarising: Have participants choose five principles to move  forward with.","Is there a question that speaks to you? You can start there if you’d like.
 Is there anything the team categorically agrees should not be considered?
 Is there anything your solution should be or do?
-Does everyone agree with [point out a principle]? Should it be adjusted?",,,,,
-32,HUMAN CENTERED DESIGN,DEFINE,Value Proposition Canvas,,,,,,,,,,,,,
+Does everyone agree with [point out a principle]? Should it be adjusted?",,,,,,
+32,HUMAN CENTERED DESIGN,DEFINE,Value Proposition Canvas,,,,,,,,,,,,,,
 33,HUMAN CENTERED DESIGN,IDEATION,Design Challenge,Defining a ‘Design Challenge’ is a good way to have the participants converge their efforts by working together to crafting a series of statements to use as the brief for the ideation and prototyping phases. ,This activity requires time to think through the research and might take several rounds of refinement.,30 Min,"Clarifying the objective of the design process.
 Building consensus within the team.","1. Consolidate the challenges: See how the various challenges identified during earlier discussions or research can be brought together in a single intent statement or Solution Goal.
 2. Formulate opportunities: Translate the Solution Goal into a series of possible strategies or Opportunities to move into ideation (you’ll recognise the same HMW statements as used in the Insights and Opportunities activity).
@@ -382,8 +382,8 @@ What HMWs are you gravitating towards? Why?
 Do any other HMWs come to mind?
 Are these HMWs actionable? Should they be made more specific or more broad?
 Which HMW do you feel is the strongest?
-How well does this statement align with your Design Principles?",,,,,
-34,HUMAN CENTERED DESIGN,IDEATION,Ideation First Idea + Crazy Idea,"A good warm up to ideation, this activity gets participants to voice and park their crazy ideas to get them out of the way but also to get the rest of the team excited and ready to problem solve further.","This activity is meant to be short fun, consider other ideation formats for longer ideation sessions.",15 Min,"Getting the team to warm up before a longer ideation session.
+How well does this statement align with your Design Principles?",,,,,,
+34,HUMAN CENTERED DESIGN,IDEATION,First Idea + Crazy Idea,"A good warm up to ideation, this activity gets participants to voice and park their crazy ideas to get them out of the way but also to get the rest of the team excited and ready to problem solve further.","This activity is meant to be short fun, consider other ideation formats for longer ideation sessions.",15 Min,"Getting the team to warm up before a longer ideation session.
 Getting innovative ideas from the participants.","1. Ideate in groups: This warm-up to the ideation phase can happen in plenary where each participant gets a chance to add new ideas or build on someone else’s. Briefly discuss as a group if the idea should be added to First Idea or Crazy Idea.
 2. Unpack the Crazy Ideas: Before wrapping up the exercise, review the Crazy Ideas and see if they inspire new First Ideas to consider.","When facilitating the session, two sheets of paper should be displayed, one with the header ‘First Ideas’ and the other ‘Crazy Idea’ the participants can then come up with concepts in plenary by adding their contributions on sticky notes onto the relevant sheet.
 The idea is to encourage lateral thinking, ‘First Ideas’ should consist of ideas that might still be fuzzy or simplistic but ring true to the team in terms of feasibility and desirability.
@@ -391,7 +391,7 @@ The idea is to encourage lateral thinking, ‘First Ideas’ should consist of i
 During the exercise: Get the participants to think big and encourage playful and practical ideas alike.
 When summarising: Have participants explain their ideas, and help them to identify interesting points from the ideation session.","Does the team have a clear idea of what they are trying to achieve? 
 What problem are you solving for and for whom?
-What HMWs are you gravitating towards? Why?",,,,,
+What HMWs are you gravitating towards? Why?",,,,,,
 35,HUMAN CENTERED DESIGN,IDEATION,SCAMPER,"Ideation can also be about small, incremental tweaks, SCAMPER helps participants explore what those might be through a few simple thought experiments.",This activity is best used when a wide range of ideas have been created and the participants wish to diversify their approach rather than an activity to start from scratch with.,30 Min.,"Finding variations to an early design solution.
 Coming up with creative alternative solutions when feeling stuck.","1. Choose an idea: Each person in the team can choose an idea they would like to expand on.
 2. Iterate on the idea: Then fill out the template with that idea in mind resulting in seven variations for each concept participants have chosen. ","In the ‘Substituting’ box participants should think of concepts made possible by substituting or changing a certain part of the concept at hand.
@@ -404,7 +404,7 @@ In the ‘Rearranging’ box participants should try switching the sequence or o
 During the exercise: Have everyone work on their own idea, consider timing the session 3-5 minutes.
 When summarising: Have participants share their best outcome and see if they want to do another round.","Does everyone understand the difference between each box?
 Which is your favorite idea, can you use it for this exercise?
-Is there an idea you feel has potential but isn’t quite there yet? Let’s use that.",,,,,
+Is there an idea you feel has potential but isn’t quite there yet? Let’s use that.",,,,,,
 36,HUMAN CENTERED DESIGN,IDEATION,What If?,The ‘What If Ideation’ tool helps participants come up with new ideas by contextualising current solutions and ideas through different manifestations and forms. This activity can often help come up with ideas that were previously not thought of.,Using a What If activity will be a good warm up but may want to be followed by longer reflection time.,20 Min.,"Making ideation an enjoyable, open-minded exercise.","1. Choose a solution: Review the design challenge, insights, journeys, personas and choose a solution to explore.
 2. Don’t Hold Back: Think of as many ideas as you can, and write down whatever comes to mind.","The solution can be phrased in multiple forms or manifestations. ‘Is a physical object or a thing’ is where the solution to the problem or opportunity area takes the form of a physical object or product.
 ‘A service or process’ sees the solution take the form of a service for the target user or as a process. 
@@ -415,7 +415,7 @@ During the exercise: Get the participants to think big and encourage playful and
 When summarising: Have participants explain their ideas, and help them to identify interesting points from the ideation session.","Can you think of a solution or opportunity in different forms and manifestations? 
 Are there any other forms that you can think of that aren’t listed in the template?
 Is there anything interesting you can take away from these ideas?
-Can you think of anymore out-of-the-box or unconventional ideas?",,,,,
+Can you think of anymore out-of-the-box or unconventional ideas?",,,,,,
 37,HUMAN CENTERED DESIGN,IDEATION,Concept Prioritisation,A set of questions and considerations defined by the team that help prioritise ideas and choose a direction to move forward with.,The questions and considerations should be carefully selected to make sure they cover all of the team's concerns regarding the challenge at hand.,15 Min.,"Building consensus around the ideas to take forward into prototyping. 
 To ensure that ideas are compared from several angles.","1. Define the criteria points: Ensure the team agrees on the prioritisation criteria. Edit according to the discussion.
 2. Downselect ideas: Choose as a team which ideass to vote on or prioritise. The concepts being voted on should be representative of the various opportunities identified and be diffrent enough from each other to be considered as separate initiatives.
@@ -431,7 +431,7 @@ During the exercise: Have the participants agree on how they plan to rate the id
 When summarising: Have participants tally the scores for each idea and help build consensus.","Do the criteria points in the first column work for us? Should we add or remove any?
 Will we be able to score the ideas according to these criteria points? Should we use high-medium-low (highest moves forward)  or should we score out of 10? 
 How do these scores look to us? Do we agree with this prioritisation? Do we have consensus?
-Is there one idea we are excited about taking into prototyping that didn't score the highest?",,,,,
+Is there one idea we are excited about taking into prototyping that didn't score the highest?",,,,,,
 38,HUMAN CENTERED DESIGN,IDEATION,Service Blueprint,A Service Blueprint enables team members to identify the front and back end needs of a service being designed to better assess the logistical needs of any idea.,"Creating a Service Blueprint can be time consuming and tedious, consider using it only after a few ideas have been downselected to move into prototyping.",60 Min.,"Identifying all the moving parts necessary to make the product or service at hand a reality.
 Understanding dependencies between user-facing and backend processes.","1. List the steps: Start by creating a sort of Journey Map by identifying all the steps the user will have to go through to meet their needs.
 2. Identify supporting processes: Once all the steps hae been clearly listed, break them down into smaller tasks to be completed by the service provider or their external partners.
@@ -444,8 +444,8 @@ During the exercise: make sure participants are identifying all the touchpoints 
 When summarising: Have participants highlight painpoints and challenges they are overcoming through their service.","Does the experience meet your users' needs?
 Were you able to identify all the touchpoints and steps required by the customer experience you are crafting?
 Which processes in your blueprint will be handled in-house and which ones will use external resources?
-What dependencies can you see in this blueprint? Are they manageable?",,,,,
-39,HUMAN CENTERED DESIGN,IDEATION,Systems Map Ideation,,,,,,,,,,,,,
+What dependencies can you see in this blueprint? Are they manageable?",,,,,,
+39,HUMAN CENTERED DESIGN,IDEATION,Systems Map Ideation,,,,,,,,,,,,,,
 40,HUMAN CENTERED DESIGN,PROTOTYPING,Storyboarding,"The Storyboard helps visualise a process or service from end to end. Inspired by film makers and comics, storyboards help see and react to the big picture of an idea before making a commitment to prototyping.",NO LIMITATIONS!!!!!,30 Min.,"Building consensus around a vision or big picture for the concept.
 Quickly formalising the key steps of an experience.","1. Outline the key steps: Start by dicussing as a team the key user interactions.
 2.Visualise the touchpoints: For each step consider having a couple frames that clearly convey how the service is being provided. Show any devices, people or spaces necessary to tell the story.","Use as many sheets as necessary to clearly convey the experience.
@@ -453,7 +453,7 @@ Describe in words the step illustrated in each frame in the 'Summary' box.","At 
 During the exercise: Make sure participants are being detailed enough in conveying how the service is being delivered.
 When summarising: Have participants present the Storyboard to another group and see if it is self-explanatory.","Which concept do you feel most strongly about? Can you unpack it into a series of steps?
 Can you walk me through your Storyboard? What is the connection between these two frames? How did the user get there?
-Have you clearly shown the various phases and touchpoints the experience is built upon?",,,,,
+Have you clearly shown the various phases and touchpoints the experience is built upon?",,,,,,
 41,HUMAN CENTERED DESIGN,PROTOTYPING,Wireframing,Wireframing helps the team break down and visualise the full set of screens a user will see and use to access the service being designed. ,This activity is specifically intended for digital products or services that rely on screens for service delivery.,60 Min.,"Prototyping and testing the digital experience being designed.
 Identifying redundencies or painpoints in the latest iteration of the service.
 Assessing the scope of work needed to take the idea forward.","1. Outline the key steps: Start by dicussing as a team the key user interactions.
@@ -463,22 +463,22 @@ Assessing the scope of work needed to take the idea forward.","1. Outline the ke
 During the exercise: Make sure participants are being detailed enough in understanding the flow from screen to screen.
 When summarising: Have participants present the Wireframe flow to another group and see if it is self-explanatory.","Are all the steps of the experience represented here? Are there any missing screens?
 Don't worry about making it pretty, instead focus on blocking out the key interactions and features necessary on each screen.
-Are you able to clearly connect the screens together to create a folw from the begining of the experience to the end?",,,,,
-42,HUMAN CENTERED DESIGN,PROTOTYPING,Role-plays,,,,,,,,,,,,,
-43,HUMAN CENTERED DESIGN,PROTOTYPING,Physical Models,,,,,,,,,,,,,
-44,,,User Testing,,,,,,,,,,,,,
-45,,,Behavioural Biases,,,,,,,,,,,,,
+Are you able to clearly connect the screens together to create a folw from the begining of the experience to the end?",,,,,,
+42,HUMAN CENTERED DESIGN,PROTOTYPING,Role-Playing,,,,,,,,,,1,,,,
+43,HUMAN CENTERED DESIGN,PROTOTYPING,Physical Models,,,,,,,,,,1,,,,
+44,HUMAN CENTERED DESIGN,TESTING,User Testing,,,,,,,,,,,,,,
+45,BEHAVIOURS & DESIGN,UNDERSTANDING BEHAVIOUR CHANGE,Behavioural Biases,,,,,,,,,,1,,,,
 46,BEHAVIOURS & DESIGN,UNDERSTANDING BEHAVIOUR CHANGE,Design with Intent,The ‘Design with Intent’  toolkit consisting of case studies that use design to induce behavioural change.,This tool is fairly exhaustive and uses very specific case studies which may not always feel relevant to everyone. The session should therefore be heavily facilitated and gamified to encourage participants to apply it to their needs. ,60 Min.,"Diversifying one's thinking.
 Finding relevant instances of behaviour change drivers to apply to one's work.
-Learning to recognise such approaches in one's day to day.",,,,,,,,,
-47,BEHAVIOURS & DESIGN,UNDERSTANDING BEHAVIOUR CHANGE,Design and Ethics,,,,,,,,,,,,,
-48,BEHAVIOURS & DESIGN,FRAMEWORKS,NUDGE Framework,,,,,,,,,,,,,
-49,BEHAVIOURS & DESIGN,FRAMEWORKS,SWITCH Framework,,,,,,,,,,,,,
-50,BEHAVIOURS & DESIGN,FRAMEWORKS,Hook Framework,,,,,,,,,,,,,
-51,BEHAVIOURS & DESIGN,FRAMEWORKS,Gamification,,,,,,,,,,,,,
-52,NETWORK BUILDING,PITCHING,Pitch Prep,,,,,,,,,,,,,
-53,NETWORK BUILDING,PITCHING,Deck Design Guidelines,,,,,,,,,,,,,
-54,STORYTELLING,UI DESIGN,Mobile Interface Design Best Practices,,,,,,,,,,,,,
-55,NETWORK BUILDING,,Visioning Poster,,,,,,,,,,,,,
-56,NETWORK BUILDING,,Mentor Engagement,,,,,,,,,,,,,
-57,NETWORK BUILDING,,Speed Dating,,,,,,,,,,,,,
+Learning to recognise such approaches in one's day to day.",,,,,,1,,,,
+47,BEHAVIOURS & DESIGN,UNDERSTANDING BEHAVIOUR CHANGE,Design and Ethics,,,,,,,,,,1,,,,
+48,BEHAVIOURS & DESIGN,FRAMEWORKS,NUDGE Framework,,,,,,,,,,,,,,
+49,BEHAVIOURS & DESIGN,FRAMEWORKS,SWITCH Framework,,,,,,,,,,,,,,
+50,BEHAVIOURS & DESIGN,FRAMEWORKS,Hook Framework,,,,,,,,,,,,,,
+51,BEHAVIOURS & DESIGN,FRAMEWORKS,Gamification,,,,,,,,,,,,,,
+52,NETWORK BUILDING,PITCHING,Pitch Prep,,,,,,,,,,,,,,
+53,NETWORK BUILDING,PITCHING,Deck Design Guidelines,,,,,,,,,,,,,,
+54,STORYTELLING,UI DESIGN,Mobile Interface Design Best Practices,,,,,,,,,,,,,,
+55,NETWORK BUILDING,,Visioning Poster,,,,,,,,,,,,,,
+56,NETWORK BUILDING,,Mentor Engagement,,,,,,,,,,,,,,
+57,NETWORK BUILDING,,Speed Dating,,,,,,,,,,,,,,

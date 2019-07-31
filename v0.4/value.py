@@ -11,6 +11,9 @@ step_t = ""
 under_t = ""
 fhow_t = ""
 fques_t = ""
+ref_t = ""
+prescheck_t = ""
+css = ""
 
 def ulify(elements):
     string = "<ul>\n"
@@ -67,6 +70,8 @@ with open('uncdf.csv') as csvfile:
     under = []
     fhow = []
     fques = []
+    ref = []
+    prescheck = []
     for row in readCSV:
         phase_n = row[1]
         subphase_n = row[2]
@@ -79,6 +84,8 @@ with open('uncdf.csv') as csvfile:
         under_n = row[9]
         fhow_n = row[10]
         fques_n = row[11]
+        ref_n = row[12]
+        prescheck_n = row[13]
 
         phase.append(phase_n)
         subphase.append(subphase_n)
@@ -91,12 +98,16 @@ with open('uncdf.csv') as csvfile:
         under.append(under_n)
         fhow.append(fhow_n)
         fques.append(fques_n)
+        ref.append(ref_n)
+        prescheck.append(prescheck_n)
     
 for index in range(1, len(name)):
 #        print(step[index])
 #        title_t = fques[index]
 #        splitty = title_t.split('\n')
 #        print(ulify(splitty))
+        phase_t = phase[index]
+        subphase_t = subphase[index]
         name_t = name[index]
         time_t = time[index]
         about_t = about[index]
@@ -123,29 +134,48 @@ for index in range(1, len(name)):
         fques_t = fques_t.split('\n')
         fques_t = ulify(fques_t)
         
+        ref_t = ref[index]
+        ref_t = ref_t.split('\n')
+        ref_t = ulify(ref_t)
+        
+        prescheck_t = prescheck[index]
+        
+        if phase_t == "STRATEGY, INNOVATION & IMPACT":
+            css = "toolblue"
+        elif phase_t == "HUMAN CENTERED DESIGN":
+            css = "toolpurple"
+        elif phase_t == "BEHAVIOURS & DESIGN":
+            css = "toolgreen"
+        elif phase_t == "NETWORK BUILDING":
+            css = "toolyellow"
+        elif phase_t == "STORYTELLING":
+            css = "toolred"
+            
         
         f = open(name_t+".html",'w')
-        message = """<!DOCTYPE html>
+        
+        if prescheck_t == "1":
+            message = """<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
 	
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	
-	<title>"""+name_t+"""</title>
+	<title>UNCDF Toolkit | """+name_t+"""</title>
 	
 	<meta name="description" content="">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-	<link rel="stylesheet" href="tool.css">
+	<link rel="stylesheet" href="../"""+css+""".css">
 </head>
 <body>
 	<div class="header-section">
 		<div class="header-container">
-			<h1><a href="index.html">UNCDF Toolkit</a></h1>
+			<h1><a href="../index.html">UNCDF Toolkit</a></h1>
 			
-			<div class="header-links"><a href="index.html">Back</a></div>
+			<div class="header-links"><a href="../index.html">Back</a></div>
 		</div>
 	</div>
 	
@@ -154,7 +184,82 @@ for index in range(1, len(name)):
 			<div class="tool-grid">
 				<div class="tool-name">
 					<div class="tool-name-text">
-						<h3>Human Centred Design | FOUNDATION</h3>
+						<h3>"""+phase_t+""" | """+subphase_t+"""</h3>
+						
+						<h1>"""+name_t+"""</h1>
+					</div>
+					
+					<div class="tool-about">
+						<h2>About</h2>
+						
+						<p>"""+about_t+"""</p>
+					</div>
+					
+					<div class="tool-use-case">
+						<h2>Use Cases</h2>
+						
+						"""+usecase_t+"""
+					</div>
+					
+					<div class="tool-limitations">
+						<h2>Limitations</h2>
+						
+						<p>"""+limitation_t+"""</p>
+					</div>
+				</div>
+				
+				<div class="pres-down-grid">
+					<div class="tool-card-image">
+						<img src="../images/toolcard.png" alt="" />
+					</div>
+					
+					<div class="download-buttons">
+						<div class="tool-download"><a href="/Design with Intent.pdf" download="/Design with Intent.pdf">
+							<button>Download Tool!</button>
+						</a></div>
+						
+						<div class="tool-download"><a href="/UNCDF Problem Tree + 5 Whys.pdf" download="UNCDF Problem Tree + 5 Whys.pdf">
+							<button>Download Facilitation Image!</button>
+						</a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>"""
+        else:
+            message = """<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	
+	<title>UNCDF Toolkit | """+name_t+"""</title>
+	
+	<meta name="description" content="">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="stylesheet" href="../"""+css+""".css">
+</head>
+<body>
+	<div class="header-section">
+		<div class="header-container">
+			<h1><a href="../index.html">UNCDF Toolkit</a></h1>
+			
+			<div class="header-links"><a href="../index.html">Back</a></div>
+		</div>
+	</div>
+	
+	<div class="tool-section">
+		<div class="tool-container">
+			<div class="tool-grid">
+				<div class="tool-name">
+					<div class="tool-name-text">
+						<h3>"""+phase_t+""" | """+subphase_t+"""</h3>
+						
 						<h1>"""+name_t+"""</h1>
 						
 						<p class="time">"""+time_t+"""</p>
@@ -179,12 +284,18 @@ for index in range(1, len(name)):
 					</div>
 				</div>
 				
-				<div class="tool-example-image-small">
-					<img src="Treet_test-01.jpg" alt="" />
+				<div class="tool-image-illustration">
+					<img src="../images/illustrationsUNCDF1-01.jpg" alt="" />
 				</div>
-				
-				<div class="tool-example-image-big">
-					<img src="tool_small.png" alt="" />
+			</div>
+		</div>
+	</div>
+	
+	<div class="under-section">
+		<div class="under-container">
+			<div class="under-grid">
+				<div class="tool-under-image">
+					<img src="../images/tool_small.png" alt="" />
 				</div>
 				
 				<div class="tool-understand">
@@ -192,6 +303,7 @@ for index in range(1, len(name)):
 					
 					"""+under_t+"""
 				</div>
+				
 				
 				<div class="tool-steps">
 					<div class="tool-step-grid">
@@ -203,12 +315,20 @@ for index in range(1, len(name)):
 					</div>
 				</div>
 				
+				
+			</div>
+		</div>
+	</div>
+	
+	<div class="down-section">
+		<div class="down-container">
+			<div class="down-grid">
 				<div class="tool-card-image">
-					<img src="toolcard.png" alt="" />
+					<img src="../images/toolcard.png" alt="" />
 				</div>
 				
-								<div class="download-buttons">
-					<div class="tool-download"><a href="/UNCDF Problem Tree + 5 Whys.pdf" download="UNCDF Problem Tree + 5 Whys.pdf">
+				<div class="download-buttons">
+					<div class="tool-download"><a href="/"""+name_t+""".pdf" download="/"""+name_t+""".pdf">
 						<button>Download Tool!</button>
 					</a></div>
 					
@@ -219,12 +339,8 @@ for index in range(1, len(name)):
 				
 				<div class="reference-section">
 					<h2>References</h2>
-					<ul>
-						<li>Link 1</li>
-						<li>Link 2</li>
-						<li>Link 3</li>
-						<li>Link 4</li>
-					</ul>
+					
+					"""+ref_t+"""
 				</div>
 			</div>
 		</div>
@@ -234,8 +350,6 @@ for index in range(1, len(name)):
 		<div class="f-container">
 			<div class="f-grid">
 				<div class="f-intro-text">
-					<!--<div class="line"></div>-->
-					
 					<h2>Facilitators Section</h2>
 				</div>
 				
@@ -255,5 +369,6 @@ for index in range(1, len(name)):
 	</div>
 </body>
 </html>"""
+            
         f.write(message)
         f.close()
