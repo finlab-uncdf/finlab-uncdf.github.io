@@ -147,10 +147,7 @@ for index in range(1, len(name)):
         elif phase_t == "BEHAVIOURS & DESIGN":
             css = "toolgreen"
         elif phase_t == "NETWORK BUILDING":
-            css = "toolyellow"
-        elif phase_t == "STORYTELLING":
             css = "toolred"
-            
         
         f = open(name_t+".html",'w')
         
@@ -168,7 +165,7 @@ for index in range(1, len(name)):
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-	<link rel="stylesheet" href="../"""+css+""".css">
+	<link rel="stylesheet" href="../css/"""+css+""".css">
 </head>
 <body>
 	<div class="header-section">
@@ -242,7 +239,7 @@ for index in range(1, len(name)):
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-	<link rel="stylesheet" href="../"""+css+""".css">
+	<link rel="stylesheet" href="../css/"""+css+""".css">
 </head>
 <body>
 	<div class="header-section">
