@@ -9,7 +9,7 @@
 	--red: rgb(235, 139, 140);
 	--yellow: rgb(232, 179, 128);
 	/* Enter variable to tcol which is theme colour */
-	--tcol: var(--purple);
+	--tcol: var(--red);
 }
 
 @media (max-width: 1024px) {
@@ -38,7 +38,9 @@
 	.under-grid .tool-under-image {
 		grid-column-start: 1;
 		grid-column-end: 3;
+		text-align: center;
 	}
+	
 	
 	.tool-card-image {
 		grid-column-start: 1;
@@ -84,7 +86,7 @@
 	margin-right: auto;
 	padding-top: 15px;
 	padding-bottom: 15px;
-	width: 90%;
+	width: 80%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -115,7 +117,8 @@
 color: var(--lblue);
 border-radius: 4px;
 background: white;
-padding: 5px 10px 5px 10px;}
+padding: 5px 10px 5px 10px;
+}
 
 .tool-container {
 	width: 100%;
@@ -123,7 +126,7 @@ padding: 5px 10px 5px 10px;}
 }
 
 .tool-section {
-	width: 90%;
+	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -258,7 +261,7 @@ padding: 5px 10px 5px 10px;}
 }
 
 .under-container {
-	width: 90%;
+	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -278,8 +281,8 @@ padding: 5px 10px 5px 10px;}
 .tool-under-image {
 	border-radius: 4px;
 	margin: 10px 4px 10px 4px;
-	padding: 15px;
-	text-align: center;
+	/*padding: 15px;*/
+	/*text-align: center;*/
 }
 
 .tool-under-image img {
@@ -314,7 +317,7 @@ padding: 5px 10px 5px 10px;}
 }
 
 .down-container {
-	width: 90%;
+	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -464,8 +467,8 @@ padding: 5px 10px 5px 10px;}
 
 button {
 	width: 250px;
-	height: 40px;
-	border-radius: 50px;
+	height: 50px;
+	border-radius: 10px;
 	background: var(--tcol);
 	font: 12px/16px IBM Plex Sans;
 	font-weight: 700;
@@ -508,7 +511,7 @@ button {
 	/* use 100vh */
 
 .f-container {
-	width: 90%;
+	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -547,7 +550,7 @@ button {
 .f-how-to {
 	border-radius: 4px;
 	margin: 20px 10px 20px 10px;
-	padding: 20px;
+	padding: 40px;
 	background: var(--tcol);
 }
 
@@ -575,7 +578,7 @@ button {
 .f-question-bank {
 	border-radius: 4px;
 	margin: 20px 10px 20px 10px;
-	padding: 20px;
+	padding: 40px;
 	background: var(--lgrey);
 }
 
