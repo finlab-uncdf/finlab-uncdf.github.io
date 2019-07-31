@@ -1,4 +1,4 @@
-Tool #,Phase,SubPhase,Tool Name,About,Limitations,Time,Use Cases,Step By Step,Understanding the tool,Facilitator How to,Facilitator Question bank,Cover Image,Tool Image,Tool Download Image,PDF Name,References
+Tool #,Phase,SubPhase,Tool Name,About,Limitations,Time,Use Cases,Step By Step,Understanding the tool,Facilitator How to,Facilitator Question bank,References,Cover Image,Tool Image,Tool Download Image,PDF Name
 1,"STRATEGY, INNOVATION & IMPACT",VISION BUILDING,Startup Canvas,The canvas summarises the most important elements of an organisation’s business model and is especially useful for early stage startups. The version of the canvas being used here is inspired by the Lean methodology and business model canvas.,The canvas tool is not a problem solving tool as such. It has limited capacity to answer what the ‘right’ model for a business is. It is best used as an evolving summary or dashboard. ,90-120 Min,"Investigating and mapping how ideas or solutions could be transformed into a holistic business model. 
 Mapping current business models, identifying gaps and opportunities (priorities), and outlining  interdependencies. 
 Using the canvas as a dashboard to document each stage of evolution of the business model, and reflecting on investments and results.","1. Familiarise yourself: Read through the various boxes in the Startup Canvas, you’ll notice the left two columns have to do with internal activity and the two to the right refer to external forces.
@@ -21,7 +21,7 @@ Can you think of any other things you’d like to add to this canvas? Are there 
 Did challenges shared as part of the startup journey resonate with you? Which did you think was most relevant for your company?
 What are your company’s goals in the next 3-6-12 months? Are you considering them as you map your priorities?
 How do you know something is a priority? Is there understanding within your company that these are the top priorities and challenges, or is there some assumption involved?
-Do your priorities depend on each other? Are there 1-2 core priorities at the root of all the different challenges you might be facing?",name_illust,name_tool,name_card,name.pdf,
+Do your priorities depend on each other? Are there 1-2 core priorities at the root of all the different challenges you might be facing?",,name_illust,name_tool,name_card,name.pdf
 2,"STRATEGY, INNOVATION & IMPACT",VISION BUILDING,Ten Types of Innovation,,,,,,,,,,,,,
 3,"STRATEGY, INNOVATION & IMPACT",VISION BUILDING,Product Roadmap,Roadmapping is an important step of clarifying the direction of a startup or programme over the next few years. It helps the team align on which challenges to prioritise and the ideal path moving forward.,"Created for and by the Startup community this format may feel a little tedious, participants should feel comfortable adapting the template to their needs.",60-90 Min,"Building consensus on the company or programme’s strategic direction. 
 Identifying key milestones and responsibilities of each team. 
@@ -225,14 +225,23 @@ Understanding tradeoffs respondents are willing to make when having to choose be
 The researcher is responsible for setting the context and then letting the respondent move forward with the exercise. As the card sorting is taking place, the researcher can ask questions and engage in conversation. For this, the researcher must be confident of why individual cards are part of the bundle - what they represent and what their sorting in particular categories could mean in terms of insights. 
 The exercise can be used as a tool for exploration or for definition and decision making. Although it is better suited as for exploration and needs to be supported with more in-depth conversations. 
 The exercise can be done with individual research respondents or in a group. ","At the start: Make sure the participants understand the flow of the activity and the directions (refer to facilitation questions if they are feeling stuck). 
-During the exercise: Help the participants create the cards and plan the discussion with the research participants.
+During the exercise: Help the teams create the cards and plan the discussion with the research participants.
 When summarising: Have participants explain how the session played out, and the responses from the discussion.","What do you want to learn from this activity?
 Do you know what categories, levels, preferences. stages you want to get respondents to sort the cards in? Do you want to allow them to create their own categories?
 How are you going to make the cards coherent? What visuals and descriptors are you planning to use?
 How many cards are you planning to create? Are all of them essential? Which are the most important?
 Do you have a follow-up questions you want to ask the respondents? 
 Have you rehearsed this in your group as an activity?",,,,,
-21,HUMAN CENTERED DESIGN,DISCOVER,Scenarios,,,,,,,,,,,,,
+21,HUMAN CENTERED DESIGN,DISCOVER,Scenarios,Scenarios are short stories used to convey the purpose of a service that has yet to exist and collect first impressions or feedback from potential users.,Scenearios should be clear and visual meaning they might require professional illustrations to produce.,20 Min,"Collecting initial reactions or concerns from users.
+Identifying the core value add of a service in the eyes of a user.","1. Brainstorm concepts: The team should first have an ideation session to come up with the ideas to get feedback on. These should be diffrent enough from each other to exhibit different approaches to meeting a need.
+2. Draft a script: Put into words what the service does and briefly mention how. Only a couple sentences are necessary.
+3. Make it visual: Once the script is ready, create simple visuals for the scenarios.","Try and keep the Scenario succinct and clear. It helps to have a clear 'Concept Visual' with a single pitch-like 'One Liner' that conveys the core value of the service, the researcher can elaborate on it but the Scenario card should be self-explanatory.","At the start: See if the team is clear on the ideas they wish to use in the interviews. If they aren't then suggest an Ideadion activity. 
+During the exercise: Help the teams fit their ideas into a short script that will then be translated into a one-liner.
+When summarising: Have participants test together how they plan on using the tool during the research session.","Which ideas would you like to get feedback on?
+What is the key value add of this idea? How can we create a few variations to better understand how the user would respond to them?
+Are you comfortable with these ideas? Can you explain them concisely? Give it a try!
+How will you be illustrating them?
+",,,,,
 22,HUMAN CENTERED DESIGN,DISCOVER,Surveys,Surveys are a low-effort form of research which can be used to quickly assess the service satisfaction or personal needs of end users. ,"It is likely that a homemade survey will not be completely accurate or representative of the startup or organisation’s potential audience, if participants are interested in getting more accurate information they should refer to professionals.",60+ Min,"Getting a broad sense of users’ inclinations or top of mind concerns with a given service.
 Collecting basic data from user groups and the types of stances regarding a given topic.
 Screening potential respondents for interviews or Focus Group Discussions.","1. Review Lines of Inquiry: As a team list down all the knowledge gaps or themes you wish to gain more clarity on through this survey.
@@ -383,18 +392,7 @@ During the exercise: Get the participants to think big and encourage playful and
 When summarising: Have participants explain their ideas, and help them to identify interesting points from the ideation session.","Does the team have a clear idea of what they are trying to achieve? 
 What problem are you solving for and for whom?
 What HMWs are you gravitating towards? Why?",,,,,
-35,HUMAN CENTERED DESIGN,IDEATION,What If?,The ‘What If Ideation’ tool helps participants come up with new ideas by contextualising current solutions and ideas through different manifestations and forms. This activity can often help come up with ideas that were previously not thought of.,Using a What If activity will be a good warm up but may want to be followed by longer reflection time.,20 Min.,"Making ideation an enjoyable, open-minded exercise.","1. Choose a solution: Review the design challenge, insights, journeys, personas and choose a solution to explore.
-2. Don’t Hold Back: Think of as many ideas as you can, and write down whatever comes to mind.","The solution can be phrased in multiple forms or manifestations. ‘Is a physical object or a thing’ is where the solution to the problem or opportunity area takes the form of a physical object or product.
-‘A service or process’ sees the solution take the form of a service for the target user or as a process. 
-‘A person or a set of people’ sees the solution take the form of a service delivered by a person or a set of people.
-‘A digital interaction’ is where the solution takes the form of a digital service which the user interacts with via a digital device.
-‘A piece of communication’ is where the solution is in the form of communication material to be consumed by the target user.","At the start: Make sure the participants understand the flow of the activity and the directions (refer to facilitation questions if they are feeling stuck). 
-During the exercise: Get the participants to think big and encourage playful and practical ideas alike.
-When summarising: Have participants explain their ideas, and help them to identify interesting points from the ideation session.","Can you think of a solution or opportunity in different forms and manifestations? 
-Are there any other forms that you can think of that aren’t listed in the template?
-Is there anything interesting you can take away from these ideas?
-Can you think of anymore out-of-the-box or unconventional ideas?",,,,,
-36,HUMAN CENTERED DESIGN,IDEATION,SCAMPER,"Ideation can also be about small, incremental tweaks, SCAMPER helps participants explore what those might be through a few simple thought experiments.",This activity is best used when a wide range of ideas have been created and the participants wish to diversify their approach rather than an activity to start from scratch with.,30 Min.,"Finding variations to an early design solution.
+35,HUMAN CENTERED DESIGN,IDEATION,SCAMPER,"Ideation can also be about small, incremental tweaks, SCAMPER helps participants explore what those might be through a few simple thought experiments.",This activity is best used when a wide range of ideas have been created and the participants wish to diversify their approach rather than an activity to start from scratch with.,30 Min.,"Finding variations to an early design solution.
 Coming up with creative alternative solutions when feeling stuck.","1. Choose an idea: Each person in the team can choose an idea they would like to expand on.
 2. Iterate on the idea: Then fill out the template with that idea in mind resulting in seven variations for each concept participants have chosen. ","In the ‘Substituting’ box participants should think of concepts made possible by substituting or changing a certain part of the concept at hand.
 In the ‘Combining’ box participants should think of concepts made possible by combining the existing concept with another feature, service, product.
@@ -407,6 +405,17 @@ During the exercise: Have everyone work on their own idea, consider timing the s
 When summarising: Have participants share their best outcome and see if they want to do another round.","Does everyone understand the difference between each box?
 Which is your favorite idea, can you use it for this exercise?
 Is there an idea you feel has potential but isn’t quite there yet? Let’s use that.",,,,,
+36,HUMAN CENTERED DESIGN,IDEATION,What If?,The ‘What If Ideation’ tool helps participants come up with new ideas by contextualising current solutions and ideas through different manifestations and forms. This activity can often help come up with ideas that were previously not thought of.,Using a What If activity will be a good warm up but may want to be followed by longer reflection time.,20 Min.,"Making ideation an enjoyable, open-minded exercise.","1. Choose a solution: Review the design challenge, insights, journeys, personas and choose a solution to explore.
+2. Don’t Hold Back: Think of as many ideas as you can, and write down whatever comes to mind.","The solution can be phrased in multiple forms or manifestations. ‘Is a physical object or a thing’ is where the solution to the problem or opportunity area takes the form of a physical object or product.
+‘A service or process’ sees the solution take the form of a service for the target user or as a process. 
+‘A person or a set of people’ sees the solution take the form of a service delivered by a person or a set of people.
+‘A digital interaction’ is where the solution takes the form of a digital service which the user interacts with via a digital device.
+‘A piece of communication’ is where the solution is in the form of communication material to be consumed by the target user.","At the start: Make sure the participants understand the flow of the activity and the directions (refer to facilitation questions if they are feeling stuck). 
+During the exercise: Get the participants to think big and encourage playful and practical ideas alike.
+When summarising: Have participants explain their ideas, and help them to identify interesting points from the ideation session.","Can you think of a solution or opportunity in different forms and manifestations? 
+Are there any other forms that you can think of that aren’t listed in the template?
+Is there anything interesting you can take away from these ideas?
+Can you think of anymore out-of-the-box or unconventional ideas?",,,,,
 37,HUMAN CENTERED DESIGN,IDEATION,Concept Prioritisation,A set of questions and considerations defined by the team that help prioritise ideas and choose a direction to move forward with.,The questions and considerations should be carefully selected to make sure they cover all of the team's concerns regarding the challenge at hand.,15 Min.,"Building consensus around the ideas to take forward into prototyping. 
 To ensure that ideas are compared from several angles.","1. Define the criteria points: Ensure the team agrees on the prioritisation criteria. Edit according to the discussion.
 2. Downselect ideas: Choose as a team which ideass to vote on or prioritise. The concepts being voted on should be representative of the various opportunities identified and be diffrent enough from each other to be considered as separate initiatives.
@@ -436,20 +445,40 @@ When summarising: Have participants highlight painpoints and challenges they are
 Were you able to identify all the touchpoints and steps required by the customer experience you are crafting?
 Which processes in your blueprint will be handled in-house and which ones will use external resources?
 What dependencies can you see in this blueprint? Are they manageable?",,,,,
-39,HUMAN CENTERED DESIGN,IDEATION,Storyboarding,"The Storyboard helps visualise a process or service from end to end. Inspired by film makers and comics, storyboards help see and react to the big picture of an idea before making a commitment to prototyping.",,30 Min.,"Building consensus around a vision or big picture for the concept.
-Quickly formalise the key steps of an experience.","1. Outline the key steps: Start by dicussing as a team the key user interactions.
+39,HUMAN CENTERED DESIGN,IDEATION,Systems Map Ideation,,,,,,,,,,,,,
+40,HUMAN CENTERED DESIGN,PROTOTYPING,Storyboarding,"The Storyboard helps visualise a process or service from end to end. Inspired by film makers and comics, storyboards help see and react to the big picture of an idea before making a commitment to prototyping.",NO LIMITATIONS!!!!!,30 Min.,"Building consensus around a vision or big picture for the concept.
+Quickly formalising the key steps of an experience.","1. Outline the key steps: Start by dicussing as a team the key user interactions.
 2.Visualise the touchpoints: For each step consider having a couple frames that clearly convey how the service is being provided. Show any devices, people or spaces necessary to tell the story.","Use as many sheets as necessary to clearly convey the experience.
 Describe in words the step illustrated in each frame in the 'Summary' box.","At the start: Make sure the team has a clear understanding of the key steps of their service.
 During the exercise: Make sure participants are being detailed enough in conveying how the service is being delivered.
-When summarising: Have participants present the Storyboard to another group and see if it is self-explanatory.",,,,,,
-40,,,,,,,,,,,,,,,,
-41,,,,,,,,,,,,,,,,
-42,,,,,,,,,,,,,,,,
-43,,,,,,,,,,,,,,,,
-44,,,,,,,,,,,,,,,,
-45,,,,,,,,,,,,,,,,
-46,,,,,,,,,,,,,,,,
-47,,,,,,,,,,,,,,,,
-48,,,,,,,,,,,,,,,,
-49,,,,,,,,,,,,,,,,
-50,,,,,,,,,,,,,,,,
+When summarising: Have participants present the Storyboard to another group and see if it is self-explanatory.","Which concept do you feel most strongly about? Can you unpack it into a series of steps?
+Can you walk me through your Storyboard? What is the connection between these two frames? How did the user get there?
+Have you clearly shown the various phases and touchpoints the experience is built upon?",,,,,
+41,HUMAN CENTERED DESIGN,PROTOTYPING,Wireframing,Wireframing helps the team break down and visualise the full set of screens a user will see and use to access the service being designed. ,This activity is specifically intended for digital products or services that rely on screens for service delivery.,60 Min.,"Prototyping and testing the digital experience being designed.
+Identifying redundencies or painpoints in the latest iteration of the service.
+Assessing the scope of work needed to take the idea forward.","1. Outline the key steps: Start by dicussing as a team the key user interactions.
+2. Visualise the touchpoints: For each step, identify all the screens necessary to bring the concept to life.
+3. Connect the screens: Draw the connections between different screens and how a button might lead to the next screen.
+4. Refine the flow: Run throught he wireframes with different User Personas in mind and see if the flow is intuitive or if it needs refinement.",Each phone outline can be used to quickly draw what would be displayed in the app at each stage. The screens can then be connected together.,"At the start: Make sure the team has a clear understanding of the key steps of their service.
+During the exercise: Make sure participants are being detailed enough in understanding the flow from screen to screen.
+When summarising: Have participants present the Wireframe flow to another group and see if it is self-explanatory.","Are all the steps of the experience represented here? Are there any missing screens?
+Don't worry about making it pretty, instead focus on blocking out the key interactions and features necessary on each screen.
+Are you able to clearly connect the screens together to create a folw from the begining of the experience to the end?",,,,,
+42,HUMAN CENTERED DESIGN,PROTOTYPING,Role-plays,,,,,,,,,,,,,
+43,HUMAN CENTERED DESIGN,PROTOTYPING,Physical Models,,,,,,,,,,,,,
+44,,,User Testing,,,,,,,,,,,,,
+45,,,Behavioural Biases,,,,,,,,,,,,,
+46,BEHAVIOURS & DESIGN,UNDERSTANDING BEHAVIOUR CHANGE,Design with Intent,The ‘Design with Intent’  toolkit consisting of case studies that use design to induce behavioural change.,This tool is fairly exhaustive and uses very specific case studies which may not always feel relevant to everyone. The session should therefore be heavily facilitated and gamified to encourage participants to apply it to their needs. ,60 Min.,"Diversifying one's thinking.
+Finding relevant instances of behaviour change drivers to apply to one's work.
+Learning to recognise such approaches in one's day to day.",,,,,,,,,
+47,BEHAVIOURS & DESIGN,UNDERSTANDING BEHAVIOUR CHANGE,Design and Ethics,,,,,,,,,,,,,
+48,BEHAVIOURS & DESIGN,FRAMEWORKS,NUDGE Framework,,,,,,,,,,,,,
+49,BEHAVIOURS & DESIGN,FRAMEWORKS,SWITCH Framework,,,,,,,,,,,,,
+50,BEHAVIOURS & DESIGN,FRAMEWORKS,Hook Framework,,,,,,,,,,,,,
+51,BEHAVIOURS & DESIGN,FRAMEWORKS,Gamification,,,,,,,,,,,,,
+52,NETWORK BUILDING,PITCHING,Pitch Prep,,,,,,,,,,,,,
+53,NETWORK BUILDING,PITCHING,Deck Design Guidelines,,,,,,,,,,,,,
+54,STORYTELLING,UI DESIGN,Mobile Interface Design Best Practices,,,,,,,,,,,,,
+55,NETWORK BUILDING,,Visioning Poster,,,,,,,,,,,,,
+56,NETWORK BUILDING,,Mentor Engagement,,,,,,,,,,,,,
+57,NETWORK BUILDING,,Speed Dating,,,,,,,,,,,,,
