@@ -9,6 +9,7 @@
 	--green: rgb(109, 222, 210);
 	--red: rgb(235, 139, 140);
 	--yellow: rgb(232, 179, 128);
+	  --mainColor: #ff9800;
 }
 
 @media (max-width: 1024px) {
@@ -252,6 +253,8 @@ button {
 	font-weight: 300;
 }
 
+
+
 .tool-phase {
 	width: 100%;
 	margin-bottom: 0px;
@@ -297,6 +300,21 @@ font: 28px/30px IBM Plex Sans;
 
 .tool-phase-grid.one a {
 	color: var(--blue);
+	background:
+	   linear-gradient(
+	     to bottom, var(--blue) 0%,
+	     var(--blue) 100%
+	   );
+	  background-position: 0 100%;
+	  background-repeat: repeat-x;
+	  background-size: 3px 3px;
+	color: #000;
+	text-decoration: none;
+	transition: background-size .2s;
+}
+
+.tool-phase-grid.one a:hover {
+	  background-size: 4px 50px;
 }
 
 .tool-phase-grid.one h2 {
@@ -305,6 +323,21 @@ font: 28px/30px IBM Plex Sans;
 
 .tool-phase-grid.two a {
 	color: var(--purple);
+	background:
+	   linear-gradient(
+	     to bottom, var(--blue) 0%,
+	     var(--blue) 100%
+	   );
+	  background-position: 0 100%;
+	  background-repeat: repeat-x;
+	  background-size: 3px 3px;
+	color: #000;
+	text-decoration: none;
+	transition: background-size .2s;
+}
+
+.tool-phase-grid.two a:hover {
+	  background-size: 4px 50px;
 }
 
 .tool-phase-grid.two h2 {
@@ -312,7 +345,22 @@ font: 28px/30px IBM Plex Sans;
 }
 
 .tool-phase-grid.three a {
-	color: var(--green);
+	color: var(--purple);
+	background:
+	   linear-gradient(
+	     to bottom, var(--green) 0%,
+	     var(--green) 100%
+	   );
+	  background-position: 0 100%;
+	  background-repeat: repeat-x;
+	  background-size: 3px 3px;
+	color: #000;
+	text-decoration: none;
+	transition: background-size .2s;
+}
+
+.tool-phase-grid.three a:hover {
+	  background-size: 4px 50px;
 }
 
 .tool-phase-grid.three h2 {
@@ -320,7 +368,22 @@ font: 28px/30px IBM Plex Sans;
 }
 
 .tool-phase-grid.four a {
-	color: var(--red);
+	color: var(--purple);
+	background:
+	   linear-gradient(
+	     to bottom, var(--red) 0%,
+	     var(--red) 100%
+	   );
+	  background-position: 0 100%;
+	  background-repeat: repeat-x;
+	  background-size: 3px 3px;
+	color: #000;
+	text-decoration: none;
+	transition: background-size .2s;
+}
+
+.tool-phase-grid.four a:hover {
+	  background-size: 4px 50px;
 }
 
 .tool-phase-grid.four h2 {
@@ -353,4 +416,3 @@ font: 28px/30px IBM Plex Sans;
 	margin: 0;
 	text-decoration: underline;
 }
-
