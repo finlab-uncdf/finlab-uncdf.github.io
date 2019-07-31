@@ -112,7 +112,10 @@
 	margin-left: 10px;
 	margin-right: 10px;
 	text-decoration: none;
-	color: white;
+color: var(--lblue);
+border-radius: 4px;
+background: white;
+padding: 5px 10px 5px 10px;
 }
 
 .tool-container {

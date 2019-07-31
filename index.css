@@ -29,6 +29,10 @@
 	}
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	width: 100%;
 	margin: 0;
@@ -74,7 +78,10 @@ body {
 	margin-left: 10px;
 	margin-right: 10px;
 	text-decoration: none;
-	color: white;
+	color: var(--lblue);
+	border-radius: 4px;
+	background: white;
+	padding: 5px 10px 5px 10px;
 }
 
 .playlist-section {
@@ -299,7 +306,6 @@ font: 28px/30px IBM Plex Sans;
 }
 
 .tool-phase-grid.one a {
-	color: var(--blue);
 	background:
 	   linear-gradient(
 	     to bottom, var(--blue) 0%,
@@ -310,7 +316,7 @@ font: 28px/30px IBM Plex Sans;
 	  background-size: 3px 3px;
 	color: #000;
 	text-decoration: none;
-	transition: background-size .2s;
+	transition: background-size .4s;
 }
 
 .tool-phase-grid.one a:hover {
@@ -322,18 +328,17 @@ font: 28px/30px IBM Plex Sans;
 }
 
 .tool-phase-grid.two a {
-	color: var(--purple);
 	background:
 	   linear-gradient(
-	     to bottom, var(--blue) 0%,
-	     var(--blue) 100%
+	     to bottom, var(--purple) 0%,
+	     var(--purple) 100%
 	   );
 	  background-position: 0 100%;
 	  background-repeat: repeat-x;
 	  background-size: 3px 3px;
 	color: #000;
 	text-decoration: none;
-	transition: background-size .2s;
+	transition: background-size .4s;
 }
 
 .tool-phase-grid.two a:hover {
@@ -345,7 +350,6 @@ font: 28px/30px IBM Plex Sans;
 }
 
 .tool-phase-grid.three a {
-	color: var(--purple);
 	background:
 	   linear-gradient(
 	     to bottom, var(--green) 0%,
@@ -356,7 +360,7 @@ font: 28px/30px IBM Plex Sans;
 	  background-size: 3px 3px;
 	color: #000;
 	text-decoration: none;
-	transition: background-size .2s;
+	transition: background-size .4s;
 }
 
 .tool-phase-grid.three a:hover {
@@ -379,7 +383,7 @@ font: 28px/30px IBM Plex Sans;
 	  background-size: 3px 3px;
 	color: #000;
 	text-decoration: none;
-	transition: background-size .2s;
+	transition: background-size .4s;
 }
 
 .tool-phase-grid.four a:hover {
