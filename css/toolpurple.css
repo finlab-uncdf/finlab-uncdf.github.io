@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:200,300,400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,500,700&display=swap');
 
 :root {
-	--ntext: 15px/18px IBM Plex Sans;
+	--ntext: 15px/20px IBM Plex Sans;
 	--lgrey: rgb(243, 243, 243);
 	--blue: rgb(104, 172, 225);
 	--purple: rgb(141, 134, 252);
@@ -47,14 +47,18 @@
 		grid-column-end: 3;
 	}
 	
+	.under-grid .tool-understand {
+		padding: 20px;
+	}
+	
 	.tool-steps .tool-step-grid {
 		display: grid;
-		grid-template-columns: repeat(2, 1fr);
+		grid-template-columns: repeat(1, 1fr);
 	}
 	
 	.tool-step-grid .tool-step-segment-title {
 		grid-column-start: 1;
-		grid-column-end: 3;
+		grid-column-end: 2;
 	}
 	
 	.f-container .f-grid {
@@ -109,8 +113,8 @@
 }
 
 .header-links a {
-	font-family: IBM Plex Sans;
-	font-weight: 400;
+	font: var(--ntext);
+	font-weight: 500;
 	margin-left: 10px;
 	margin-right: 10px;
 	text-decoration: none;
@@ -357,7 +361,7 @@ padding: 5px 10px 5px 10px;
 	grid-template-columns: repeat(4, 1fr);
 	width: 100%;
 	padding: 0px;
-	color: white;
+	color: black;
 }
 
 .tool-steps h2 {
@@ -423,7 +427,7 @@ padding: 5px 10px 5px 10px;
 .tool-understand {
 	border-radius: 4px;
 	margin: 10px 4px 10px 4px;
-	padding: 20px;
+	padding: 20px 20px 20px 0px;
 	background: var(--tcol);
 }
 
@@ -533,7 +537,7 @@ button {
 }
 
 .f-intro-text  h2 {
-	font: 45px/38px IBM Plex Sans;
+	font: 45px/48px IBM Plex Sans;
 	font-weight: 700;
 	margin: 0;
 	text-align: center;

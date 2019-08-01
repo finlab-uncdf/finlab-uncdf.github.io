@@ -124,7 +124,7 @@ for index in range(1, len(name)):
         
         step_t = step[index]
         step_t = step_t.split('\n')
-        step_t = nstep(step_t)
+        step_t = nfhow(step_t)
         
         fhow_t = fhow[index]
         fhow_t = fhow_t.split('\n')
