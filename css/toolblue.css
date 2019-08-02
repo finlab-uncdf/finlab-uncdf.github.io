@@ -41,8 +41,12 @@
 		text-align: center;
 	}
 	
-	
 	.tool-card-image {
+		grid-column-start: 1;
+		grid-column-end: 3;
+	}
+	
+	.f-deck-image {
 		grid-column-start: 1;
 		grid-column-end: 3;
 	}
@@ -51,14 +55,9 @@
 		padding: 20px;
 	}
 	
-	.tool-steps .tool-step-grid {
+	.under-grid .tool-steps ol {
 		display: grid;
 		grid-template-columns: repeat(1, 1fr);
-	}
-	
-	.tool-step-grid .tool-step-segment-title {
-		grid-column-start: 1;
-		grid-column-end: 2;
 	}
 	
 	.f-container .f-grid {
@@ -73,7 +72,7 @@
 	}
 }
 	
-	body {
+body {
 	width: 100%;
 	margin: 0;
 }
@@ -83,6 +82,7 @@
 	margin: 0;
 	top: 0;
 	background: rgb(47, 96, 207);
+	padding: 0;
 }
 
 .header-container {
@@ -112,16 +112,9 @@
 	cursor: pointer;
 }
 
-.header-links a {
-	font-family: IBM Plex Sans;
-	font-weight: 500;
-	margin-left: 10px;
-	margin-right: 10px;
-	text-decoration: none;
-color: var(--lblue);
-border-radius: 4px;
-background: white;
-padding: 5px 10px 5px 10px;
+.header-link {
+	padding: 0;
+	margin: 0;
 }
 
 .tool-container {
@@ -148,7 +141,6 @@ padding: 5px 10px 5px 10px;
 	margin: 10px 4px 10px 4px;
 	padding: 15px;
 	display: block;
-
 }
 
 .tool-name-text {
@@ -156,14 +148,18 @@ padding: 5px 10px 5px 10px;
 }
 
 .tool-name-text h3 {
-	font: 20px/26px IBM Plex Sans;
-	font-weight: 700;
+	font: 15px/20px IBM Plex Sans;
+	font-weight: 300;
 	margin: 0 0 5px 0;
 	letter-spacing: 1px;
 }
 
+.tool-name-text h3 span {
+	font-weight: 700;
+}
+
 .tool-name-text h1 {
-	font: 70px/75px IBM Plex Sans;
+	font: 60px/65px IBM Plex Sans;
 	font-weight: 700;
 	letter-spacing: -0.9px;
 	margin: 10px 0 35px 0;
@@ -214,6 +210,7 @@ padding: 5px 10px 5px 10px;
 .tool-about li {
 	margin-bottom: 1em;
 }
+
 .tool-use-case {
 	margin-bottom: 30px;
 }
@@ -239,7 +236,6 @@ padding: 5px 10px 5px 10px;
 .tool-use-case li span {
 	font-weight: 700;
 }
-
 
 .tool-limitations {
 	margin-bottom: 30px;
@@ -281,7 +277,6 @@ padding: 5px 10px 5px 10px;
 	align-items: center;
 }
 
-
 .tool-under-image {
 	border-radius: 4px;
 	margin: 10px 4px 10px 4px;
@@ -314,9 +309,9 @@ padding: 5px 10px 5px 10px;
 	/*padding: 10px;*/
 }
 
-
 .down-section {
 	width: 100%;
+	padding-bottom: 50px;
 	background: var(--lgrey);
 }
 
@@ -357,18 +352,17 @@ padding: 5px 10px 5px 10px;
 }
 
 .tool-step-grid {
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
+	display: block;
 	width: 100%;
 	padding: 0px;
-	color: white;
+	color: black;
 }
 
-.tool-steps h2 {
+.tool-step-segment-title {
 	font: 18px/24px IBM Plex Sans;
 	font-weight: 700;
-	color: white;
-	margin: 0;
+	grid-column-start: 1;
+	grid-column-end: 4;
 }
 
 .tool-steps ol {
@@ -377,16 +371,19 @@ padding: 5px 10px 5px 10px;
 	margin: 0;
 	padding: 0px 20px 0px 20px;
 	color: white;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
 }
 
 .tool-steps li {
-	margin-bottom: 1em;
-	color: white;
+	margin: 1em;
+	/*color: var(--tcol);*/
+	color: black;
 }
 
 .tool-steps li span {
 	font-weight: 700;
-	color: white;
+	color: var(--tcol);
 }
 
 .tool-step-segment-title {
@@ -394,7 +391,10 @@ padding: 5px 10px 5px 10px;
 	grid-column-end: 5;
 	padding: 0 15px 0 15px;
 }
-.tool-step-segment-title h2{
+
+.tool-step-segment-title h2 {
+	font: 18px/24px IBM Plex Sans;
+	font-weight: 700;
 	color: var(--tcol);
 }
 
@@ -417,7 +417,17 @@ padding: 5px 10px 5px 10px;
 	margin: 10px 4px 10px 4px;
 	padding: 15px;
 	text-align: center;
-	
+}
+
+.f-deck-image {
+	border-radius: 4px;
+	margin: 10px 4px 10px 4px;
+	padding: 15px;
+	text-align: center;
+}
+
+.f-deck-image img {
+	width: 100%;
 }
 
 .tool-card-image img {
@@ -452,7 +462,6 @@ padding: 5px 10px 5px 10px;
 	font-weight: 700;
 }
 
-
 .tool-download {
 	border-radius: 4px;
 	margin: 10px 4px 10px 4px;
@@ -468,18 +477,51 @@ padding: 5px 10px 5px 10px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	align-content: center;
+	align-items: center;
 }
 
-button {
-	width: 100%;
-	height: 50px;
-	border-radius: 10px;
-	background: var(--tcol);
-	font: 12px/16px IBM Plex Sans;
+.header-button {
+	font: 15px/20px IBM Plex Sans;
 	font-weight: 700;
-	color: white;
+	color: black;
 	text-decoration: none;
+	padding: 10px 28px;
+	border-radius: 10px;
+	border: none;
+	background: rgb(240, 240, 240);
+	-webkit-transition-duration: 0.2s; /* Safari */
+	transition-duration: 0.2s;
 }
+
+.header-button:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	background: white;
+	cursor: pointer;
+}
+
+.download-button {
+	font: 15px/20px IBM Plex Sans;
+	font-weight: 700;
+	color: black;
+	text-decoration: none;
+	padding: 10px 28px;
+	border-radius: 10px;
+	border: none;
+	background: var(--tcol);
+	-webkit-transition-duration: 0.2s; /* Safari */
+	transition-duration: 0.2s;
+	margin-top: 30px;
+}
+
+.download-button:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	background: white;
+	cursor: pointer;
+}
+
+
+
 .reference-section {
 	border-radius: 4px;
 	margin: 20px 10px 20px 10px;
@@ -504,7 +546,6 @@ button {
 .reference-section li {
 	margin-bottom: 1em;
 }
-
 
 .f-section {
 	width: 100%;

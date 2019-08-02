@@ -13,6 +13,7 @@ fhow_t = ""
 fques_t = ""
 ref_t = ""
 prescheck_t = ""
+fdcheck_t = ""
 css = ""
 
 def ulify(elements):
@@ -72,6 +73,7 @@ with open('uncdf.csv') as csvfile:
     fques = []
     ref = []
     prescheck = []
+    fdcheck = []
     for row in readCSV:
         phase_n = row[1]
         subphase_n = row[2]
@@ -86,6 +88,7 @@ with open('uncdf.csv') as csvfile:
         fques_n = row[11]
         ref_n = row[12]
         prescheck_n = row[13]
+        fdcheck_n = row[14]
 
         phase.append(phase_n)
         subphase.append(subphase_n)
@@ -100,6 +103,7 @@ with open('uncdf.csv') as csvfile:
         fques.append(fques_n)
         ref.append(ref_n)
         prescheck.append(prescheck_n)
+        fdcheck.append(fdcheck_n)
     
 for index in range(1, len(name)):
 #        print(step[index])
@@ -139,6 +143,7 @@ for index in range(1, len(name)):
         ref_t = ulify(ref_t)
         
         prescheck_t = prescheck[index]
+        fdcheck_t = fdcheck[index]
         
         if phase_t == "STRATEGY, INNOVATION & IMPACT":
             css = "toolblue"
@@ -181,7 +186,7 @@ for index in range(1, len(name)):
 			<div class="tool-grid">
 				<div class="tool-name">
 					<div class="tool-name-text">
-						<h3>"""+phase_t+""" | """+subphase_t+"""</h3>
+						<h3><span>"""+phase_t+"""</span> | """+subphase_t+"""</h3>
 						
 						<h1>"""+name_t+"""</h1>
 					</div>
@@ -211,21 +216,17 @@ for index in range(1, len(name)):
 					</div>
 					
 					<div class="download-buttons">
-						<div class="tool-download"><a href="/Design with Intent.pdf" download="/Design with Intent.pdf">
-							<button>Download Tool!</button>
-						</a></div>
-						
-						<div class="tool-download"><a href="/UNCDF Problem Tree + 5 Whys.pdf" download="UNCDF Problem Tree + 5 Whys.pdf">
-							<button>Download Facilitation Image!</button>
-						</a></div>
+						<div class="download-link"><a href="/#" download="#">
+												<button class="download-button">Download Tool!</button>
+											</a></div>
+										</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 </body>
 </html>"""
-        else:
+        elif fdcheck_t == "1":
             message = """<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -255,7 +256,7 @@ for index in range(1, len(name)):
 			<div class="tool-grid">
 				<div class="tool-name">
 					<div class="tool-name-text">
-						<h3>"""+phase_t+""" | """+subphase_t+"""</h3>
+						<h3><span>"""+phase_t+"""</span> | """+subphase_t+"""</h3>
 						
 						<h1>"""+name_t+"""</h1>
 						
@@ -316,34 +317,7 @@ for index in range(1, len(name)):
 			</div>
 		</div>
 	</div>
-	
-	<div class="down-section">
-		<div class="down-container">
-			<div class="down-grid">
-				<div class="tool-card-image">
-					<img src="../images/toolcard.png" alt="" />
-				</div>
-				
-				<div class="download-buttons">
-					<div class="tool-download"><a href="/"""+name_t+""".pdf" download="/"""+name_t+""".pdf">
-						<button>Download Tool!</button>
-					</a></div>
-					
-					<div class="tool-download"><a href="/UNCDF Problem Tree + 5 Whys.pdf" download="UNCDF Problem Tree + 5 Whys.pdf">
-						<button>Download Facilitation Image!</button>
-					</a></div>
-				</div>
-				
-				<div class="reference-section">
-					<h2>References</h2>
-					
-					"""+ref_t+"""
-				</div>
-			</div>
-		</div>
-	</div>
-	
-	<div class="f-section">
+    <div class="f-section">
 		<div class="f-container">
 			<div class="f-grid">
 				<div class="f-intro-text">
@@ -364,6 +338,178 @@ for index in range(1, len(name)):
 			</div>
 		</div>
 	</div>
+	<div class="down-section">
+		<div class="down-container">
+			<div class="down-grid">
+				<div class="tool-card-image">
+											<img src="../images/toolcard.png" alt="" />
+											
+											<div class="download-link"><a href="/#" download="#">
+												<button class="download-button">Download Tool!</button>
+											</a></div>
+											
+										</div>
+										
+										<div class="f-deck-image">
+											<img src="../images/f-deck-image.jpg" alt="" />
+											
+											<div class="download-link"><a href="/#" download="#">
+													<button class="download-button">Download Facilitation Slides!</button>
+												</a></div>
+											
+										</div>
+				
+				<div class="reference-section">
+					<h2>References</h2>
+					
+					"""+ref_t+"""
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+</body>
+</html>"""
+        else:
+            message = """<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	
+	<title>UNCDF Toolkit | """+name_t+"""</title>
+	
+	<meta name="description" content="">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="stylesheet" href="../css/"""+css+""".css">
+</head>
+<body>
+	<div class="header-section">
+		<div class="header-container">
+			<h1><a href="../index.html">UNCDF Toolkit</a></h1>
+			
+			<div class="header-links"><a href="../index.html">Back</a></div>
+		</div>
+	</div>
+	
+	<div class="tool-section">
+		<div class="tool-container">
+			<div class="tool-grid">
+				<div class="tool-name">
+					<div class="tool-name-text">
+						<h3><span>"""+phase_t+"""</span> | """+subphase_t+"""</h3>
+						
+						<h1>"""+name_t+"""</h1>
+						
+						<p class="time">"""+time_t+"""</p>
+					</div>
+					
+					<div class="tool-about">
+						<h2>About</h2>
+						
+						<p>"""+about_t+"""</p>
+					</div>
+					
+					<div class="tool-use-case">
+						<h2>Use Cases</h2>
+						
+						"""+usecase_t+"""
+					</div>
+					
+					<div class="tool-limitations">
+						<h2>Limitations</h2>
+						
+						<p>"""+limitation_t+"""</p>
+					</div>
+				</div>
+				
+				<div class="tool-image-illustration">
+					<img src="../images/illustrationsUNCDF1-01.jpg" alt="" />
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="under-section">
+		<div class="under-container">
+			<div class="under-grid">
+				<div class="tool-under-image">
+					<img src="../images/tool_small.png" alt="" />
+				</div>
+				
+				<div class="tool-understand">
+					<h2>Understand</h2>
+					
+					"""+under_t+"""
+				</div>
+				
+				
+				<div class="tool-steps">
+					<div class="tool-step-grid">
+						<div class="tool-step-segment-title">
+							<h2>Step by Step</h2>
+						</div>
+						
+						"""+step_t+"""
+					</div>
+				</div>
+				
+				
+			</div>
+		</div>
+	</div>
+    <div class="f-section">
+		<div class="f-container">
+			<div class="f-grid">
+				<div class="f-intro-text">
+					<h2>Facilitators Section</h2>
+				</div>
+				
+				<div class="f-how-to">
+					<h2>How to for Facilitators</h2>
+					
+					"""+fhow_t+"""
+				</div>
+				
+				<div class="f-question-bank">
+					<h2>Facilitators Question Bank</h2>
+					
+					"""+fques_t+"""
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="down-section">
+		<div class="down-container">
+			<div class="down-grid">
+				
+				<div class="tool-card-image" style="grid-column-start: 1;
+										grid-column-end: 3;">
+											<img src="../images/toolcard.png" alt="" />
+											
+											<div class="download-link"><a href="/#" download="#">
+												<button class="download-button">Download Tool!</button>
+											</a></div>
+										</div>
+											
+										</div>
+				
+				</div>
+				
+				<div class="reference-section">
+					<h2>References</h2>
+					
+					"""+ref_t+"""
+				</div>
+			</div>
+		</div>
+	
+	
+
 </body>
 </html>"""
             
