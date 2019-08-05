@@ -1,13 +1,13 @@
-### Toolsite
+# Toolsite
 repo for creating a toolkit microsite 
 
 visit here: https://burnedsap.github.io/Toolsite/
 
-# How to use the website
+## How to use the website
 Open the 'index.html' file, and navigate through the website
 
 
-# How to re-generate website
+## How to re-generate website
 Download the file using the 'Download' and open the file on your computer
 Download CSV from the UNCDF Backend Google sheet
 rename file to 'uncdf.csv'
@@ -19,7 +19,7 @@ Upload the folder back to the Github folder if you have access to it.
 Allow for the Github servers to update and try accessing the page within 2 minutes of uploading. Hard refresh your page to see the updates
 
 
-# Things left to be added
+### Things left to be added
 Images
 Tool Cards
 References 
