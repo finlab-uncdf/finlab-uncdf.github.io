@@ -133,6 +133,8 @@ body {
 	grid-template-columns: repeat(1, 1fr);
 	margin: 2px;
 	border-radius: 4px;
+	display: flex;
+	flex-direction: column;
 }
 
 .playlist-desc {
@@ -160,6 +162,15 @@ body {
 
 .playlist-links {
 	margin: 5px;
+}
+
+.playlist-links a {
+	text-decoration: none;
+	color: white;
+}
+
+.playlist-links a:hover {
+	text-decoration: underline;
 }
 
 .playlist-links p span {
