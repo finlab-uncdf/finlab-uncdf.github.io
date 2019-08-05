@@ -1,4 +1,6 @@
 #coding=utf-8
+
+import os.path
 import csv
 phase_t = ""
 subphase_t = ""
@@ -154,7 +156,7 @@ for index in range(1, len(name)):
         elif phase_t == "NETWORK BUILDING":
             css = "toolred"
         
-        f = open(name_t+".html",'w')
+        f = open("../tools/"+name_t+".html",'w')
         
         if prescheck_t == "1":
             message = """<!DOCTYPE html>
@@ -283,7 +285,7 @@ for index in range(1, len(name)):
 				</div>
 				
 				<div class="tool-image-illustration">
-					<img src="../images/illustrationsUNCDF1-01.jpg" alt="" />
+					<img src="../images/"""+name_t+"""_illust.jpg" alt="" />
 				</div>
 			</div>
 		</div>
@@ -428,7 +430,7 @@ for index in range(1, len(name)):
 				</div>
 				
 				<div class="tool-image-illustration">
-					<img src="../images/illustrationsUNCDF1-01.jpg" alt="" />
+					<img src="../images/"""+name_t+"""_illust.jpg" alt="" />
 				</div>
 			</div>
 		</div>
