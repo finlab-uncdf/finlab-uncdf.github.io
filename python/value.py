@@ -179,7 +179,11 @@ for index in range(1, len(name)):
 		<div class="header-container">
 			<h1><a href="../index.html">UNCDF Toolkit</a></h1>
 			
-			<div class="header-links"><a href="../index.html">Back</a></div>
+						<div class="header-links">
+				<div class="header-link"><a href="../index.html">
+					<button class="header-button">Back</button>
+				</a></div>
+			</div>
 		</div>
 	</div>
 	
@@ -249,7 +253,11 @@ for index in range(1, len(name)):
 		<div class="header-container">
 			<h1><a href="../index.html">UNCDF Toolkit</a></h1>
 			
-			<div class="header-links"><a href="../index.html">Back</a></div>
+						<div class="header-links">
+				<div class="header-link"><a href="../index.html">
+					<button class="header-button">Back</button>
+				</a></div>
+			</div>
 		</div>
 	</div>
 	
@@ -394,7 +402,11 @@ for index in range(1, len(name)):
 		<div class="header-container">
 			<h1><a href="../index.html">UNCDF Toolkit</a></h1>
 			
-			<div class="header-links"><a href="../index.html">Back</a></div>
+						<div class="header-links">
+				<div class="header-link"><a href="../index.html">
+					<button class="header-button">Back</button>
+				</a></div>
+			</div>
 		</div>
 	</div>
 	
