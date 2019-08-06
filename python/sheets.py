@@ -1,7 +1,9 @@
 #coding=utf-8
-
 import os.path
-import csv
+import gspread
+
+test = []
+
 phase_t = ""
 subphase_t = ""
 name_t = ""
@@ -25,13 +27,6 @@ def ulify(elements):
     string += "</ul>"
     return string
 
-#def nstep(elements):
-#    string = "<ul>\n"
-#    for s in elements:
-#        string += "<li>" + str(s) + "</li>\n"
-#    string += "</ul>"
-#    return string
-
 def nfhow(elements):
     string = "<ol>\n"
     for s in elements:
@@ -50,103 +45,52 @@ def nunder(elements):
     string = string.replace('’', '</span>’')
     return string
 
+from oauth2client.service_account import ServiceAccountCredentials
+scope = ['https://spreadsheets.google.com/feeds','https://www.googleapis.com/auth/drive']
+creds = ServiceAccountCredentials.from_json_keyfile_name('uncdf-doc.json', scope)
+client = gspread.authorize(creds)
+sheet = client.open('UNCDF Toolsite Backend').sheet1
+test = sheet.get_all_values()
 
-def nstep(elements):
-    string = ""
-    for s in elements:
-        string += """<div class="tool-step-segment">""" + str(s) + "</div>\n"
-    string += ""
-    string = string.replace('segment">', 'segment"> <span>')
-    string = string.replace(':', ': </span>')
-    return string
-
-with open('uncdf.csv') as csvfile:
-    readCSV = csv.reader(csvfile, delimiter=',')
-    phase = []
-    subphase = []
-    name = []
-    about = []
-    limitation = []
-    time = []
-    usecase = []
-    step = []
-    under = []
-    fhow = []
-    fques = []
-    ref = []
-    prescheck = []
-    fdcheck = []
-    for row in readCSV:
-        phase_n = row[1]
-        subphase_n = row[2]
-        name_n = row[3]
-        about_n = row[4]
-        limitation_n = row[5]
-        time_n = row[6]
-        usecase_n = row[7]
-        step_n = row[8]
-        under_n = row[9]
-        fhow_n = row[10]
-        fques_n = row[11]
-        ref_n = row[12]
-        prescheck_n = row[13]
-        fdcheck_n = row[14]
-
-        phase.append(phase_n)
-        subphase.append(subphase_n)
-        name.append(name_n)
-        about.append(about_n)
-        limitation.append(limitation_n)
-        time.append(time_n)
-        usecase.append(usecase_n)
-        step.append(step_n)
-        under.append(under_n)
-        fhow.append(fhow_n)
-        fques.append(fques_n)
-        ref.append(ref_n)
-        prescheck.append(prescheck_n)
-        fdcheck.append(fdcheck_n)
-    
-for index in range(1, len(name)):
-#        print(step[index])
-#        title_t = fques[index]
-#        splitty = title_t.split('\n')
-#        print(ulify(splitty))
-        phase_t = phase[index]
-        subphase_t = subphase[index]
-        name_t = name[index]
-        time_t = time[index]
-        about_t = about[index]
+#print(test[5][2])
         
-        usecase_t = usecase[index]
+for index in range(2, len(test)):
+
+        phase_t = test[index][1]
+        subphase_t = test[index][2]
+        name_t = test[index][3]
+        about_t = test[index][4]
+        limitation_t = test[index][5]
+        time_t = test[index][6]
+                
+        usecase_t = test[index][7]
         usecase_t = usecase_t.split('\n')
         usecase_t = ulify(usecase_t)
         
-        limitation_t = limitation[index]
-        
-        under_t = under[index]
-        under_t = under_t.split('\n')
-        under_t = nunder(under_t)
-        
-        step_t = step[index]
+        step_t = test[index][8]
         step_t = step_t.split('\n')
         step_t = nfhow(step_t)
         
-        fhow_t = fhow[index]
+        under_t = test[index][9]
+        under_t = under_t.split('\n')
+        under_t = nunder(under_t)
+        
+        
+        fhow_t = test[index][10]
         fhow_t = fhow_t.split('\n')
         fhow_t = nfhow(fhow_t)
         
-        fques_t = fques[index]
+        fques_t = test[index][11]
         fques_t = fques_t.split('\n')
         fques_t = ulify(fques_t)
         
-        ref_t = ref[index]
+        ref_t = test[index][12]
         ref_t = ref_t.split('\n')
         ref_t = ulify(ref_t)
         
-        prescheck_t = prescheck[index]
-        fdcheck_t = fdcheck[index]
-        
+        prescheck_t = test[index][13]
+        fdcheck_t = test[index][14]
+                
         if phase_t == "STRATEGY, INNOVATION & IMPACT":
             css = "toolblue"
         elif phase_t == "HUMAN CENTERED DESIGN":

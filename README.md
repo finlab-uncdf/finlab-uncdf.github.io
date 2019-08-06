@@ -10,13 +10,7 @@ Open the 'index.html' file, and navigate through the website
 ## How to re-generate website
 Download the file using the 'Download' and open the file on your computer
 
-Download CSV from the UNCDF Backend Google sheet
-
-rename file to 'uncdf.csv'
-
-drag and drop file into the folder named 'python', replace earlier file
-
-If you have a Mac, open Terminal and type in the word 'python' followed by a single space
+If you have a Mac, open Terminal and type in the word 'python3' followed by a single space
 
 Then, drag and drop the file 'value.py' into the Terminal window. Then press 'Enter'
 
@@ -37,3 +31,15 @@ References
 Facilitation Decks
 
 A few tools
+
+
+### Install dependencies (Mac)
+
+To install Python 3, open terminal and type in 'brew install python'
+
+Next, to install gspread, open terminal and type in 'pip3 install gspread'
+
+Lastly install the oauth2client, open terminal and type in 'pip3 install --upgrade oauth2client'
+
+You should be good to go!
+
