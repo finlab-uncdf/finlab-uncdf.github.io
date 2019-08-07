@@ -116,8 +116,8 @@ body {
 }
 
 .playlist-text h2 {
-	font: 30px/34px IBM Plex Sans;
-	font-weight: 700;
+	font: 40px/48px IBM Plex Sans;
+	font-weight: 500;
 }
 
 .playlist-text p {
@@ -506,12 +506,13 @@ input {
 	margin-left: auto;
 	margin-right: auto;
 	width: var(--width);
+	margin-bottom: 80px;
 }
 
 .ref-container h2 {
-	font: 18px/24px IBM Plex Sans;
-	font-weight: 700;
-	color: var(--tcol);
+font: 40px/48px IBM Plex Sans;
+font-weight: 500;
+	color: black;
 }
 
 .ref-container ul {

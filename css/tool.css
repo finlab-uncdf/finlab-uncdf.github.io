@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:200,300,400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,500,700&display=swap');
 
 :root {
-	--ntext: 15px/18px IBM Plex Sans;
+	--ntext: 15px/20px IBM Plex Sans;
 	--lgrey: rgb(243, 243, 243);
 	--blue: rgb(104, 172, 225);
 	--purple: rgb(141, 134, 252);
@@ -9,7 +9,7 @@
 	--red: rgb(235, 139, 140);
 	--yellow: rgb(232, 179, 128);
 	/* Enter variable to tcol which is theme colour */
-	--tcol: var(--purple);
+	--tcol: var(--blue);
 }
 
 @media (max-width: 1024px) {
@@ -38,6 +38,7 @@
 	.under-grid .tool-under-image {
 		grid-column-start: 1;
 		grid-column-end: 3;
+		text-align: center;
 	}
 	
 	.tool-card-image {
@@ -45,14 +46,18 @@
 		grid-column-end: 3;
 	}
 	
-	.tool-steps .tool-step-grid {
-		display: grid;
-		grid-template-columns: repeat(2, 1fr);
-	}
-	
-	.tool-step-grid .tool-step-segment-title {
+	.f-deck-image {
 		grid-column-start: 1;
 		grid-column-end: 3;
+	}
+	
+	.under-grid .tool-understand {
+		padding: 20px;
+	}
+	
+	.under-grid .tool-steps ol {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
 	}
 	
 	.f-container .f-grid {
@@ -67,7 +72,7 @@
 	}
 }
 	
-	body {
+body {
 	width: 100%;
 	margin: 0;
 }
@@ -77,6 +82,7 @@
 	margin: 0;
 	top: 0;
 	background: rgb(47, 96, 207);
+	padding: 0;
 }
 
 .header-container {
@@ -84,7 +90,7 @@
 	margin-right: auto;
 	padding-top: 15px;
 	padding-bottom: 15px;
-	width: 90%;
+	width: 80%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -106,13 +112,9 @@
 	cursor: pointer;
 }
 
-.header-links a {
-	font-family: IBM Plex Sans;
-	font-weight: 400;
-	margin-left: 10px;
-	margin-right: 10px;
-	text-decoration: none;
-	color: white;
+.header-link {
+	padding: 0;
+	margin: 0;
 }
 
 .tool-container {
@@ -121,7 +123,7 @@
 }
 
 .tool-section {
-	width: 90%;
+	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -139,7 +141,6 @@
 	margin: 10px 4px 10px 4px;
 	padding: 15px;
 	display: block;
-
 }
 
 .tool-name-text {
@@ -147,14 +148,18 @@
 }
 
 .tool-name-text h3 {
-	font: 20px/26px IBM Plex Sans;
-	font-weight: 700;
+	font: 15px/20px IBM Plex Sans;
+	font-weight: 300;
 	margin: 0 0 5px 0;
 	letter-spacing: 1px;
 }
 
+.tool-name-text h3 span {
+	font-weight: 700;
+}
+
 .tool-name-text h1 {
-	font: 70px/75px IBM Plex Sans;
+	font: 60px/65px IBM Plex Sans;
 	font-weight: 700;
 	letter-spacing: -0.9px;
 	margin: 10px 0 35px 0;
@@ -205,6 +210,7 @@
 .tool-about li {
 	margin-bottom: 1em;
 }
+
 .tool-use-case {
 	margin-bottom: 30px;
 }
@@ -231,7 +237,6 @@
 	font-weight: 700;
 }
 
-
 .tool-limitations {
 	margin-bottom: 30px;
 }
@@ -256,7 +261,7 @@
 }
 
 .under-container {
-	width: 90%;
+	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -272,12 +277,11 @@
 	align-items: center;
 }
 
-
 .tool-under-image {
 	border-radius: 4px;
 	margin: 10px 4px 10px 4px;
-	padding: 15px;
-	text-align: center;
+	/*padding: 15px;*/
+	/*text-align: center;*/
 }
 
 .tool-under-image img {
@@ -305,14 +309,14 @@
 	/*padding: 10px;*/
 }
 
-
 .down-section {
 	width: 100%;
+	padding-bottom: 50px;
 	background: var(--lgrey);
 }
 
 .down-container {
-	width: 90%;
+	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -348,18 +352,17 @@
 }
 
 .tool-step-grid {
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
+	display: block;
 	width: 100%;
 	padding: 0px;
-	color: white;
+	color: black;
 }
 
-.tool-steps h2 {
+.tool-step-segment-title {
 	font: 18px/24px IBM Plex Sans;
 	font-weight: 700;
-	color: white;
-	margin: 0;
+	grid-column-start: 1;
+	grid-column-end: 4;
 }
 
 .tool-steps ol {
@@ -368,16 +371,19 @@
 	margin: 0;
 	padding: 0px 20px 0px 20px;
 	color: white;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
 }
 
 .tool-steps li {
-	margin-bottom: 1em;
-	color: white;
+	margin: 1em;
+	/*color: var(--tcol);*/
+	color: black;
 }
 
 .tool-steps li span {
 	font-weight: 700;
-	color: white;
+	color: var(--tcol);
 }
 
 .tool-step-segment-title {
@@ -385,7 +391,10 @@
 	grid-column-end: 5;
 	padding: 0 15px 0 15px;
 }
-.tool-step-segment-title h2{
+
+.tool-step-segment-title h2 {
+	font: 18px/24px IBM Plex Sans;
+	font-weight: 700;
 	color: var(--tcol);
 }
 
@@ -408,7 +417,17 @@
 	margin: 10px 4px 10px 4px;
 	padding: 15px;
 	text-align: center;
-	
+}
+
+.f-deck-image {
+	border-radius: 4px;
+	margin: 10px 4px 10px 4px;
+	padding: 15px;
+	text-align: center;
+}
+
+.f-deck-image img {
+	width: 100%;
 }
 
 .tool-card-image img {
@@ -418,7 +437,7 @@
 .tool-understand {
 	border-radius: 4px;
 	margin: 10px 4px 10px 4px;
-	padding: 20px;
+	padding: 20px 20px 20px 0px;
 	background: var(--tcol);
 }
 
@@ -443,7 +462,6 @@
 	font-weight: 700;
 }
 
-
 .tool-download {
 	border-radius: 4px;
 	margin: 10px 4px 10px 4px;
@@ -455,46 +473,52 @@
 }
 
 .download-buttons {
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	align-content: center;
+	align-items: center;
 }
 
-button {
-	width: 250px;
-	height: 40px;
-	border-radius: 50px;
-	background: var(--tcol);
-	font: 12px/16px IBM Plex Sans;
+.header-button {
+	font: 15px/20px IBM Plex Sans;
 	font-weight: 700;
-	color: white;
+	color: black;
 	text-decoration: none;
-}
-.reference-section {
-	border-radius: 4px;
-	margin: 20px 10px 20px 10px;
-	padding: 20px;
-	background: rgb(255, 255, 255);
-	grid-column-start: 1;
-	grid-column-end: 3;
+	padding: 10px 28px;
+	border-radius: 10px;
+	border: none;
+	background: rgb(240, 240, 240);
+	-webkit-transition-duration: 0.2s; /* Safari */
+	transition-duration: 0.2s;
 }
 
-.reference-section h2 {
-	font: 18px/24px IBM Plex Sans;
+.header-button:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	background: white;
+	cursor: pointer;
+}
+
+.download-button {
+	font: 15px/20px IBM Plex Sans;
 	font-weight: 700;
-	color: var(--tcol);
+	color: black;
+	text-decoration: none;
+	padding: 10px 28px;
+	border-radius: 10px;
+	border: none;
+	background: var(--tcol);
+	-webkit-transition-duration: 0.2s; /* Safari */
+	transition-duration: 0.2s;
+	margin-top: 30px;
 }
 
-.reference-section ul {
-	font: var(--ntext);
-	font-weight: 300;
-	padding: 0px 20px 0px 20px;
+.download-button:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	background: white;
+	cursor: pointer;
 }
-
-.reference-section li {
-	margin-bottom: 1em;
-}
-
 
 .f-section {
 	width: 100%;
@@ -506,7 +530,7 @@ button {
 	/* use 100vh */
 
 .f-container {
-	width: 90%;
+	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -527,7 +551,7 @@ button {
 }
 
 .f-intro-text  h2 {
-	font: 45px/38px IBM Plex Sans;
+	font: 45px/48px IBM Plex Sans;
 	font-weight: 700;
 	margin: 0;
 	text-align: center;
@@ -545,7 +569,7 @@ button {
 .f-how-to {
 	border-radius: 4px;
 	margin: 20px 10px 20px 10px;
-	padding: 20px;
+	padding: 40px;
 	background: var(--tcol);
 }
 
@@ -573,7 +597,7 @@ button {
 .f-question-bank {
 	border-radius: 4px;
 	margin: 20px 10px 20px 10px;
-	padding: 20px;
+	padding: 40px;
 	background: var(--lgrey);
 }
 

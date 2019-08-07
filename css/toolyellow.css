@@ -501,30 +501,7 @@ button {
 	color: white;
 	text-decoration: none;
 }
-.reference-section {
-	border-radius: 4px;
-	margin: 20px 10px 20px 10px;
-	padding: 20px;
-	background: rgb(255, 255, 255);
-	grid-column-start: 1;
-	grid-column-end: 3;
-}
 
-.reference-section h2 {
-	font: 18px/24px IBM Plex Sans;
-	font-weight: 700;
-	color: var(--tcol);
-}
-
-.reference-section ul {
-	font: var(--ntext);
-	font-weight: 300;
-	padding: 0px 20px 0px 20px;
-}
-
-.reference-section li {
-	margin-bottom: 1em;
-}
 
 
 .f-section {
