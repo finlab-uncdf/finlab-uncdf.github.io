@@ -15,7 +15,6 @@ step_t = ""
 under_t = ""
 fhow_t = ""
 fques_t = ""
-ref_t = ""
 prescheck_t = ""
 fdcheck_t = ""
 css = ""
@@ -84,9 +83,6 @@ for index in range(2, len(test)):
         fques_t = fques_t.split('\n')
         fques_t = ulify(fques_t)
         
-        ref_t = test[index][12]
-        ref_t = ref_t.split('\n')
-        ref_t = ulify(ref_t)
         
         prescheck_t = test[index][13]
         fdcheck_t = test[index][14]
@@ -313,11 +309,7 @@ for index in range(2, len(test)):
 											
 										</div>
 				
-				<div class="reference-section">
-					<h2>References</h2>
-					
-					"""+ref_t+"""
-				</div>
+				
 			</div>
 		</div>
 	</div>
@@ -458,11 +450,8 @@ for index in range(2, len(test)):
 				
 				</div>
 				
-				<div class="reference-section">
-					<h2>References</h2>
-					
-					"""+ref_t+"""
-				</div>
+				
+                
 			</div>
 		</div>
 	

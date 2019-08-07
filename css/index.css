@@ -501,3 +501,25 @@ input {
 	margin: 0;
 	text-decoration: underline;
 }
+
+.ref-container {
+	margin-left: auto;
+	margin-right: auto;
+	width: var(--width);
+}
+
+.ref-container h2 {
+	font: 18px/24px IBM Plex Sans;
+	font-weight: 700;
+	color: var(--tcol);
+}
+
+.ref-container ul {
+	font: var(--ntext);
+	font-weight: 300;
+	padding: 0px 20px 0px 20px;
+}
+
+.ref-container li {
+	margin-bottom: 1em;
+}
