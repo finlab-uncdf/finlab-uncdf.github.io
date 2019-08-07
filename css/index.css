@@ -168,6 +168,10 @@ body {
 	text-decoration: none;
 	color: white;
 }
+.playlist-links p {
+	text-decoration: none;
+	color: white;
+}
 
 .playlist-links a:hover {
 	text-decoration: underline;
