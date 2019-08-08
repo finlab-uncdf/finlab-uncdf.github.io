@@ -524,3 +524,13 @@ font-weight: 500;
 .ref-container li {
 	margin-bottom: 1em;
 }
+
+.ref-container a {
+	text-decoration: none;
+	color: black;
+	font: var(--ntext);
+}
+
+.ref-container a:hover {
+	text-decoration: underline;
+}

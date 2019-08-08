@@ -13,7 +13,6 @@ step_t = ""
 under_t = ""
 fhow_t = ""
 fques_t = ""
-ref_t = ""
 prescheck_t = ""
 fdcheck_t = ""
 css = ""
@@ -88,7 +87,7 @@ with open('uncdf.csv') as csvfile:
         under_n = row[9]
         fhow_n = row[10]
         fques_n = row[11]
-        ref_n = row[12]
+
         prescheck_n = row[13]
         fdcheck_n = row[14]
 
@@ -103,7 +102,7 @@ with open('uncdf.csv') as csvfile:
         under.append(under_n)
         fhow.append(fhow_n)
         fques.append(fques_n)
-        ref.append(ref_n)
+
         prescheck.append(prescheck_n)
         fdcheck.append(fdcheck_n)
     
@@ -140,9 +139,7 @@ for index in range(1, len(name)):
         fques_t = fques_t.split('\n')
         fques_t = ulify(fques_t)
         
-        ref_t = ref[index]
-        ref_t = ref_t.split('\n')
-        ref_t = ulify(ref_t)
+
         
         prescheck_t = prescheck[index]
         fdcheck_t = fdcheck[index]
@@ -369,11 +366,7 @@ for index in range(1, len(name)):
 											
 										</div>
 				
-				<div class="reference-section">
-					<h2>References</h2>
-					
-					"""+ref_t+"""
-				</div>
+				
 			</div>
 		</div>
 	</div>
@@ -514,11 +507,7 @@ for index in range(1, len(name)):
 				
 				</div>
 				
-				<div class="reference-section">
-					<h2>References</h2>
-					
-					"""+ref_t+"""
-				</div>
+				
 			</div>
 		</div>
 	
