@@ -16,12 +16,20 @@ fques_t = ""
 prescheck_t = ""
 fdcheck_t = ""
 css = ""
+link_t = ""
+linkname_t = ""
+
+def fqulify(elements):
+    string = "<ul>\n"
+    for s in elements:
+        string += "<li>" + str(s) + "</li>\n"
+    string += "</ul>"
+    return string
 
 def ulify(elements):
     string = "<ul>\n"
     for s in elements:
         string += "<li>" + str(s) + "</li>\n"
-    string += "</ul>"
     return string
 
 #def nstep(elements):
@@ -75,6 +83,8 @@ with open('uncdf.csv') as csvfile:
     ref = []
     prescheck = []
     fdcheck = []
+    link = []
+    linkname = []
     for row in readCSV:
         phase_n = row[1]
         subphase_n = row[2]
@@ -88,8 +98,11 @@ with open('uncdf.csv') as csvfile:
         fhow_n = row[10]
         fques_n = row[11]
 
-        prescheck_n = row[13]
-        fdcheck_n = row[14]
+        prescheck_n = row[12]
+        fdcheck_n = row[13]
+        
+        link_n = row[14]
+        linkname_n = row[15]
 
         phase.append(phase_n)
         subphase.append(subphase_n)
@@ -137,12 +150,15 @@ for index in range(1, len(name)):
         
         fques_t = fques[index]
         fques_t = fques_t.split('\n')
-        fques_t = ulify(fques_t)
+        fques_t = fqulify(fques_t)
         
 
         
         prescheck_t = prescheck[index]
         fdcheck_t = fdcheck[index]
+        
+        link_t = link[index]
+        linkname_t = linkname[index]
         
         if phase_t == "STRATEGY, INNOVATION & IMPACT":
             css = "toolblue"
@@ -204,6 +220,8 @@ for index in range(1, len(name)):
 						<h2>Use Cases</h2>
 						
 						"""+usecase_t+"""
+                        <a href=" """+link_t+""" ">"""+linkname_t+"""</a>
+                        <ul>
 					</div>
 					
 					<div class="tool-limitations">
