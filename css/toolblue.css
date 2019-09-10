@@ -82,7 +82,7 @@ body {
 	font-weight: 700;
 	margin: 0;
 	color: var(--tcol);
-	
+	padding: 20px;
 }
 
 .header-section {
