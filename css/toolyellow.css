@@ -316,7 +316,11 @@ padding: 5px 10px 5px 10px;
 	margin: 5px;
 	margin: auto;
 	text-align: center;
-	/*padding: 10px;*/
+	transition: transform .4s;
+}
+
+.tool-image-illustration img:hover {
+	transform: scale(1.5);
 }
 
 

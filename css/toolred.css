@@ -306,7 +306,11 @@ body {
 	margin: 5px;
 	margin: auto;
 	text-align: center;
-	/*padding: 10px;*/
+	transition: transform .4s;
+}
+
+.tool-image-illustration img:hover {
+	transform: scale(1.5);
 }
 
 .down-section {

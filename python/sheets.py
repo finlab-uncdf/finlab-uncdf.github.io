@@ -17,21 +17,15 @@ fhow_t = ""
 fques_t = ""
 prescheck_t = ""
 fdcheck_t = ""
+css = ""
 link_t = ""
 linkname_t = ""
-css = ""
-
-def fqulify(elements):
-    string = "<ul>\n"
-    for s in elements:
-        string += "<li>" + str(s) + "</li>\n"
-    string += "</ul>"
-    return string
 
 def ulify(elements):
     string = "<ul>\n"
     for s in elements:
         string += "<li>" + str(s) + "</li>\n"
+    string += "</ul>"
     return string
 
 def nfhow(elements):
@@ -89,12 +83,11 @@ for index in range(2, len(test)):
         
         fques_t = test[index][11]
         fques_t = fques_t.split('\n')
-        fques_t = fqulify(fques_t)
+        fques_t = ulify(fques_t)
         
         
         prescheck_t = test[index][12]
         fdcheck_t = test[index][13]
-        
         link_t = test[index][14]
         linkname_t = test[index][15]
                 
@@ -107,7 +100,7 @@ for index in range(2, len(test)):
         elif phase_t == "NETWORK BUILDING":
             css = "toolred"
         
-        f = open("""../tools/"""+name_t+""".html""",'w')
+        f = open("../tools/"+name_t+".html",'w')
         
         if prescheck_t == "1":
             message = """<!DOCTYPE html>
@@ -158,8 +151,6 @@ for index in range(2, len(test)):
 						<h2>Use Cases</h2>
 						
 						"""+usecase_t+"""
-                       <li><a href=" """+link_t+""" ">"""+linkname_t+"""</a></li>
-                        </ul>
 					</div>
 					
 					<div class="tool-limitations">
@@ -236,8 +227,6 @@ for index in range(2, len(test)):
 						<h2>Use Cases</h2>
 						
 						"""+usecase_t+"""
-                       <li><a href=" """+link_t+""" ">"""+linkname_t+"""</a></li>
-                        </ul>
 					</div>
 					
 					<div class="tool-limitations">
@@ -329,7 +318,6 @@ for index in range(2, len(test)):
 		</div>
 	</div>
 	
-
 </body>
 </html>"""
         else:
@@ -383,8 +371,6 @@ for index in range(2, len(test)):
 						<h2>Use Cases</h2>
 						
 						"""+usecase_t+"""
-                       <li><a href=" """+link_t+""" ">"""+linkname_t+"""</a></li>
-                        </ul>
 					</div>
 					
 					<div class="tool-limitations">
@@ -473,7 +459,6 @@ for index in range(2, len(test)):
 		</div>
 	
 	
-
 </body>
 </html>"""
             

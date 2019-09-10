@@ -307,7 +307,6 @@ body {
 	margin: auto;
 	text-align: center;
 	transition: transform .4s;
-	/*padding: 10px;*/
 }
 
 .tool-image-illustration img:hover {
