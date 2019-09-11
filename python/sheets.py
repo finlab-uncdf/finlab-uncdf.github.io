@@ -249,8 +249,8 @@ for index in range(2, len(test)):
 		<div class="under-container">
 			<div class="under-grid">
 				<div class="tool-under-image">
-					<img src="../images/tool_small.png" alt="" />
-				</div>
+<img src="../images/"""+name_t+"""_toolcard.png" alt="" />
+</div>
 				
 				<div class="tool-understand">
 					<h2>Understand</h2>
@@ -394,7 +394,7 @@ for index in range(2, len(test)):
 		<div class="under-container">
 			<div class="under-grid">
 				<div class="tool-under-image">
-					<img src="../images/tool_small.png" alt="" />
+<img src="../images/"""+name_t+"""_toolcard.png" alt="" />
 				</div>
 				
 				<div class="tool-understand">
