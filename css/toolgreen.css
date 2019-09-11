@@ -313,6 +313,14 @@ body {
 	transform: scale(1.2);
 }
 
+.linkin {
+	font: 18px/24px IBM Plex Sans;
+	font-weight: 700;
+	margin: 0;
+	color: var(--tcol);
+	padding: 20px;
+}
+
 .down-section {
 	width: 100%;
 	padding-bottom: 50px;
