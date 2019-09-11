@@ -162,7 +162,7 @@ for index in range(2, len(test)):
 				
 				<div class="pres-down-grid">
 					<div class="tool-card-image">
-						<img src="../images/toolcard.png" alt="" />
+						<img src="../images/tool-image.png" alt="" />
 					</div>
 					
 					<div class="download-buttons">
@@ -298,7 +298,7 @@ for index in range(2, len(test)):
 		<div class="down-container">
 			<div class="down-grid">
 				<div class="tool-card-image">
-											<img src="../images/toolcard.png" alt="" />
+											<img src="../images/tool-image.png" alt="" />
 											
 											<div class="download-link"><a href="/#" download="#">
 												<button class="download-button">Download Tool!</button>
@@ -307,7 +307,7 @@ for index in range(2, len(test)):
 										</div>
 										
 										<div class="f-deck-image">
-											<img src="../images/f-deck-image.jpg" alt="" />
+											<img src="../images/f-deck-image.png" alt="" />
 											
 											<div class="download-link"><a href="/#" download="#">
 													<button class="download-button">Download Facilitation Slides!</button>
@@ -445,7 +445,7 @@ for index in range(2, len(test)):
 				
 				<div class="tool-card-image" style="grid-column-start: 1;
 										grid-column-end: 3;">
-											<img src="../images/toolcard.png" alt="" />
+											<img src="../images/tool-image.png" alt="" />
 											
 											<div class="download-link"><a href="/#" download="#">
 												<button class="download-button">Download Tool!</button>
