@@ -19,17 +19,11 @@ css = ""
 link_t = ""
 linkname_t = ""
 
-def fqulify(elements):
-    string = "<ul>\n"
-    for s in elements:
-        string += "<li>" + str(s) + "</li>\n"
-    string += "</ul>"
-    return string
-
 def ulify(elements):
     string = "<ul>\n"
     for s in elements:
         string += "<li>" + str(s) + "</li>\n"
+    string += "</ul>"
     return string
 
 #def nstep(elements):
@@ -100,7 +94,6 @@ with open('uncdf.csv') as csvfile:
 
         prescheck_n = row[12]
         fdcheck_n = row[13]
-        
         link_n = row[14]
         linkname_n = row[15]
 
@@ -118,6 +111,9 @@ with open('uncdf.csv') as csvfile:
 
         prescheck.append(prescheck_n)
         fdcheck.append(fdcheck_n)
+        
+        link.append(link_n)
+        linkname.append(linkname_n)
     
 for index in range(1, len(name)):
 #        print(step[index])
@@ -150,7 +146,7 @@ for index in range(1, len(name)):
         
         fques_t = fques[index]
         fques_t = fques_t.split('\n')
-        fques_t = fqulify(fques_t)
+        fques_t = ulify(fques_t)
         
 
         
@@ -220,8 +216,6 @@ for index in range(1, len(name)):
 						<h2>Use Cases</h2>
 						
 						"""+usecase_t+"""
-                        <a href=" """+link_t+""" ">"""+linkname_t+"""</a>
-                        <ul>
 					</div>
 					
 					<div class="tool-limitations">
@@ -309,6 +303,7 @@ for index in range(1, len(name)):
 				
 				<div class="tool-image-illustration">
 					<img src="../images/"""+name_t+"""_illust.jpg" alt="" />
+                    <a class="linkin "href=" """+link_t+""" " target="_blank">"""+linkname_t+"""</a>
 				</div>
 			</div>
 		</div>
@@ -389,7 +384,6 @@ for index in range(1, len(name)):
 		</div>
 	</div>
 	
-
 </body>
 </html>"""
         else:
@@ -454,6 +448,7 @@ for index in range(1, len(name)):
 				
 				<div class="tool-image-illustration">
 					<img src="../images/"""+name_t+"""_illust.jpg" alt="" />
+                    <a class="linkin "href=" """+link_t+""" " target="_blank">"""+linkname_t+"""</a>
 				</div>
 			</div>
 		</div>
@@ -530,7 +525,6 @@ for index in range(1, len(name)):
 		</div>
 	
 	
-
 </body>
 </html>"""
             

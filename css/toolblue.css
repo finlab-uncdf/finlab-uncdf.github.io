@@ -314,11 +314,11 @@ body {
 	margin: 5px;
 	margin: auto;
 	text-align: center;
-	transition: transform .4s;
+	transition: transform .2s;
 }
 
 .tool-image-illustration img:hover {
-	transform: scale(1.5);
+	transform: scale(1.2);
 }
 
 .down-section {

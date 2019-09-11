@@ -238,6 +238,8 @@ for index in range(2, len(test)):
 				
 				<div class="tool-image-illustration">
 					<img src="../images/"""+name_t+"""_illust.jpg" alt="" />
+                    <a class="linkin "href=" """+link_t+""" " target="_blank">"""+linkname_t+"""</a>
+
 				</div>
 			</div>
 		</div>
@@ -382,6 +384,7 @@ for index in range(2, len(test)):
 				
 				<div class="tool-image-illustration">
 					<img src="../images/"""+name_t+"""_illust.jpg" alt="" />
+                    <a class="linkin "href=" """+link_t+""" " target="_blank">"""+linkname_t+"""</a>
 				</div>
 			</div>
 		</div>
