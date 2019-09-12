@@ -166,7 +166,7 @@ for index in range(2, len(test)):
 					</div>
 					
 					<div class="download-buttons">
-						<div class="download-link"><a href="../tools/ppt/"""+name_t+"""_facilitationDeck.pptx" download=" """+name_t+"""_facilitationDeck">
+						<div class="download-link"><a href="../tools/ppt/"""+name_t+"""_FacilitationDeck.pptx" download=" """+name_t+"""_FacilitationDeck">
 												<button class="download-button">Download Tool!</button>
 											</a></div>
 										</div>
