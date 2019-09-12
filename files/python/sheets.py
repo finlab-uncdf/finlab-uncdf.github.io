@@ -162,11 +162,11 @@ for index in range(2, len(test)):
 				
 				<div class="pres-down-grid">
 					<div class="tool-card-image">
-						<img src="../files/illustrations/tool-image.png" alt="" />
+						<img src="../illustrations/tool-image.png" alt="" />
 					</div>
 					
 					<div class="download-buttons">
-						<div class="download-link"><a href="../files/tools/images/"""+name_t+""".png" download=" """+name_t+"""_toolcard">
+						<div class="download-link"><a href="../tools/images/"""+name_t+""".png" download=" """+name_t+"""_toolcard">
 												<button class="download-button">Download Tool!</button>
 											</a></div>
 										</div>
@@ -237,7 +237,7 @@ for index in range(2, len(test)):
 				</div>
 				
 				<div class="tool-image-illustration">
-					<img src="../files/illustrations/"""+name_t+"""_illust.png" alt="" />
+					<img src="../illustrations/"""+name_t+"""_illust.png" alt="" />
                     <a class="linkin "href=" """+link_t+""" " target="_blank">"""+linkname_t+"""</a>
 
 				</div>
@@ -249,7 +249,7 @@ for index in range(2, len(test)):
 		<div class="under-container">
 			<div class="under-grid">
 				<div class="tool-under-image">
-<img src="../files/illustrations/"""+name_t+"""_toolcard.png" alt="" />
+<img src="../illustrations/"""+name_t+"""_toolcard.png" alt="" />
 </div>
 				
 				<div class="tool-understand">
@@ -298,16 +298,16 @@ for index in range(2, len(test)):
 		<div class="down-container">
 			<div class="down-grid">
 				<div class="tool-card-image">
-											<img src="../files/illustrations/tool-image.png" alt="" />
+											<img src="../illustrations/tool-image.png" alt="" />
 											
-											<div class="download-link"><a href="../files/tools/images/"""+name_t+""".png" download=" """+name_t+"""_toolcard">
+											<div class="download-link"><a href="../tools/images/"""+name_t+""".png" download=" """+name_t+"""_toolcard">
 												<button class="download-button">Download Tool!</button>
 											</a></div>
 											
 										</div>
 										
 										<div class="f-deck-image">
-											<img src="../files/illustrations/f-deck-image.png" alt="" />
+											<img src="../illustrations/f-deck-image.png" alt="" />
 											
 											<div class="download-link"><a href="/#" download=" """+name_t+"""_facilitation">
 													<button class="download-button">Download Facilitation Slides!</button>
