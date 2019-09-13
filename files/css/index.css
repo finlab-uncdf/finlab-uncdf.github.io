@@ -12,6 +12,14 @@
 	--yellow: rgb(232, 179, 128);
 }
 
+@media (min-width: 1920px) {
+
+:root {
+	--width: 60%
+}
+
+}
+
 @media (max-width: 1024px) {
 	.tool-container .tool-phase-grid {
 		grid-template-columns: repeat(2, 1fr);
