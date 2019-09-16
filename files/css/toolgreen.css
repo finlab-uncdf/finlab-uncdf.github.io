@@ -11,7 +11,13 @@
 	/* Enter variable to tcol which is theme colour */
 	--tcol: var(--green);
 }
+@media (min-width: 1920px) {
 
+:root {
+	--width: 60%
+}
+
+}
 @media (max-width: 1024px) {
 	:root {
 		--ntext: 15px/18px IBM Plex Sans;
