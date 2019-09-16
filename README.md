@@ -1,7 +1,3 @@
----
-permalink: /index.html
----
-
 # Toolsite
 repo for creating a toolkit microsite 
 
