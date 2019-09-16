@@ -100,7 +100,7 @@ for index in range(2, len(test)):
         elif phase_t == "NETWORK BUILDING":
             css = "toolred"
         
-        f = open("../tool-pages/"+name_t+".html",'w')
+        f = open("../"+name_t+".html",'w')
         
         if prescheck_t == "1":
             message = """<!DOCTYPE html>
@@ -116,7 +116,7 @@ for index in range(2, len(test)):
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-	<link rel="stylesheet" href="../css/"""+css+""".css">
+	<link rel="stylesheet" href="../files/css/"""+css+""".css">
 </head>
 <body>
 	<div class="header-section">
@@ -190,15 +190,15 @@ for index in range(2, len(test)):
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-	<link rel="stylesheet" href="../css/"""+css+""".css">
+	<link rel="stylesheet" href="../files/css/"""+css+""".css">
 </head>
 <body>
 	<div class="header-section">
 		<div class="header-container">
-			<h1><a href="/index.html">UNCDF Toolkit</a></h1>
+			<h1><a href="../index.html">UNCDF Toolkit</a></h1>
 			
 						<div class="header-links">
-				<div class="header-link"><a href="/index.html">
+				<div class="header-link"><a href="../index.html">
 					<button class="header-button">Back</button>
 				</a></div>
 			</div>
@@ -336,7 +336,7 @@ for index in range(2, len(test)):
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-	<link rel="stylesheet" href="../css/"""+css+""".css">
+	<link rel="stylesheet" href="../files/css/"""+css+""".css">
 </head>
 <body>
 	<div class="header-section">
