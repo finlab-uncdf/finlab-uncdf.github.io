@@ -1,9 +1,7 @@
 #coding=utf-8
+
 import os.path
-import gspread
-
-test = []
-
+import csv
 phase_t = ""
 subphase_t = ""
 name_t = ""
@@ -46,51 +44,96 @@ def nunder(elements):
     string = string.replace('’', '</span>’')
     return string
 
-from oauth2client.service_account import ServiceAccountCredentials
-scope = ['https://spreadsheets.google.com/feeds','https://www.googleapis.com/auth/drive']
-creds = ServiceAccountCredentials.from_json_keyfile_name('uncdf-doc.json', scope)
-client = gspread.authorize(creds)
-sheet = client.open('UNCDF Toolsite Backend').sheet1
-test = sheet.get_all_values()
+with open('uncdf.csv') as csvfile:
+    readCSV = csv.reader(csvfile, delimiter=',')
+    phase = []
+    subphase = []
+    name = []
+    about = []
+    limitation = []
+    time = []
+    usecase = []
+    step = []
+    under = []
+    fhow = []
+    fques = []
+    ref = []
+    prescheck = []
+    fdcheck = []
+    link = []
+    linkname = []
+    
+    for row in readCSV:
+        phase_n = row[1]
+        subphase_n = row[2]
+        name_n = row[3]
+        about_n = row[4]
+        limitation_n = row[5]
+        time_n = row[6]
+        usecase_n = row[7]
+        step_n = row[8]
+        under_n = row[9]
+        fhow_n = row[10]
+        fques_n = row[11]
 
-#print(test[5][2])
+        prescheck_n = row[12]
+        fdcheck_n = row[13]
+        link_n = row[14]
+        linkname_n = row[15]
+
+        phase.append(phase_n)
+        subphase.append(subphase_n)
+        name.append(name_n)
+        about.append(about_n)
+        limitation.append(limitation_n)
+        time.append(time_n)
+        usecase.append(usecase_n)
+        step.append(step_n)
+        under.append(under_n)
+        fhow.append(fhow_n)
+        fques.append(fques_n)
+
+        prescheck.append(prescheck_n)
+        fdcheck.append(fdcheck_n)
         
-for index in range(2, len(test)):
-
-        phase_t = test[index][1]
-        subphase_t = test[index][2]
-        name_t = test[index][3]
-        about_t = test[index][4]
-        limitation_t = test[index][5]
-        time_t = test[index][6]
-                
-        usecase_t = test[index][7]
+        link.append(link_n)
+        linkname.append(linkname_n)
+    
+for index in range(1, len(name)):
+        phase_t = phase[index]
+        subphase_t = subphase[index]
+        name_t = name[index]
+        time_t = time[index]
+        about_t = about[index]
+        
+        usecase_t = usecase[index]
         usecase_t = usecase_t.split('\n')
         usecase_t = ulify(usecase_t)
         
-        step_t = test[index][8]
-        step_t = step_t.split('\n')
-        step_t = nfhow(step_t)
+        limitation_t = limitation[index]
         
-        under_t = test[index][9]
+        under_t = under[index]
         under_t = under_t.split('\n')
         under_t = nunder(under_t)
         
+        step_t = step[index]
+        step_t = step_t.split('\n')
+        step_t = nfhow(step_t)
         
-        fhow_t = test[index][10]
+        fhow_t = fhow[index]
         fhow_t = fhow_t.split('\n')
         fhow_t = nfhow(fhow_t)
         
-        fques_t = test[index][11]
+        fques_t = fques[index]
         fques_t = fques_t.split('\n')
         fques_t = ulify(fques_t)
         
+        prescheck_t = prescheck[index]
+        fdcheck_t = fdcheck[index]
         
-        prescheck_t = test[index][12]
-        fdcheck_t = test[index][13]
-        link_t = test[index][14]
-        linkname_t = test[index][15]
-                
+        link_t = link[index]
+        linkname_t = linkname[index]
+        
         if phase_t == "STRATEGY, INNOVATION & IMPACT":
             css = "toolblue"
         elif phase_t == "HUMAN CENTERED DESIGN":
@@ -99,6 +142,8 @@ for index in range(2, len(test)):
             css = "toolgreen"
         elif phase_t == "NETWORK BUILDING":
             css = "toolred"
+        
+        f = open("../tool-pages/"+name_t+".html",'w')
         
         f = open("../tool-pages/"+name_t+".html",'w')
         
@@ -313,9 +358,7 @@ for index in range(2, len(test)):
 													<button class="download-button">Download Facilitation Slides!</button>
 												</a></div>
 											
-										</div>
-				
-				
+										</div>	
 			</div>
 		</div>
 	</div>
