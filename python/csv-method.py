@@ -1,7 +1,7 @@
 #coding=utf-8
-
 import os.path
 import csv
+
 phase_t = ""
 subphase_t = ""
 name_t = ""
@@ -99,7 +99,7 @@ with open('uncdf.csv') as csvfile:
         link.append(link_n)
         linkname.append(linkname_n)
     
-for index in range(1, len(name)):
+for index in range(2, len(name)):
         phase_t = phase[index]
         subphase_t = subphase[index]
         name_t = name[index]
