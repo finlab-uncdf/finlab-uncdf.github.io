@@ -116,7 +116,7 @@ for index in range(2, len(test)):
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-	<link rel="stylesheet" href="..../files/css/"""+css+""".css">
+	<link rel="stylesheet" href="../files/css/"""+css+""".css">
 </head>
 <body>
 	<div class="header-section">
@@ -190,7 +190,7 @@ for index in range(2, len(test)):
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-	<link rel="stylesheet" href="..../files/css/"""+css+""".css">
+	<link rel="stylesheet" href="../files/css/"""+css+""".css">
 </head>
 <body>
 	<div class="header-section">
@@ -336,7 +336,7 @@ for index in range(2, len(test)):
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-	<link rel="stylesheet" href="..../files/css/"""+css+""".css">
+	<link rel="stylesheet" href="../files/css/"""+css+""".css">
 </head>
 <body>
 	<div class="header-section">
