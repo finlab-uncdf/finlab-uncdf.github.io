@@ -116,6 +116,7 @@ body {
 .playlist-text h2 {
 	font: 40px/48px IBM Plex Sans;
 	font-weight: 500;
+	margin: 0;
 }
 
 .playlist-text p {
