@@ -10,6 +10,7 @@
 	--yellow: rgb(232, 179, 128);
 	/* Enter variable to tcol which is theme colour */
 	--tcol: var(--purple);
+	--width: 80%
 }
 @media (min-width: 1920px) {
 
@@ -96,7 +97,7 @@ body {
 	margin-right: auto;
 	padding-top: 15px;
 	padding-bottom: 15px;
-	width: 80%;
+	width: var(--width);
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -129,7 +130,7 @@ body {
 }
 
 .tool-section {
-	width: 80%;
+	width: var(--width);
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -267,7 +268,7 @@ body {
 }
 
 .under-container {
-	width: 80%;
+	width: var(--width);
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -334,7 +335,7 @@ body {
 }
 
 .down-container {
-	width: 80%;
+	width: var(--width);
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -549,7 +550,7 @@ body {
 	/* use 100vh */
 
 .f-container {
-	width: 80%;
+	width: var(--width);
 	margin-left: auto;
 	margin-right: auto;
 }
