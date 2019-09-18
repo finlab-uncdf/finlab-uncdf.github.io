@@ -10,9 +10,9 @@
 	--yellow: rgb(232, 179, 128);
 	/* Enter variable to tcol which is theme colour */
 	--tcol: var(--red);
-	--width: 80%;
+	--width: 90%;
 }
-@media (min-width: 1920px) {
+@media (min-width: 1440px) {
 
 :root {
 	--width: 60%
