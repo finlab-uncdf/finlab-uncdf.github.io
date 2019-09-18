@@ -108,7 +108,7 @@ for index in range(2, len(test)):
 	
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	
-	<title>UNCDF Toolkit | """+name_t+"""</title>
+	<title>The Financial Innovation Lab Toolkit | """+name_t+"""</title>
 	
 	<meta name="description" content="">
 	
@@ -119,7 +119,7 @@ for index in range(2, len(test)):
 <body>
 	<div class="header-section">
 		<div class="header-container">
-			<h1><a href="../index.html">UNCDF Toolkit</a></h1>
+			<h1><a href="../index.html">The Financial Innovation Lab Toolkit</a></h1>
 			
 						<div class="header-links">
 				<div class="header-link"><a href="../index.html">
@@ -182,7 +182,7 @@ for index in range(2, len(test)):
 	
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	
-	<title>UNCDF Toolkit | """+name_t+"""</title>
+	<title>The Financial Innovation Lab Toolkit | """+name_t+"""</title>
 	
 	<meta name="description" content="">
 	
@@ -193,7 +193,7 @@ for index in range(2, len(test)):
 <body>
 	<div class="header-section">
 		<div class="header-container">
-			<h1><a href="../index.html">UNCDF Toolkit</a></h1>
+			<h1><a href="../index.html">The Financial Innovation Lab Toolkit</a></h1>
 			
 						<div class="header-links">
 				<div class="header-link"><a href="../index.html">
@@ -326,7 +326,7 @@ for index in range(2, len(test)):
 	
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	
-	<title>UNCDF Toolkit | """+name_t+"""</title>
+	<title>The Financial Innovation Lab Toolkit | """+name_t+"""</title>
 	
 	<meta name="description" content="">
 	
@@ -337,7 +337,7 @@ for index in range(2, len(test)):
 <body>
 	<div class="header-section">
 		<div class="header-container">
-			<h1><a href="../index.html">UNCDF Toolkit</a></h1>
+			<h1><a href="../index.html">The Financial Innovation Lab Toolkit</a></h1>
 			
 						<div class="header-links">
 				<div class="header-link"><a href="../index.html">
