@@ -28,11 +28,15 @@
 		display: grid;
 		grid-template-columns: repeat(1, 1fr);
 	}
+	
 	.main-grid .logo-section {
-grid-column-start: 1;
-grid-column-end: 2;
+		grid-column-start: 1;
+		grid-column-end: 2;
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
+	}
+	.main-grid .about-section {
+		width: 100%;
 	}
 }
 
@@ -127,6 +131,7 @@ body {
 /* ABOUT SECTION */
 
 .about-section {
+	width: 70%;
 	padding: 15px 15px 15px 15px;
 	margin: 2px;
 	border-radius: 4px;
@@ -163,7 +168,6 @@ body {
 	padding: 15px 15px 15px 15px;
 	/*width: 50%;*/
 	margin: 2px;
-	
 }
 
 .logo.one {
@@ -172,7 +176,6 @@ body {
 
 .logo.two {
 	width: 35%;
-
 }
 
 .logo.three {
@@ -193,7 +196,7 @@ body {
 }
 
 .ref-container {
-	
+
 }
 
 .ref-container h2 {
