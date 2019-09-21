@@ -145,6 +145,18 @@ body {
 	margin-right: auto;
 }
 
+.example-section p {
+	font: var(--ntext);
+	font-weight: 300;
+}
+
+.example-section h2 {
+	font: 40px/48px IBM Plex Sans;
+	font-weight: 500;
+	color: black;
+}
+
+
 /*.example-img img {
 	width: 70%;
 	margin: auto;
