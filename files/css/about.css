@@ -38,6 +38,9 @@
 	.main-grid .about-section {
 		width: 100%;
 	}
+	.example-section .example-container {
+		/*width: 90%;*/
+		}
 }
 
 html {
@@ -117,7 +120,7 @@ body {
 }
 
 .main-section {
-	width: 100%;
+	width: var(--width);
 	padding: 40px 0 40px 0;
 }
 
@@ -140,7 +143,7 @@ body {
 }
 
 .example-container {
-	width: 70%;
+	width: var(--width);
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -148,6 +151,7 @@ body {
 .example-section p {
 	font: var(--ntext);
 	font-weight: 300;
+	width: 70%;
 }
 
 .example-section h2 {
@@ -155,12 +159,6 @@ body {
 	font-weight: 500;
 	color: black;
 }
-
-
-/*.example-img img {
-	width: 70%;
-	margin: auto;
-}*/
 
 .example-container img {
 	width: 100%;
