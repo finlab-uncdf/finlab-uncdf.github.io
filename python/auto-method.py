@@ -440,7 +440,7 @@ for index in range(2, len(test)):
 			<div class="down-grid">
 				
 				<div class="tool-card-image" style="grid-column-start: 1;
-										grid-column-end: 3;">
+										grid-column-end: 2;">
 											<img src="../files/illustrations/tool-image.png" alt="" />
 											
 											<div class="download-link"><a href="../files/tools/images/"""+name_t+""".png" download=" """+name_t+"""_toolcard">
