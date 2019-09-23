@@ -207,11 +207,11 @@ for index in range(2, len(name)):
 				
 				<div class="pres-down-grid">
 					<div class="tool-card-image">
-						<img src="../files/illustrations/tool-image.png" alt="" />
+						<img src="../files/illustrations/f-deck-image.png" alt="" />
 					</div>
 					
 					<div class="download-buttons">
-						<div class="download-link"><a href="../files/tools/ppt/"""+name_t+"""_FacilitationDeck.pptx" download=" """+name_t+"""_FacilitationDeck">
+						<div class="download-link"><a href="../files/tools/ppt/"""+name_t+"""_FacilitationDeck.pptx" download=" """+name_t+"""_FacilitationDeck.pptx">
 												<button class="download-button">Download Tool!</button>
 											</a></div>
 										</div>
