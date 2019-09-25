@@ -24,7 +24,7 @@
 	}
 	
 	.main-container .main-grid {
-		width: 100%;
+		/*width: 100%;*/
 		display: grid;
 		grid-template-columns: repeat(1, 1fr);
 	}
@@ -36,11 +36,11 @@
 		grid-template-columns: repeat(2, 1fr);
 	}
 	.main-grid .about-section {
-		width: 100%;
+		width: 90%;
 	}
-	.example-section .example-container {
-		/*width: 90%;*/
-		}
+	.example-container .example-text {
+		width: 90%;
+	}
 }
 
 html {
@@ -121,13 +121,14 @@ body {
 
 .main-section {
 	width: var(--width);
-	padding: 40px 0 40px 0;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .main-container {
 	margin-left: auto;
 	margin-right: auto;
-	width: var(--width);
+	/*width: var(--width);*/
 }
 
 .main-grid {
@@ -139,11 +140,12 @@ body {
 /* EXAMPLE SECTION */
 
 .example-section {
-	width: 100%;
+	width: var(--width);
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .example-container {
-	width: var(--width);
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -151,13 +153,18 @@ body {
 .example-section p {
 	font: var(--ntext);
 	font-weight: 300;
-	width: 70%;
+	width: 100%;
 }
 
 .example-section h2 {
 	font: 40px/48px IBM Plex Sans;
 	font-weight: 500;
 	color: black;
+}
+
+.example-text {
+	width: 60%;
+	padding: 0 0 0 20px;
 }
 
 .example-container img {

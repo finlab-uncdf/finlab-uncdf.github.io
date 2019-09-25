@@ -3,11 +3,13 @@
 :root {
 	--width: 90%;
 	--ntext: 15px/20px IBM Plex Sans;
+	--lblack: #333333;
 	--lgrey: rgb(243, 243, 243);
 	--default: rgb(47, 96, 207);
 	--blue: rgb(104, 172, 225);
 	--purple: rgb(141, 134, 252);
-	--green: rgb(109, 222, 210);
+	/*--green: rgb(109, 222, 210);*/
+	--green: #6BD5D3;
 	--red: rgb(235, 139, 140);
 	--yellow: rgb(232, 179, 128);
 }
@@ -56,7 +58,7 @@ body {
 	width: 100%;
 	margin: 0;
 	top: 0;
-	background: rgb(47, 96, 207);
+	background: var(--lblack);
 }
 
 .header-container {
@@ -127,21 +129,23 @@ font-family: IBM Plex Sans;
 }
 
 .playlist {
-	background: var(--default);
-	padding: 20px;
+	padding: 0px;
 	display: grid;
 	grid-template-columns: repeat(1, 1fr);
 	margin: 2px;
 	border-radius: 4px;
 	display: flex;
+	align-content: space-around;
 	flex-direction: column;
 }
 
 .playlist-desc {
-	margin: 5px;
-	display: flex;
+	background: var(--lblack);
+height: 100%;
+display: flex;
 	flex-direction: column;
-	/*justify-content: space-around;*/
+	padding: 10px;
+	border-radius: 2px;
 }
 
 .playlist-desc-text h2 {
@@ -198,21 +202,30 @@ font-family: IBM Plex Sans;
 
 .download-button {
 	font: 15px/20px IBM Plex Sans;
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 30px;
 	font-weight: 700;
 	color: black;
 	text-decoration: none;
 	padding: 10px 32px;
-	margin: 30px 0px;
-	border-radius: 10px;
-	border: none;
-	background: rgb(240, 240, 240);
+	border-style: solid;
+	border-radius: 2px;
+	border-width: 5px;
+	border-color: var(--lblack);
+	background: white;
 	-webkit-transition-duration: 0.2s; /* Safari */
 	transition-duration: 0.2s;
 }
 
 .download-button:hover {
-	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-	background: white;
+	/*box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);*/
+	background: var(--lblack);
+	color: white;
+	border-style: solid;
+	border-radius: 2px;
+	border-width: 5px;
+	border-color: white;
 	cursor: pointer;
 }
 
@@ -228,108 +241,35 @@ font-family: IBM Plex Sans;
 .header-button {
 	font: 15px/20px IBM Plex Sans;
 	font-weight: 700;
-	color: black;
+	color: white;
 	text-decoration: none;
 	padding: 10px 28px;
-	border-radius: 10px;
+	border-radius: 5px;
 	border: none;
-	background: rgb(240, 240, 240);
+	background: var(--lblack);
+	border-style: solid;
+	border-radius: 2px;
+	border-color: white;
 	-webkit-transition-duration: 0.2s; /* Safari */
 	transition-duration: 0.2s;
 }
 
 .header-button:hover {
-	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	/*box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);*/
+	color: var(--lblack);
 	background: white;
+	border-style: solid;
+	border-radius: 2px;
+	border-color: var(--lblack);
 	cursor: pointer;
 }
 
 
-
-/* example 3 */
-
-label {
-	display: block;
-	margin: 20px 0 0;
-	font: var(--ntext);
-	color: white;
-	font-weight: 500;
-	text-align: center;
-}
-
-label:hover {
-	text-decoration: underline;
-	cursor: pointer;
-}
-
-input {
-	position: absolute;
-	left: -999em;
-}
-
-.ex3 .hide3 {
-	display: table;
-	height: 150px; /* any arbitrary height but best at the minimum initial height you would want. */
-	overflow: hidden;
-	transition: all 0.5s ease;
-}
-
-.ex31 .hide31 {
-	display: table;
-	height: 150px; /* any arbitrary height but best at the minimum initial height you would want. */
-	overflow: hidden;
-	transition: all 0.5s ease;
-}
-
-.ex32 .hide32 {
-	display: table;
-	height: 150px; /* any arbitrary height but best at the minimum initial height you would want. */
-	overflow: hidden;
-	transition: all 0.5s ease;
-}
-
-.ex3 input[type="checkbox"]:not(:checked) + .hide3 {
-	height: 0;
-	opacity: 0;
-	display: block;
-}
-
-.ex31 input[type="checkbox"]:not(:checked) + .hide31 {
-	height: 0;
-	opacity: 0;
-	display: block;
-}
-
-.ex32 input[type="checkbox"]:not(:checked) + .hide32 {
-	height: 0;
-	opacity: 0;
-	display: block;
-}
-/* -- end of -- */
 
 .tool-section {
 	width: 100%;
 }
 
-.tool-section.one {
-	background-color: var(--blue);
-}
-
-.tool-section.two {
-	background-color: var(--purple);
-}
-
-.tool-section.three {
-	background-color: var(--green);
-}
-
-.tool-section.four {
-	background-color: var(--red);
-}
-
-.tool-section.five {
-	background-color: var(--yellow);
-}
 
 .tool-container {
 	margin-left: auto;
@@ -355,6 +295,7 @@ input {
 .tool-text p {
 	font-family: IBM Plex Sans;
 	font-weight: 300;
+	
 }
 
 .tool-phase {
@@ -371,13 +312,12 @@ input {
 .tool-phase-text {
 	width: 60%;
 	margin: 0 0 4px 0;
-	color: white;
+	color: black;
 }
 
 .tool-phase-text p {
-	font-family: IBM Plex Sans;
+	font: var(--ntext);
 	font-weight: 300;
-	font-size: 17px;
 	padding-right: 0;
 	padding-left: 0;
 	padding-bottom: 10px;
@@ -390,107 +330,131 @@ input {
 	margin: 0;
 }
 
-.tool-phase-grid {
+.tool-phase-grid.one {
 	width: 100%;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	background: white;
-	border-radius: 4px;
+	background: var(--blue);
+	border-radius: 2px;
 	/*padding: 5px;*/
+}
+
+.tool-phase-grid.two {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	background: var(--purple);
+	border-radius: 2px;
+}
+
+.tool-phase-grid.three {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	background: var(--green);
+	border-radius: 2px;
+}
+
+.tool-phase-grid.four {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	background: var(--red);
+	border-radius: 2px;
 }
 
 .tool-phase-grid.one a {
 	background: linear-gradient(
-    to bottom, var(--blue) 0%,
-    var(--blue) 100%
+    to bottom, white 0%,
+    white 100%
   );
 	background-position: 0 100%;
 	background-repeat: repeat-x;
-	background-size: 3px 3px;
+	background-size: 2px 2px;
 	color: #000;
 	text-decoration: none;
 	transition: background-size .4s;
+	color: white;
 }
 
 .tool-phase-grid.one a:hover {
 	background-size: 4px 50px;
+	color: var(--blue);
 }
 
 .tool-phase-grid.one h2 {
-	color: var(--blue);
+	color: white;
 }
 
 .tool-phase-grid.two a {
 	background: linear-gradient(
-    to bottom, var(--purple) 0%,
-    var(--purple) 100%
+    to bottom, white 0%,
+    white 100%
   );
 	background-position: 0 100%;
 	background-repeat: repeat-x;
-	background-size: 3px 3px;
+	background-size: 2px 2px;
 	color: #000;
 	text-decoration: none;
 	transition: background-size .4s;
+	color: white;
 }
 
 .tool-phase-grid.two a:hover {
 	background-size: 4px 50px;
+	color: var(--purple);
 }
 
 .tool-phase-grid.two h2 {
-	color: var(--purple);
+	color: white;
 }
 
 .tool-phase-grid.three a {
 	background: linear-gradient(
-    to bottom, var(--green) 0%,
-    var(--green) 100%
+    to bottom, white 0%,
+    white 100%
   );
 	background-position: 0 100%;
 	background-repeat: repeat-x;
-	background-size: 3px 3px;
+	background-size: 2px 2px;
 	color: #000;
 	text-decoration: none;
 	transition: background-size .4s;
+	color: white;
 }
 
 .tool-phase-grid.three a:hover {
 	background-size: 4px 50px;
-}
-
-.tool-phase-grid.three h2 {
 	color: var(--green);
 }
 
+.tool-phase-grid.three h2 {
+	color: white;
+}
+
 .tool-phase-grid.four a {
-	color: var(--purple);
 	background: linear-gradient(
-    to bottom, var(--red) 0%,
-    var(--red) 100%
+    to bottom, white 0%,
+    white 100%
   );
 	background-position: 0 100%;
 	background-repeat: repeat-x;
-	background-size: 3px 3px;
+	background-size: 2px 2px;
 	color: #000;
 	text-decoration: none;
 	transition: background-size .4s;
+	color: white;
 }
 
 .tool-phase-grid.four a:hover {
 	background-size: 4px 50px;
-}
-
-.tool-phase-grid.four h2 {
 	color: var(--red);
 }
 
-.tool-phase-grid.five a {
-	color: var(--yellow);
+.tool-phase-grid.four h2 {
+	color: white;
 }
 
-.tool-phase-grid.five h2 {
-	color: var(--yellow);
-}
 
 .tool {
 	padding: 15px;
@@ -498,10 +462,15 @@ input {
 }
 
 .tool h2 {
-	font: 20px/22px IBM Plex Sans;
+	font: 15px/20px IBM Plex Sans;
 	font-weight: 500;
 	margin: 0;
 	color: white;
+}
+
+.tool p {
+	color: white;
+	font: var(--ntext);
 }
 
 .tool a {
@@ -509,6 +478,7 @@ input {
 	font-weight: 300;
 	margin: 0;
 	text-decoration: underline;
+	color: white;
 }
 
 .ref-container {
