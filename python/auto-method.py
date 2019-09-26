@@ -134,44 +134,48 @@ for index in range(2, len(test)):
 			<div class="tool-grid">
 				<div class="tool-name">
 					<div class="tool-name-text">
-						<h3><span>"""+phase_t+"""</span> | """+subphase_t+"""</h3>
+						<h3><span>"""+phase_t+""" |</span> """+subphase_t+"""</h3>
 						
 						<h1>"""+name_t+"""</h1>
 					</div>
 					
 					<div class="tool-about">
-						<h2>About</h2>
 						
 						<p>"""+about_t+"""</p>
 					</div>
 					
 					<div class="tool-use-case">
-						<h2>Use Cases</h2>
+						<h2>USE CASES</h2>
 						
 						"""+usecase_t+"""
 					</div>
 					
 					<div class="tool-limitations">
-						<h2>Limitations</h2>
+						<h2>LIMITATIONS</h2>
 						
 						<p>"""+limitation_t+"""</p>
 					</div>
+                    
 				</div>
 				
 				<div class="pres-down-grid">
 					<div class="tool-card-image">
-						<img src="../files/illustrations/f-deck-image.png" alt="" />
 					</div>
 					
 					<div class="download-buttons">
 						<div class="download-link"><a href="../files/tools/ppt/"""+name_t+"""_FacilitationDeck.pptx" download=" """+name_t+"""_FacilitationDeck.pptx">
-												<button class="download-button">Download Tool!</button>
+												<button class="download-button">Download """+name_t+"""!</button>
 											</a></div>
 										</div>
 					</div>
 				</div>
 			</div>
 		</div>
+        <div class="footer-section">
+		<div class="header-container">
+			<p>&copy; Copyright 2019, UNCDF. All rights reserved.</p>
+		</div>
+	</div>
 </body>
 </html>"""
         elif fdcheck_t == "1":
@@ -208,7 +212,7 @@ for index in range(2, len(test)):
 			<div class="tool-grid">
 				<div class="tool-name">
 					<div class="tool-name-text">
-						<h3><span>"""+phase_t+"""</span> | """+subphase_t+"""</h3>
+						<h3><span>"""+phase_t+""" |</span> """+subphase_t+"""</h3>
 						
 						<h1>"""+name_t+"""</h1>
 						
@@ -216,28 +220,25 @@ for index in range(2, len(test)):
 					</div>
 					
 					<div class="tool-about">
-						<h2>About</h2>
 						
 						<p>"""+about_t+"""</p>
 					</div>
 					
 					<div class="tool-use-case">
-						<h2>Use Cases</h2>
+						<h2>USE CASES</h2>
 						
 						"""+usecase_t+"""
 					</div>
 					
 					<div class="tool-limitations">
-						<h2>Limitations</h2>
+						<h2>LIMITATIONS</h2>
 						
 						<p>"""+limitation_t+"""</p>
 					</div>
 				</div>
-				
 				<div class="tool-image-illustration">
 					<img src="../files/illustrations/"""+name_t+"""_illust.png" alt="" />
                     <a class="linkin "href=" """+link_t+""" " target="_blank">"""+linkname_t+"""</a>
-
 				</div>
 			</div>
 		</div>
@@ -251,7 +252,7 @@ for index in range(2, len(test)):
 </div>
 				
 				<div class="tool-understand">
-					<h2>Understand</h2>
+					<h2>UNDERSTANDING THE TOOL</h2>
 					
 					"""+under_t+"""
 				</div>
@@ -260,32 +261,27 @@ for index in range(2, len(test)):
 				<div class="tool-steps">
 					<div class="tool-step-grid">
 						<div class="tool-step-segment-title">
-							<h2>Step by Step</h2>
+							<h2>STEP BY STEP</h2>
 						</div>
 						
 						"""+step_t+"""
 					</div>
 				</div>
-				
-				
 			</div>
 		</div>
 	</div>
     <div class="f-section">
 		<div class="f-container">
 			<div class="f-grid">
-				<div class="f-intro-text">
-					<h2>Facilitators Section</h2>
-				</div>
 				
 				<div class="f-how-to">
-					<h2>How to for Facilitators</h2>
+					<h2><span>HOW TO</span> FOR FACILITATORS</h2>
 					
 					"""+fhow_t+"""
 				</div>
 				
 				<div class="f-question-bank">
-					<h2>Facilitators Question Bank</h2>
+					<h2>FACILITATORS QUESTION BANK</h2>
 					
 					"""+fques_t+"""
 				</div>
@@ -296,23 +292,27 @@ for index in range(2, len(test)):
 		<div class="down-container">
 			<div class="down-grid">
 				<div class="tool-card-image">
-											<img src="../files/illustrations/tool-image.png" alt="" />
 											
 											<div class="download-link"><a href="../files/tools/images/"""+name_t+""".png" download=" """+name_t+"""_toolcard">
-												<button class="download-button">Download Tool!</button>
+												<button class="download-button">Download """+name_t+"""!</button>
 											</a></div>
 											
 										</div>
 										
 										<div class="f-deck-image">
-											<img src="../files/illustrations/f-deck-image.png" alt="" />
 											
-											<div class="download-link"><a href="../files/tools/ppt/"""+name_t+"""_FacilitationDeck.pptx" download=" """+name_t+"""_FacilitationDeck">
+											
+											<div class="download-link"><a href="../files/tools/ppt/"""+name_t+"""_FacilitationDeck.pptx" download=" """+name_t+"""_FacilitationDeck.pptx">
 													<button class="download-button">Download Facilitation Slides!</button>
 												</a></div>
 											
 										</div>	
 			</div>
+		</div>
+	</div>
+    <div class="footer-section">
+		<div class="header-container">
+			<p>&copy; Copyright 2019, UNCDF. All rights reserved.</p>
 		</div>
 	</div>
 	
@@ -352,35 +352,33 @@ for index in range(2, len(test)):
 			<div class="tool-grid">
 				<div class="tool-name">
 					<div class="tool-name-text">
-						<h3><span>"""+phase_t+"""</span> | """+subphase_t+"""</h3>
+						<h3><span>"""+phase_t+""" |</span> """+subphase_t+"""</h3>
 						
 						<h1>"""+name_t+"""</h1>
 						
 						<p class="time">"""+time_t+"""</p>
 					</div>
 					
-					<div class="tool-about">
-						<h2>About</h2>
-						
+					<div class="tool-about">						
 						<p>"""+about_t+"""</p>
 					</div>
 					
 					<div class="tool-use-case">
-						<h2>Use Cases</h2>
+						<h2>USE CASES</h2>
 						
 						"""+usecase_t+"""
 					</div>
 					
 					<div class="tool-limitations">
-						<h2>Limitations</h2>
+						<h2>LIMTATIONS</h2>
 						
 						<p>"""+limitation_t+"""</p>
 					</div>
 				</div>
-				
 				<div class="tool-image-illustration">
 					<img src="../files/illustrations/"""+name_t+"""_illust.png" alt="" />
-                    <a class="linkin "href=" """+link_t+""" " target="_blank">"""+linkname_t+"""</a>
+                                        <a class="linkin "href=" """+link_t+""" " target="_blank">"""+linkname_t+"""</a>
+
 				</div>
 			</div>
 		</div>
@@ -394,7 +392,7 @@ for index in range(2, len(test)):
 				</div>
 				
 				<div class="tool-understand">
-					<h2>Understand</h2>
+					<h2>UNDERSTANDING THE TOOL</h2>
 					
 					"""+under_t+"""
 				</div>
@@ -403,7 +401,7 @@ for index in range(2, len(test)):
 				<div class="tool-steps">
 					<div class="tool-step-grid">
 						<div class="tool-step-segment-title">
-							<h2>Step by Step</h2>
+							<h2>STEP BY STEP</h2>
 						</div>
 						
 						"""+step_t+"""
@@ -417,18 +415,15 @@ for index in range(2, len(test)):
     <div class="f-section">
 		<div class="f-container">
 			<div class="f-grid">
-				<div class="f-intro-text">
-					<h2>Facilitators Section</h2>
-				</div>
 				
 				<div class="f-how-to">
-					<h2>How to for Facilitators</h2>
+					<h2><span>HOW TO</span> FOR FACILITATORS</h2>
 					
 					"""+fhow_t+"""
 				</div>
 				
 				<div class="f-question-bank">
-					<h2>Facilitators Question Bank</h2>
+					<h2>FACILITATORS QUESTION BANK</h2>
 					
 					"""+fques_t+"""
 				</div>
@@ -441,23 +436,21 @@ for index in range(2, len(test)):
 				
 				<div class="tool-card-image" style="grid-column-start: 1;
 										grid-column-end: 2;">
-											<img src="../files/illustrations/tool-image.png" alt="" />
+											
 											
 											<div class="download-link"><a href="../files/tools/images/"""+name_t+""".png" download=" """+name_t+"""_toolcard">
-												<button class="download-button">Download Tool!</button>
+												<button class="download-button">Download """+name_t+"""!</button>
 											</a></div>
 										</div>
-											
 										</div>
-				
 				</div>
-				
-				
-                
 			</div>
 		</div>
-	
-	
+        <div class="footer-section">
+		<div class="header-container">
+			<p>&copy; Copyright 2019, UNCDF. All rights reserved.</p>
+		</div>
+	</div>
 </body>
 </html>"""
             

@@ -5,19 +5,18 @@
 	--lgrey: rgb(243, 243, 243);
 	--blue: rgb(104, 172, 225);
 	--purple: rgb(141, 134, 252);
-	--green: rgb(109, 222, 210);
+	--green: #6BD5D3;
 	--red: rgb(235, 139, 140);
-	--yellow: rgb(232, 179, 128);
+	--lblack: #333333;
 	/* Enter variable to tcol which is theme colour */
 	--tcol: var(--green);
-	--width: 90%;
+	--width: 90%
 }
+
 @media (min-width: 1440px) {
-
-:root {
-	--width: 60%
-}
-
+	:root {
+		--width: 60%
+	}
 }
 @media (max-width: 1024px) {
 	:root {
@@ -48,11 +47,6 @@
 		text-align: center;
 	}
 	
-	.tool-card-image {
-		grid-column-start: 1;
-		grid-column-end: 3;
-	}
-	
 	.f-deck-image {
 		grid-column-start: 1;
 		grid-column-end: 3;
@@ -73,9 +67,21 @@
 		grid-template-columns: repeat(1, 1fr);
 	}
 	
-	.f-grid .f-intro-text {
-		grid-column-start: 1;
-		grid-column-end: 2;
+	.f-grid .f-how-to {
+		margin: 0;
+		margin-bottom: 20px;
+	}
+	
+	.f-grid .f-question-bank {
+		margin: 0;
+	}
+	
+	.down-grid .tool-card-image {
+		padding: 20px;
+	}
+	
+	.down-grid .f-deck-image {
+		padding: 20px;
 	}
 }
 	
@@ -88,8 +94,17 @@ body {
 	width: 100%;
 	margin: 0;
 	top: 0;
-	background: rgb(47, 96, 207);
+	background: var(--lblack);
 	padding: 0;
+}
+
+.footer-section {
+	width: 100%;
+	margin: 0;
+	background: var(--lblack);
+	padding: 0;
+	bottom: 0;
+	position: fixed;
 }
 
 .header-container {
@@ -117,7 +132,15 @@ body {
 	font-weight: 700;
 	text-decoration: none;
 	cursor: pointer;
+	color: white;
 }
+
+.header-container p {
+	font: var(--ntext);
+	color: white;
+	font-weight: 300;
+}
+
 
 .header-link {
 	padding: 0;
@@ -139,7 +162,7 @@ body {
 	width: 100%;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	margin-bottom: 100px;
+	margin-bottom: 70px;
 	margin-top: 50px;
 }
 
@@ -151,23 +174,23 @@ body {
 }
 
 .tool-name-text {
-	margin: 0 0 30px 0;
+	margin: 0 0 20px 0;
 }
 
 .tool-name-text h3 {
 	font: 15px/20px IBM Plex Sans;
-	font-weight: 300;
+	font-weight: 700;
 	margin: 0 0 5px 0;
 	letter-spacing: 1px;
 }
 
 .tool-name-text h3 span {
-	font-weight: 700;
+	font-weight: 300;
 }
 
 .tool-name-text h1 {
 	font: 60px/65px IBM Plex Sans;
-	font-weight: 700;
+	font-weight: 500;
 	letter-spacing: -0.9px;
 	margin: 10px 0 35px 0;
 	color: var(--tcol);
@@ -188,6 +211,7 @@ body {
 	display: inline;
 	background: black;
 	color: white;
+	margin: 0;
 }
 
 .tool-about {
@@ -237,7 +261,7 @@ body {
 .tool-use-case li {
 	font: var(--ntext);
 	font-weight: 300;
-	margin-bottom: 1em;
+	margin-bottom: 0.5em;
 }
 
 .tool-use-case li span {
@@ -306,7 +330,7 @@ body {
 .tool-image-illustration {
 	border-radius: 4px;
 	margin: 10px 4px 10px 4px;
-	padding: 15px;
+	padding: 0px;
 	display: flex;
 	flex-direction: column;
 	position: relative;
@@ -315,7 +339,6 @@ body {
 
 .tool-image-illustration img {
 	width: 90%;
-	margin: 5px;
 	margin: auto;
 	text-align: center;
 	transition: transform .2s;
@@ -325,18 +348,35 @@ body {
 	transform: scale(1.2);
 }
 
-.linkin {
+.ref-link {
+	text-align: left;
+}
+
+.ref-link h2 {
 	font: 18px/24px IBM Plex Sans;
 	font-weight: 700;
-	margin: 0;
+	margin-bottom: 3px;
 	color: var(--tcol);
-	padding: 20px;
+}
+
+.linkin {
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	font: 20px/20px IBM Plex Sans;
+	font-weight: 700;
+	margin: 20px;
+	text-align: center;
+	color: var(--tcol);
+	transition: background-size .4s;
 }
 
 .down-section {
 	width: 100%;
 	padding-bottom: 50px;
-	background: var(--lgrey);
+	background: white;
 }
 
 .down-container {
@@ -368,7 +408,6 @@ body {
 
 .tool-steps {
 	border-radius: 4px;
-	margin: 30px 4px 30px 4px;
 	padding: 30px;
 	grid-column-start: 1;
 	grid-column-end: 3;
@@ -396,7 +435,7 @@ body {
 	padding: 0px 20px 0px 20px;
 	color: white;
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
+	grid-template-columns: repeat(3, 1fr);
 }
 
 .tool-steps li {
@@ -438,15 +477,13 @@ body {
 
 .tool-card-image {
 	border-radius: 4px;
-	margin: 10px 4px 10px 4px;
-	padding: 15px;
+	padding: 20px 20px 20px 0px;
 	text-align: center;
 }
 
 .f-deck-image {
 	border-radius: 4px;
-	margin: 10px 4px 10px 4px;
-	padding: 15px;
+	padding: 20px 0px 20px 20px;
 	text-align: center;
 }
 
@@ -461,7 +498,7 @@ body {
 .tool-understand {
 	border-radius: 4px;
 	margin: 10px 4px 10px 4px;
-	padding: 20px 20px 20px 0px;
+	padding: 20px 20px 20px 20px;
 	background: var(--tcol);
 }
 
@@ -469,6 +506,7 @@ body {
 	font: 18px/24px IBM Plex Sans;
 	font-weight: 700;
 	color: white;
+	margin: 0;
 }
 
 .tool-understand ul {
@@ -479,7 +517,7 @@ body {
 }
 
 .tool-understand li {
-	margin-bottom: 1em;
+	margin-bottom: 0.5em;
 }
 
 .tool-understand ul span {
@@ -496,8 +534,6 @@ body {
 	align-items: center;
 }
 
-
-
 .download-buttons {
 	width: 100%;
 	display: flex;
@@ -510,51 +546,53 @@ body {
 .header-button {
 	font: 15px/20px IBM Plex Sans;
 	font-weight: 700;
-	color: black;
+	background: var(--lblack);
 	text-decoration: none;
 	padding: 10px 28px;
-	border-radius: 10px;
-	border: none;
-	background: rgb(240, 240, 240);
+	border-radius: 2px;
+	border-style: solid;
+	border-color: white;
+	border-width: 3px;
+	color: white;
 	-webkit-transition-duration: 0.2s; /* Safari */
 	transition-duration: 0.2s;
 }
 
 .header-button:hover {
-	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	color: var(--lblack);
 	background: white;
 	cursor: pointer;
 }
 
 .download-button {
-	font: 15px/20px IBM Plex Sans;
-	font-weight: 700;
+	font: 25px/30px IBM Plex Sans;
+	background: white;
+	width: 100%;
+	font-weight: 500;
 	color: black;
 	text-decoration: none;
 	padding: 10px 28px;
-	border-radius: 10px;
-	border: none;
-	background: var(--tcol);
+	border-radius: 2px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: var(--tcol);
 	-webkit-transition-duration: 0.2s; /* Safari */
 	transition-duration: 0.2s;
 	margin-top: 30px;
 }
 
 .download-button:hover {
-	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-	background: white;
+	background: var(--tcol);
+	color: white;
 	cursor: pointer;
 }
 
-
 .f-section {
 	width: 100%;
-	background: rgb(22, 50, 116);
+	background: var(--tcol);
 	/*padding-bottom: 80px;*/
-	padding: 20px 0 50px 0;
+	padding: 50px 0 50px 0;
 }
-	
-	/* use 100vh */
 
 .f-container {
 	width: var(--width);
@@ -566,51 +604,32 @@ body {
 	width: 100%;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	border-radius: 4px;
-	padding: 30px 0 40px 0;
-}
-
-.f-intro-text {
-	grid-column-start: 1;
-	grid-column-end: 3;
-	margin: 30px 0 30px 0;
-	padding: 10px;
-}
-
-.f-intro-text  h2 {
-	font: 45px/48px IBM Plex Sans;
-	font-weight: 700;
 	margin: 0;
-	text-align: center;
-	color: white;
-}
-
-.f-intro-text .line {
-	background: black;
-	width: 100%;
-	height: 5px;
-	color: black;
-	margin: 0 0 5px 0;
+	padding: 0;
 }
 
 .f-how-to {
-	border-radius: 4px;
-	margin: 20px 10px 20px 10px;
 	padding: 40px;
-	background: var(--tcol);
+	border-radius: 2px;
+	background: white;
+	margin-right: 20px;
 }
 
 .f-how-to h2 {
 	font: 18px/24px IBM Plex Sans;
 	font-weight: 700;
-	color: white;
+	color: black;
+}
+
+.f-how-to h2 span {
+	font-style: italic;
 }
 
 .f-how-to ol {
 	font: var(--ntext);
 	font-weight: 300;
 	padding: 0px 20px 0px 20px;
-	color: white;
+	color: black;
 }
 
 .f-how-to ol li {
@@ -622,10 +641,10 @@ body {
 }
 
 .f-question-bank {
-	border-radius: 4px;
-	margin: 20px 10px 20px 10px;
 	padding: 40px;
-	background: var(--lgrey);
+	border-radius: 2px;
+	background: white;
+	margin-left: 20px;
 }
 
 .f-question-bank h2 {
@@ -641,6 +660,6 @@ body {
 }
 
 .f-question-bank li {
-	margin-bottom: 1em;
+	margin-bottom: 0.5em;
 }
 
