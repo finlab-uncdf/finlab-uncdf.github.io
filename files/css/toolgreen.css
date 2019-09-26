@@ -104,7 +104,6 @@ body {
 	background: var(--lblack);
 	padding: 0;
 	bottom: 0;
-	position: fixed;
 }
 
 .header-container {
