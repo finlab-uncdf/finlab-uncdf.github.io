@@ -616,7 +616,7 @@ body {
 .f-how-to h2 {
 	font: 18px/24px IBM Plex Sans;
 	font-weight: 700;
-	color: black;
+		color: var(--tcol);
 }
 
 .f-how-to h2 span {
@@ -636,6 +636,7 @@ body {
 
 .f-how-to ol span {
 	font-weight: 700;
+		color: var(--tcol);
 }
 
 .f-question-bank {
