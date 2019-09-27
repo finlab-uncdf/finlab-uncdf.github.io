@@ -155,7 +155,8 @@ for index in range(2, len(test)):
 						
 						<p>"""+limitation_t+"""</p>
 					</div>
-                    
+                     <a class="linkin "href=" """+link_t+""" " target="_blank" style="margin-left: 0;">"""+linkname_t+"""</a>
+                   
 				</div>
 				
 				<div class="pres-down-grid">
