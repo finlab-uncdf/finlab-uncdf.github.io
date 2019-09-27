@@ -6,11 +6,10 @@
 	--lblack: #333333;
 	--lgrey: rgb(243, 243, 243);
 	--default: rgb(47, 96, 207);
-	--blue: rgb(104, 172, 225);
-	--purple: rgb(141, 134, 252);
+	--blue: rgb(104, 172, 225); /* #68ACE1 */
+	--purple: rgb(141, 134, 252); /* 8D86FC */
 	--green: #6BD5D3;
-	--red: rgb(235, 139, 140);
-	--yellow: rgb(232, 179, 128);
+	--red: rgb(235, 139, 140); /* EB8B8C */
 }
 
 @media (min-width: 1440px) {
@@ -127,7 +126,7 @@ body {
 }
 
 .playlist-text {
-	padding: 15px 15px 15px 0px;
+	padding: 15px 15px 15px 5px;
 	margin: 2px;
 	border-radius: 4px;
 	grid-column-start: 1;
@@ -151,7 +150,7 @@ body {
 	padding: 0px;
 	display: grid;
 	grid-template-columns: repeat(1, 1fr);
-	margin: 2px;
+	/*margin: 2px;*/
 	border-radius: 4px;
 	display: flex;
 	align-content: space-around;
@@ -163,9 +162,9 @@ body {
 	height: 100%;
 	display: flex;
 	flex-direction: column;
-	padding: 15px;
+	padding: 20px;
 	border-radius: 2px;
-	margin: 5px;
+	margin: 5px 5px;
 }
 
 .playlist-desc-text h2 {
@@ -222,13 +221,12 @@ body {
 
 .tool-download {
 	margin: 0;
-	padding: 0 5px 5px;
+	padding: 0 5px 0px;
 }
 
 .download-button {
 	font: 15px/20px IBM Plex Sans;
 	width: 100%;
-	margin-top: 5px;
 	margin-bottom: 30px;
 	font-weight: 700;
 	color: black;
@@ -330,6 +328,7 @@ body {
 	width: 60%;
 	margin: 0 0 4px 0;
 	color: black;
+	padding: 5px;
 }
 
 .tool-phase-text p {
@@ -351,7 +350,7 @@ body {
 	width: 100%;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	background: var(--blue);
+	/*background: var(--blue);*/
 	border-radius: 2px;
 	/*padding: 5px;*/
 }
@@ -360,15 +359,14 @@ body {
 	width: 100%;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	background: var(--purple);
 	border-radius: 2px;
+	/*grid-auto-flow: ;*/
 }
 
 .tool-phase-grid.three {
 	width: 100%;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	background: var(--green);
 	border-radius: 2px;
 }
 
@@ -376,7 +374,6 @@ body {
 	width: 100%;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	background: var(--red);
 	border-radius: 2px;
 }
 
@@ -472,9 +469,65 @@ body {
 	color: white;
 }
 
+
+/* TOOL BOXES */
+
 .tool {
-	padding: 15px;
-	margin: 4px;
+	padding: 20px;
+	margin: 5px;
+	border-radius: 2px;
+}
+
+.tool.a.one {
+	background: #68ACE1;
+}
+
+.tool.a.two {
+	background: #75B3E3;
+}
+
+.tool.b.one {
+	background: #817AE6;
+}
+
+.tool.b.two {
+	background: #8D86FC;
+}
+
+.tool.b.three {
+	background: #9791FC;
+}
+
+.tool.b.four {
+	background: #A19CFC;
+}
+
+.tool.b.five {
+	background: #ACA7FC;
+}
+
+.tool.b.six {
+	background: #B6B2FD;
+}
+
+.tool.b.seven {
+	background: #C0BDFD;
+}
+
+.tool.c.one {
+	background: #6BD5D3;
+}
+
+.tool.c.two {
+	background: #78D8D7;
+}
+
+.tool.d.one {
+	background: #EB8B8C;
+}
+
+.tool.d.two {
+	background: #EC9596;
 }
 
 .tool h2 {
@@ -487,6 +540,8 @@ body {
 .tool p {
 	color: white;
 	font: var(--ntext);
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
 .tool a {
