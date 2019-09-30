@@ -26,7 +26,7 @@ def nonblank_lines(f):
         line = l.rstrip()
         if line:
             yield line
-
+            
 def ulify(elements):
     string = "<ul>\n"
     for s in elements:
@@ -109,7 +109,7 @@ for index in range(2, len(test)):
         elif phase_t == "NETWORK BUILDING":
             css = "toolred"
         
-        f = open("../tool-pages/"+name_t+".html",'w')
+        f = open("../tool-noline/"+name_t+".html",'w')
         
         if prescheck_t == "1":
             message = """<!DOCTYPE html>
