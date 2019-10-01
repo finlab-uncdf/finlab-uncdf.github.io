@@ -382,7 +382,7 @@ for index in range(2, len(test)):
 					</div>
 					
 					<div class="tool-limitations">
-						<h2>LIMTATIONS</h2>
+						<h2>LIMITATIONS</h2>
 						
 						<p>"""+limitation_t+"""</p>
 					</div>
