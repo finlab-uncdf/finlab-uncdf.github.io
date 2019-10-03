@@ -7,7 +7,7 @@
 	--default: rgb(47, 96, 207);
 	--blue: rgb(104, 172, 225);
 	--purple: rgb(141, 134, 252);
-	--green: rgb(109, 222, 210);
+	--green: #6BD5D3;
 	--red: rgb(235, 139, 140);
 	--yellow: rgb(232, 179, 128);
 	--lblack: #333333
@@ -152,6 +152,29 @@ body {
 .example-text {
 	width: 60%;
 	padding: 0 0 0 0px;
+}
+
+.example-text p span {
+	font-weight: 700;
+}
+.example-text p sii {
+	color: var(--blue);
+	font-weight: 700;
+}
+
+.example-text p hcd {
+	color: var(--purple);
+	font-weight: 700;
+}
+
+.example-text p bd {
+	color: var(--green);
+	font-weight: 700;
+}
+
+.example-text p nb {
+	color: var(--red);
+	font-weight: 700;
 }
 
 .example-container img {
