@@ -175,7 +175,7 @@ for index in range(2, len(test)):
 					</div>
 					
 					<div class="download-buttons">
-						<div class="download-link"><a href="../files/tools/ppt/"""+name_t+"""_FacilitationDeck.pptx" download=" """+name_t+"""_FacilitationDeck.pptx">
+						<div class="download-link"><a href="../files/tools/decks/"""+name_t+"""_FacilitationDeck.pptx" download=" """+name_t+"""_FacilitationDeck.pptx">
 												<button class="download-button">Download """+name_t+"""!</button>
 											</a></div>
 										</div>
@@ -305,7 +305,7 @@ for index in range(2, len(test)):
 			<div class="down-grid">
 				<div class="tool-card-image">
 											
-											<div class="download-link"><a href="../files/tools/images/"""+name_t+""".png" download=" """+name_t+"""_toolcard">
+											<div class="download-link"><a href="../files/tools/toolcards/"""+name_t+""".pptx" download=" """+name_t+""".pptx">
 												<button class="download-button">Download """+name_t+"""!</button>
 											</a></div>
 											
@@ -314,7 +314,7 @@ for index in range(2, len(test)):
 										<div class="f-deck-image">
 											
 											
-											<div class="download-link"><a href="../files/tools/ppt/"""+name_t+"""_FacilitationDeck.pptx" download=" """+name_t+"""_FacilitationDeck.pptx">
+											<div class="download-link"><a href="../files/tools/decks/"""+name_t+"""_FacilitationDeck.pptx" download=" """+name_t+"""_FacilitationDeck.pptx">
 													<button class="download-button">Download Facilitation Slides!</button>
 												</a></div>
 											
@@ -450,7 +450,7 @@ for index in range(2, len(test)):
 										grid-column-end: 2;">
 											
 											
-											<div class="download-link"><a href="../files/tools/images/"""+name_t+""".png" download=" """+name_t+"""_toolcard">
+											<div class="download-link"><a href="../files/tools/toolcards/"""+name_t+""".pptx" download=" """+name_t+""".pptx">
 												<button class="download-button">Download """+name_t+"""!</button>
 											</a></div>
 										</div>
