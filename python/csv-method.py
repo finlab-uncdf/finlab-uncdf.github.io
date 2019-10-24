@@ -149,7 +149,7 @@ for index in range(2, len(name)):
             css = "toolblue"
         elif phase_t == "HUMAN CENTERED DESIGN":
             css = "toolpurple"
-        elif phase_t == "BEHAVIOURS & DESIGN":
+        elif phase_t == "BEHAVIOUR DESIGN":
             css = "toolgreen"
         elif phase_t == "NETWORK BUILDING":
             css = "toolred"
