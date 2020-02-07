@@ -155,6 +155,13 @@ body {
 	margin-right: auto;
 }
 
+.form-section {
+	width: var(--width);
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fafafa;
+}
+
 .tool-grid {
 	width: 100%;
 	display: grid;
