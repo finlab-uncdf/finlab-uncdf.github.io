@@ -1,7 +1,11 @@
 # Toolsite
 repo for creating a toolkit microsite 
 
-visit here: https://burnedsap.github.io/Toolsite/
+This is a modified version of the Toolsite created for UNCDF. In this version, a digitized form for the Startup Canvas has been embeded in the page as a demonstration of what could be done with all of the digitized tools. 
+
+This site is publicly visible, hosted on Github Pages. Visit the site here: https://finlabuncdf.github.io
+
+*Note: There is an exact copy of the original version of the Toolsite code here: https://github.com/finlabuncdf/toolkit
 
 ## How to use the website
 Open the 'index.html' file, and navigate through the website
